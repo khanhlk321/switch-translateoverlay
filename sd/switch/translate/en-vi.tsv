@@ -1,670 +1,6100 @@
 # English-Vietnamese word list for the translate overlay.
+# Dictionary data: CC BY-SA 3.0 and GNU FDL.
+# Extracted from Wiktionary by Matthias Buchmeier, version 20150102.
+# https://en.wiktionary.org/wiki/User:Matthias_Buchmeier
 # Form: english<TAB>vietnamese
-# Game phrases built into the overlay override these entries.
-the	cái
-of	của
-and	và
-to	đến
-in	trong
-is	là
-you	bạn
-that	đó
-it	nó
-he	anh ấy
-was	đã
-for	cho
-on	trên
-are	là
-with	với
-as	như
-his	của anh ấy
-they	họ
-be	là
-at	tại
-one	một
-have	có
-this	này
-from	từ
-or	hoặc
-had	đã có
-by	bởi
-not	không
-but	nhưng
-what	cái gì
-all	tất cả
-were	đã
-we	chúng tôi
-when	khi
-your	của bạn
-can	có thể
-said	nói
-there	ở đó
-use	dùng
-each	mỗi
-which	cái nào
-she	cô ấy
-do	làm
-how	thế nào
-their	của họ
-if	nếu
-will	sẽ
-up	lên
-other	khác
+'s	của [after the thing owned and before the owner]
+-ation	hoá
+-elect	tân cử
+-est	nhất
+-gon	giác
+-ism	chủ nghĩa
+-ization	hoá
+-ize	hoá
+-land	nước
+-less	cây đinh không
+-logy	học
+-th	thứ
+a few	một vài
+a lot	nhiều
+a picture is worth a thousand words	bách văn bất như nhất kiến
+a-bomb	bom nguyên tử
+aardwolf	chó sói đất
+aback	đằng sau
+abacus	đầu cột
+abaddon	con quỷ
+abaft	sau
+abalone	bào ngư
+abandon	bỏ
+abandoned	bị bỏ rơi
+abase	làm hạ phẩm giá
+abash	làm bối rối
+abate	hạ
+abatis	đống cây chướng ngại
+abattoir	lò mổ
+abbacy	chức vị trưởng tu viện
+abbatial	trưởng tu viện
+abbess	bà trưởng tu viện
+abbey	tu viện
+abbot	trưởng tu viện
+abbreviate	tóm tắt
+abbreviation	tóm tắt
+abdicate	từ bỏ
+abdomen	bụng
+abduct	rẽ ra
+abeam	đâm ngang sườn
+aberrant	lầm lạc
+aberration	lầm lạc
+abet	xúi bẩy
+abeyance	sự đọng lại
+abhor	ghê tởm
+abhorrence	sự ghê tởm
+abhorrent	ghê tởm
+abide	tồn tại
+abiding	không thay đổi
+ability	năng lực
+abiogenesis	sự phát sinh tự nhiên
+abject	hèn hạ
+abjure	tuyên bố bỏ
+abkhazia	Abkhazia
+ablation	sự cắt bỏ
+ablative	cách công cụ
+ablaut	Aplau
+ablaze	rực cháy
+able	có năng lực
+able-bodied	khoẻ mạnh
+able-bodied seaman	thuỷ thủ hạng nhất
+abloom	đang nở hoa
+ablution	lễ rửa tội
+ably	có khả năng
+abnegate	nhịn
+abnormal	không bình thường
+abnormality	sự không bình thường
+aboard	trên tàu
+abode	nơi ở
+abolish	thủ tiêu
+abolition	sự thủ tiêu
+abominable	đáng ghét
+abominate	ghê tởm
+abomination	sự ghê tởm
+aboriginal	thổ dân
+abort	sẩy thai
+abortifacient	phá thai
+abortion	sự sẩy thai
+abortionist	người phá thai
+abortive	đẻ non
+abound	có rất nhiều
 about	về
-out	ra
-many	nhiều
-then	sau đó
-them	họ
-these	những cái này
-so	vì vậy
-some	một số
-her	cô ấy
-would	sẽ
-make	làm
-like	thích
-him	anh ấy
-into	vào
-time	thời gian
-has	có
-look	nhìn
-two	hai
-more	thêm
-go	đi
-see	thấy
-number	số
-way	cách
-could	có thể
-people	mọi người
-my	của tôi
-than	hơn
-first	đầu tiên
-water	nước
-been	đã
-call	gọi
-who	ai
-now	bây giờ
-find	tìm
-long	dài
-down	xuống
-day	ngày
-did	đã
-get	lấy
-come	đến
-made	đã làm
-may	có thể
-part	phần
-over	trên
-new	mới
-sound	âm thanh
-take	lấy
-only	chỉ
-little	nhỏ
-work	làm việc
-know	biết
-place	nơi
-year	năm
-live	sống
-me	tôi
-back	quay lại
-give	đưa
-most	hầu hết
-very	rất
-after	sau
-thing	thứ
-our	của chúng tôi
-just	chỉ
-name	tên
-good	tốt
-sentence	câu
-man	người đàn ông
-think	nghĩ
-say	nói
-great	tuyệt
-where	ở đâu
-help	giúp
-through	xuyên qua
-much	nhiều
-before	trước
-line	dòng
-right	đúng
-too	cũng
-mean	có nghĩa
-old	cũ
-any	bất kỳ
-same	giống
-tell	kể
-boy	cậu bé
-follow	theo
-came	đã đến
-want	muốn
-show	cho xem
-also	cũng
-around	xung quanh
-form	hình
-three	ba
-small	nhỏ
-set	đặt
-put	đặt
-end	kết thúc
-does	làm
-another	khác
-well	tốt
-large	lớn
-must	phải
-big	lớn
-even	thậm chí
-such	như vậy
-because	bởi vì
-turn	lượt
-here	ở đây
-why	tại sao
-ask	hỏi
-went	đã đi
-men	đàn ông
-read	đọc
-need	cần
-land	đất
-different	khác
-home	nhà
-move	di chuyển
-try	thử
-kind	loại
-hand	tay
-picture	hình
-again	lại
-change	đổi
-off	tắt
-play	chơi
-spell	đánh vần
-air	không khí
-away	đi xa
-animal	động vật
-house	nhà
-point	điểm
-page	trang
-letter	chữ
-mother	mẹ
-answer	trả lời
-found	tìm thấy
-study	học
-still	vẫn
-learn	học
-should	nên
-world	thế giới
-high	cao
-every	mỗi
-near	gần
-add	thêm
-food	thức ăn
-between	giữa
-own	của riêng
-below	bên dưới
-country	đất nước
-plant	cây
-last	cuối
-school	trường
-father	bố
-keep	giữ
-tree	cây
-never	không bao giờ
-start	bắt đầu
-city	thành phố
-earth	trái đất
-eye	mắt
-light	ánh sáng
-thought	suy nghĩ
-head	đầu
-under	dưới
-story	câu chuyện
-saw	đã thấy
-left	trái
-don't	đừng
-few	ít
-while	trong khi
-along	dọc theo
-might	có thể
-close	đóng
-something	cái gì đó
-seem	có vẻ
-next	tiếp
-hard	khó
-open	mở
-example	ví dụ
-begin	bắt đầu
-life	cuộc sống
-always	luôn luôn
-those	những cái đó
-both	cả hai
-paper	giấy
-together	cùng nhau
-got	đã có
-group	nhóm
-often	thường
-run	chạy
-important	quan trọng
-until	cho đến khi
-children	trẻ em
-side	bên
-feet	chân
-car	xe
-mile	dặm
-night	đêm
-walk	đi bộ
-white	trắng
-sea	biển
-began	đã bắt đầu
-grow	lớn lên
-took	đã lấy
-river	sông
-four	bốn
-carry	mang
-state	trạng thái
-once	một lần
-book	sách
-hear	nghe
-stop	dừng
-without	không có
-second	thứ hai
-later	sau
-miss	nhỡ
-idea	ý tưởng
-enough	đủ
-eat	ăn
-face	mặt
-watch	xem
-far	xa
-really	thực sự
-almost	gần như
-let	hãy
-above	bên trên
-girl	cô gái
-sometimes	đôi khi
-mountain	núi
-cut	cắt
-young	trẻ
-talk	nói
-soon	sớm
-list	danh sách
-song	bài hát
-being	đang
-leave	rời
-family	gia đình
-body	cơ thể
-music	nhạc
-color	màu
-stand	đứng
-sun	mặt trời
-question	câu hỏi
-fish	cá
-area	khu vực
-mark	dấu
-dog	chó
-horse	ngựa
-birds	chim
-problem	vấn đề
-complete	hoàn thành
-room	phòng
-knew	đã biết
-since	kể từ
-ever	từng
-piece	mảnh
-told	đã kể
-usually	thường
-didn't	đã không
-friends	bạn bè
-easy	dễ
-heard	đã nghe
-order	thứ tự
-red	đỏ
-door	cửa
-sure	chắc
-become	trở thành
-top	trên cùng
-ship	tàu
-across	bên kia
-today	hôm nay
-during	trong lúc
-short	ngắn
-better	tốt hơn
-best	tốt nhất
-however	tuy nhiên
-low	thấp
-hours	giờ
-black	đen
-products	sản phẩm
-happened	đã xảy ra
-whole	toàn bộ
-measure	đo
-remember	nhớ
-early	sớm
-waves	sóng
-reached	đã đến
-listen	nghe
-wind	gió
-rock	đá
-space	không gian
-covered	đã che
-fast	nhanh
-several	vài
-hold	giữ
-himself	chính anh ấy
-toward	về phía
-five	năm
-step	bước
-morning	buổi sáng
-passed	đã đi qua
-vowel	nguyên âm
-true	đúng
-hundred	trăm
-against	chống lại
-pattern	mẫu
-numeral	chữ số
-table	bàn
-north	bắc
-slowly	chậm
-money	tiền
-map	bản đồ
-farm	nông trại
-pulled	đã kéo
-draw	vẽ
-voice	giọng
-seen	đã thấy
-cold	lạnh
-cried	đã khóc
-plan	kế hoạch
-notice	chú ý
-south	nam
-sing	hát
-war	chiến tranh
-ground	mặt đất
-fall	ngã
-king	vua
-town	thị trấn
-I'll	tôi sẽ
-unit	đơn vị
-figure	hình
-certain	chắc chắn
-field	cánh đồng
-travel	du lịch
-wood	gỗ
-fire	lửa
-done	xong
-english	tiếng Anh
-road	đường
-halt	dừng
-ten	mười
-fly	bay
-gave	đã đưa
-box	hộp
-finally	cuối cùng
-wait	đợi
-correct	đúng
-oh	ồ
-quickly	nhanh
-person	người
-became	đã trở thành
-shown	đã cho thấy
-minutes	phút
-strong	mạnh
-verb	động từ
-stars	sao
-front	phía trước
-feel	cảm thấy
-fact	sự thật
-inches	inch
-street	đường phố
-decided	đã quyết định
-contain	chứa
-course	tất nhiên
-surface	bề mặt
-produce	tạo ra
-building	tòa nhà
-ocean	đại dương
-class	lớp
-note	ghi chú
-nothing	không có gì
-rest	nghỉ
-carefully	cẩn thận
-scientists	nhà khoa học
-inside	bên trong
-wheels	bánh xe
-stay	ở lại
-green	xanh lá
-known	đã biết
-island	hòn đảo
-week	tuần
-less	ít hơn
-machine	máy
-base	nền
-ago	trước đây
-stood	đã đứng
-plane	máy bay
-system	hệ thống
-behind	phía sau
-ran	đã chạy
-round	tròn
-boat	thuyền
-game	trò chơi
-force	lực
-brought	đã mang
-understand	hiểu
-warm	ấm
-common	phổ biến
-bring	mang
-explain	giải thích
-dry	khô
-though	mặc dù
-language	ngôn ngữ
-shape	hình dạng
-deep	sâu
-thousands	hàng nghìn
-yes	có
-clear	rõ
-equation	phương trình
-yet	chưa
-government	chính phủ
-filled	đã đầy
-heat	nhiệt
-full	đầy
-hot	nóng
-check	kiểm tra
-object	vật
-am	là
-rule	luật
-among	trong số
-noun	danh từ
-power	sức mạnh
-cannot	không thể
-able	có thể
-six	sáu
-size	kích thước
-dark	tối
-ball	bóng
-material	vật liệu
-special	đặc biệt
-heavy	nặng
-fine	ổn
-pair	đôi
-circle	vòng tròn
-include	bao gồm
-built	đã xây
-can't	không thể
-matter	vấn đề
-square	hình vuông
-syllables	âm tiết
-perhaps	có lẽ
-bill	hóa đơn
-felt	đã cảm thấy
-suddenly	đột nhiên
-test	kiểm tra
-direction	hướng
-center	trung tâm
-farmers	nông dân
-ready	sẵn sàng
-anything	bất cứ thứ gì
-divided	đã chia
-general	chung
-energy	năng lượng
-subject	chủ đề
-europe	châu Âu
-moon	mặt trăng
-region	vùng
-return	quay lại
-believe	tin
-dance	nhảy
-members	thành viên
-picked	đã chọn
-simple	đơn giản
-cells	tế bào
-paint	sơn
-mind	tâm trí
-love	yêu
-cause	nguyên nhân
-rain	mưa
-exercise	tập luyện
-eggs	trứng
-train	tàu hỏa
-blue	xanh dương
-wish	ước
-drop	thả
-developed	đã phát triển
-window	cửa sổ
-difference	sự khác biệt
-distance	khoảng cách
-heart	tim
-sit	ngồi
-sum	tổng
-summer	mùa hè
-wall	tường
-forest	rừng
-probably	có lẽ
-legs	chân
-sat	đã ngồi
-main	chính
-winter	mùa đông
-wide	rộng
-written	đã viết
-length	chiều dài
-reason	lý do
-kept	đã giữ
-interest	sở thích
-arms	cánh tay
-brother	anh trai
-race	cuộc đua
-present	hiện tại
-beautiful	đẹp
-store	cửa hàng
-job	công việc
-edge	cạnh
-past	quá khứ
-sign	dấu hiệu
-record	ghi lại
-finished	đã xong
-discovered	đã khám phá
-wild	hoang dã
-happy	vui
-beside	bên cạnh
-gone	đã đi
-sky	bầu trời
-grass	cỏ
-million	triệu
-west	tây
-lay	nằm
-weather	thời tiết
-root	gốc
-instruments	nhạc cụ
-meet	gặp
-months	tháng
-paragraph	đoạn
-raised	đã nâng
-represent	đại diện
-soft	mềm
-whether	liệu
-clothes	quần áo
-flowers	hoa
-shall	sẽ
-teacher	giáo viên
-held	đã giữ
-describe	mô tả
-drive	lái
-please	làm ơn
-kill	giết
-attack	tấn công
-defend	phòng thủ
-enemy	kẻ địch
-victory	chiến thắng
-defeat	thất bại
-save	lưu
-load	tải
-menu	menu
-pause	tạm dừng
-health	máu
-weapon	vũ khí
-potion	thuốc
-quest	nhiệm vụ
-danger	nguy hiểm
-safe	an toàn
-welcome	chào mừng
-hello	xin chào
-thanks	cảm ơn
-thank	cảm ơn
-sorry	xin lỗi
-friend	bạn
-battle	trận chiến
-fight	chiến đấu
-win	thắng
-lose	thua
-dead	chết
-alive	còn sống
-choose	chọn
+about to	sắp sửa 𢯛𢯢
+above	trên đầu
+abracadabra	câu thần chú
+abrade	làm trầy
+abrasion	sự làm trầy
+abrasive	làm trầy
+abreast	đi sóng hàng với nhau
+abscess	Áp-xe
+abscissa	hoành độ
+absent	lơ đãng
+abulia	chứng mất ý chí
+abundance	phong phú
 accept	chấp nhận
-decline	từ chối
-enter	vào
-leave	rời đi
-search	tìm
-found	tìm thấy
-locked	đã khóa
-unlocked	đã mở khóa
-treasure	kho báu
-coin	đồng xu
-potion	thuốc
-shield	khiên
-sword	kiếm
-magic	phép
-spell	phép
-level	cấp
-experience	kinh nghiệm
-inventory	túi đồ
-equipment	trang bị
-shop	cửa hàng
+accessory	phụ kiện đính kèm
+accident	sự cố
+accidentally	ngẫu nhiên
+according as	tuỳ theo
+according to	tùy
+accordion	phong cầm
+account	tài khoản
+accountant	kế toán
+accra	Accra
+accusative	đối cách
+ace of clubs	át chuồn
+ace of diamonds	át rô
+ace of hearts	át cơ
+ace of spades	át bích
+acerbic	chát
+ache	đau
+achoo	hắt xì
+acid	axít
+acid rain	mưa axit
+acorn	quả đầu
+acquaintance	người quen
+acquire	thu được
+acrid	chát
+actinium	actini
+action	hành động
+activist	phần tử tích cực
+activity	hoạt động
+actor	diễn viên
+actual	thật
+actually	thực sự
+acupuncture	châm cứu
+acute	sắc
+acute accent	dấu sắc
+ad hoc	đặc ứng
+ad infinitum	vô cùng
+adam and eve	Adam và Eve
+add	nói
+add fuel to the fire	thêm nhiên liệu để cháy
+addict	người nghiện
+address	địa chỉ
+adequate	đủ
+adjacent	gần
+adjective	tính từ
+adjust	điều chỉnh
+administration	quản lý
+admiration	sự khâm phục
+admire	khâm phục
+adobe	gạch sống
+adopt	nhận làm con nuôi
+adriatic sea	biển Adriatic
+adult	người lớn
+adventurism	chủ nghĩa mạo hiểm
+adverb	trạng từ
+adversary	đối thủ
+adverse effect	tác dụng có hại
+advertisement	quảng cáo
+aegean sea	biển Aegea
+aerial	ăng-ten
+aerosol	bình phun
+aesthetics	mỹ học
+afghanistan	Afghanistan
+afraid	đáng sợ
+africa	Châu Phi
+afrikaans	Afrikaans
+afterlife	kiếp sau
+afternoon	buổi chiều
+aftershock	dư chấn
+aftertaste	dư vị
+afterward	sau này
+afterwards	sau này
+again	lại
+agar	thạch
+agarwood	trầm hương
+age	tuổi
+agency	cơ quan
+aggression	xâm lược
+aggressive	xâm lược
+ago	cách đây
+agree	đồng ý
+agriculture	nông nghiệp
+agronomy	nông học
+ah	à
+aids	AIDS
+ainu	tiếng Ainu
+air	không khí
+air conditioner	máy lạnh
+air force	không quân
+air gun	súng hơi
+aircraft	phi cơ
+airline	công ty hàng không
+airplane	máy bay [North
+airport	sân bay
+aitch	hắt
+al-qaeda	Al-Qaeda
+alabama	Alabama
+alarm	sự báo động
+alarm clock	đồng hồ reo
+alaska	Alaska
+albedo	suất phản chiếu
+alberta	Alberta
+albumen	lòng trắng
+alchemist	nhà giả kim
+alchemy	thuật giả kim
+alcohol	rượu
+alga	tảo
+algae	tảo
+algebra	đại số
+alien	người nước ngoài
+alive	sống
+all	đều
+all rights reserved	giữ toàn quyền
+all roads lead to rome	Mọi con đường đều dẫn tới thành Roma
+all saints' day	lễ Các Thánh
+all souls' day	lễ Các Đẳng
+allah	Allah
+alligator	cá sấu
+allophone	tha âm vị
+alloy	hợp kim
+alluvium	bồi tích
+almond	hạnh nhân
+almost	gần
+alms	của bố thí
+alone	chỉ
+alphabet	bảng chữ cái
+already	rồi
+also	cũng
+altay	Altay
+alternate angles	góc so le
+alto	[?] bè antô
+aluminium	nhốm
+always	luôn luôn
+alzheimer's disease	bệnh Alzheimer
+ambarella	cóc Tahiti
+ambassador	đại sứ
+amber	hổ phách
+ambergris	long diên hương
+ambo	giảng đài
+ambulance	xe cứu thương
+america	Châu Mỹ
+american	Mỹ
+american football	bóng bầu dục
+americanisation	Mỹ hóa
+americanize	Mỹ hóa
+americium	Amerixi
+amnesty	sự ân xá
+amoeba	amip
+among	trong số
+amongst	giữa
+ampere	ampe
+ampersand	ký hiệu
+amphibian	lưỡng cư
+amphitheater	Hý trường
+amur	sông Amur
+amusement	sự hài hước
+an	cái [inanimate objects]
+anaesthesia	sự gây mê
+anal sex	tình dục hậu môn
+analects	tuyển tập
+anarchism	chủ nghĩa vô chính phủ
+anarchy	tình trạng vô chính phủ
+anatomy	giải phẫu học
+ancestor	tổ tiên
+anchor	neo
+ancient egypt	Ai Cập cổ đại
+ancient greece	Hy Lạp cổ đại
+ancient greek	tiếng Hy Lạp cổ đại
+ancient rome	La Mã cổ đại
+and	và
+andaman islands	Quần đảo Andaman
+andrew	Anrê
+anemia	thiếu máu
+anesthesia	sự gây mê
+anesthetization	sự gây mê
+angel	thiên thần
+angel of death	tử thần
+anger	mối giận
+angle	gốc
+anglo-	Anh
+angola	Angola
+angry	giận
+anhui	An Huy
+anilingus	cách liếm đít
+animal	thú vật
+anime	anime
+ankara	Ankara
+ankle	mắt cá chân
+annam	An Nam
+annatto	hạt điều màu
+annexation	sự phụ vào
+anniversary	ngày kỷ niệm
+anno domini	Công Nguyên
+anshan	An Sơn
+answer	trả lời
+ant	kiến
+antarctica	Châu Nam Cực
+antebellum	tiền chiến
+anthem	quốc ca
+anthrax	bệnh than
+anthropology	nhân loại học
+anti-	chống
+anti-semitism	chủ nghĩa bài Do Thái
+anti-war	phản chiến
+antibiotic	kháng sinh
+antichrist	kẻ chống Giê-xu
+anticline	nếp uốn lồi
+anticlockwise	theo chiều ngược kim đồng hồ
+antifascism	chủ nghĩa chống phát xít
+antifascist	chống phát xít
+antigua and barbuda	Antigua và Barbuda
+antimatter	phản vật chất
+antimony	antimon
+anus	hậu môn
+anvil	cái đe
+anyway	bất chấp
+aorta	động mạch chủ
+apartment	căn hộ
+ape	vượn
+apec	Diễn đàn Hợp tác Kinh tế châu Á-Thái Bình Dương
+aphelion	điểm viễn nhật
+apogee	điểm viễn địa
+apology	sự xin lỗi
+appetite	ngon miệng
+applause	vỗ tay
+apple	gỗ táo
+apple juice	nước táo
+apple tree	cây táo
+approach	lại
+approximately	khoảng
+apricot	mơ
+april	tháng tư 月四
+apron	tạp dề
+aqua regia	nước cường toan
+aquarium	bể nuôi
+aquifer	tầng ngậm nước
+ar	e-rờ
+arab	Á rập
+arab world	thế giới Ả Rập
+arabian peninsula	bán đảo Ả Rập
+arabian sea	biển Ả Rập
+arabic	A-rập
+arabic script	bảng chữ cái Ả Rập
+arachnid	loài nhện
+archbishop	tổng giám mục
+archer	xạ thủ
+archipelago	quần đảo
+architect	kiến trúc sư
+architecture	kiến trúc
+arctic	bắc cực
+arctic ocean	Bắc Đại Dương
+are	là
+are you married	[replace bạn with the appropriate pronoun] bạn đã kết hôn chưa?
+area	miền
+areola	quầng đỏ
+argent	bạc
+argentina	Argentina
+argon	agon
+argument	lý lẽ
+arhat	a-la-hán
+arizona	Arizona
+ark	tàu
+arkansas	Arkansas
+arkhangelsk	Arkhangelsk
+arm	vũ khí
+armadillo	động vật không răng
+armchair	ghế bành
+armenia	Armenia
+armistice	đình chiến
+armoured truck	xe chở tiền của
+armpit	nách
+arms	vũ khí
+army	quân đội
+arrival	sự đến
+arrow	mũi tên
+arsenic	asen
+art	nghệ thuật
+artichoke	atisô
+article	mạo từ
+artilleryman	pháo binh
+artist	họa sĩ
+asbestos	miăng
+ascension	Thăng thiên
+ascent	lên
+asean	ASEAN
+asexuality	vô tính
+ash	tro
+ashram	tu viện
+ashtray	gạt tàn thuốc
+asia	Châu Á
+asia minor	Tiểu Á
+asian	người Á châu
+ask	hỏi
+asparagus	măng tây
+ass	lừa
+assassin	kẻ ám sát
+assassinate	ám sát
+assassination	vụ ám sát
+assimilation	đồng hóa
+assist	trợ giúp
+assistance	sự giúp đỡ
+astana	Astana
+astatine	astatin
+asterism	mảng sao
+asteroid	tiểu hành tinh
+asthma	suyễn
+astronaut	nhà du hành vũ trụ
+astronomer	nhà thiên văn học
+astronomy	thiên văn học
+at	ở tại
+at sign	[North] a còng
+athens	Athena
+atlantic ocean	Đại tây dương
+atm	máy rút tiền tự động
+atmosphere	khí quyển
+atom	nguyên tử
+atomic bomb	bom nguyên tử
+atomic number	số nguyên tử
+atomizer	máy phun tán
+attack	công kích
+attendance	sự tham dự
+attention	chú ý
+attic	gác
+auction	bán đấu giá
+audience	khán giả
+audio	âm thanh
+audiology	thính học
+august	tháng tám
+aunt	cô
+australia	Úc
+australian	người Úc châu
+australian dollar	đô la Úc
+australian white ibis	cò quăm trắng Australia
+austria	Áo
+austria-hungary	Đế quốc Áo-Hung
+austrian	Áo
+author	tác giả
+automatic	tự động
+automobile	xe hơi
+autonomy	tự trị
+autumn	mùa thu
+avenue	đại lộ
+aviation	hàng không
+avoid	tránh
+await	chờ đợi
+awake	gợi
+awesome	dễ sợ
+awl	giùi
+axiom	chân lý
+azerbaijan	Ai-déc-bai-gian
+azimuth	góc phương vị
+azuki bean	đậu đỏ
+baba yaga	Baba-Yaga
+baby	bé
+baby bottle	chai
+baby corn	bắp non
+babysitter	người giữ trẻ
+bacillus	trực khuẩn
+back	lưng
+back and forth	tới lui
+backache	đau lưng
+backbone	xương sống
+background	nền
+backpack	ba lô
+backyard	sân sau
+bacterium	vi khuẩn
+bad	xấu
+bad news	tin buồn
+badger	con lửng
+badminton	cầu lông
+baffled	bối rối
+bag	bao
+baggage	hành lý
+bagpipes	kèn túi
+baguette	banh mì
+baht	baht
+bakery	lò bánh mì
+baku	Baku
+balcony	ban công
+bald	trọc
+baldness	hói đầu
+ball	bóng
+ball lightning	sét hòn
+ballad	dân ca
+ballet	ba lê
+balloon	bóng
+ballpoint pen	bút bi
+baltic sea	biển Ban Tích
+bambara	tiếng Bambara
+bamboo curtain	bức màn tre
+bamboo shoot	măng
+banana	chuối
+bangalore	Bengaluru
+bangkok	Bangkok
+bangladesh	Bangladesh
+banjo	đàn banjô
+bank	ngân hàng
+banker	chủ ngân hàng
+banknote	giấy bạc
+banner	cờ
+baobab	bao báp
+baoding	Bảo Định
+baotou	Bao Đầu
+baptism	lể rữa tội
+bar	quán rượu
+barbarian	dã man
+barbaric	dã man
+barbed wire	dây kẽm gai
+barbershop	hiệu cắt tóc
+barcode	mã vạch
+barents sea	biển Barents
+barge	sà lan
+baritone	kèn baritôn [instrument]
+barium	bari
+bark	vỏ
+barley	lúa mạch
+barn owl	cú lợn
+barnaul	Barnaul
+barrel	nòng
+bartholomew	Batôlômêô
+basalt	đá bazan
+base	bazơ
+baseball	bóng chày
+basement	tầng hầm
+basin	cái chảo
+basket	cái rổ
+basketball	bóng rổ
+bass	ghi-ta bass
+bassoon	kèn fagôt
+bat	dơi
+bathroom	buồng tắm
+batik	lối in hoa ba-tic
+batman	Người dơi
+battery	pin
+battle	trận đánh
+battlefield	chiến trường
+bay	vịnh
+bayan	đàn baian
+bayonet	lưỡi lê
+bazaar	chợ
+be	ở
+be able to	có thể
+be born	sinh
+be called	được gọi là
+be prepared	sắp sẵn
+beach	bãi biển
+beam	tia
+bean	đậu
+bear	gấu
+bear cub	gấu con
+beard	râu
+beat	đánh
+beat around the bush	vòng vo tam quốc
+beautiful	đẹp đẽ
+beauty	mỹ nhân
+beauty pageant	cuộc thi sắc đẹp
+beauty spot	thắng cảnh
+beaver	hải ly
+because	tại vì
+because of	bởi
+become	trở nên
+bed	lớp
+bedroom	phòng ngủ
+bedsheet	vải trải giường
+bee	bê
+beech	cây gie gai
+beef	thịt bò
+beep	bíp
+beer	rượu
+beeswax	sáp ong
+beet	cù cai
+beetle	bọ cánh cứng
+beetroot	củ cải đường
+before	trước
+beggar	người ăn xin
+begin	bắt đầu
+beginner	người bắt đầu
+beginning	phần đầu
+begonia	thu hải đường
+behaviorism	chủ nghĩa hành vi
+behead	chặt đầu
+behind	sau
+beige	be
+beijing	Bắc Kinh
+being	sinh vật
+belarus	Bê-la-rút
+belarusian	tiếng Bê-la-rút
+belch	ợ
+belgium	Bỉ
+belgorod	Belgorod
+belgrade	Ben-gờ-rát
+believe	tin
+bell	chuông
+belles-lettres	văn chương
+bellows	bể
+belly	bụng
+beloved	yêu quý
+belt	dây lưng
+bend	uốn cong
+bendable	co the uon cong
+benefactor	ân nhân
+bengali	tiếng Bengali
+benghazi	Benghazi
+bent	thiên hướng
+benxi	Bản Khê
+benzene	benzen
+berkelium	beckeli
+berlin	Bá-linh
+berry	quả mọng
+beryllium	berili
+bestseller	hàng bán chạy nhất
+beta	bêta
+bethlehem	Belem [biblical]
+betray	bội phản
+betrothal	sự đính hôn
+better	tốt hơn
+between	giưa
+beverage	nước giải khát
+bhutan	Bhutan
+bible	Kinh Thánh
+bicycle	xe đạp
+bid	sự đặt giá
+big	lớn
+big bang	Vụ Nổ Lớn
+big data	dữ liệu lớn
+big dipper	chòm Sao Bắc Đẩu
+big picture	đại cục
+bilberry	cây nham lê
+billiards	trò chơi bi-a
+billion	tỉ
+billionaire	nhà tỉ phú
+bind	buộc
+binoculars	ống nhòm
+binomial nomenclature	danh pháp hai phần
+bioavailability	sinh khả dụng
+biochemistry	hóa sinh
+biodiversity	đa dạng sinh học
+biography	tiểu sử
+biology	sinh vật học
+biophysics	lý sinh học
+birch	ccây
+bird	chim
+birdie	chim non
+birth	đầu
+birthday	sinh nhật
+birthmark	nốt ruồi
+birthplace	nơi sinh
+biscuit	bánh quy
+bisector	đường phân giác
+bisexuality	song tính luyến ái
+bishkek	Bishkek
+bismuth	bitmut
+bison	bò rừng
+bite	cắn
+bitter	đắng
+bitter melon	khổ qua Southern
+black	đen
+black box	hộp đen
+black cardamom	thảo quả
+black coffee	cà phê đen
+black hole	hố đen
+black market	chợ đen
+black sea	Biển Đen
+black tea	trà đen
+black-eyed pea	đậu trắng
+blackberry	trái ngấy
+blackboard	bảng đen
+blacksmith	thợ rèn
+blame	lỗi
+blanket	cái mền
+blasphemy	báng bổ
+blastoderm	bì phôi
+bleed	chảy máu
+bleeding	sự chảy máu
+blender	máy xay sinh tố
+bless you	sống lâu
+blind	mù
+blind date	dạm ngõ
+blitzkrieg	chiến tranh chớp nhoáng
+blog	nhật ký web
+blood	máu
+blood pressure	huyết áp
+blood vessel	huyết quản
+bloodshed	sự đổ máu
+bloody	chảy máu
+blotting paper	giấy chặm
+blow	nổ
+blow one's nose	xì mũi
+blue	buồn
+blue screen of death	màn hình xanh chết chóc
+board of directors	hội đồng quản trị
+boat	thuyền
+boat person	người thuyền nhân
+boatman	sãi
+body	thân thể
+body temperature	nhiệt độ cơ thể
+bodybuilder	lực sĩ
+bok choy	bạch thái
+bolivia	Bô-li-vi-a
+bollywood	Bollywood
+bolshevik	Bolshevik
+bomb	bom
+bon voyage	lên đường bình an
+bone	xương
+bone marrow	tủy xương
+bonsai	bonsai
+bonus	tiền thưởng
+booby	chim điên
+booby trap	bẫy mìn
+book	sổ
+bookcase	tủ sách
+booklet	cuốn sách nhỏ
+bookshelf	giá sách
+bookshop	hiệu sách
+bookworm	tay mọt sách
+boom	bùm
+boot	giày ống
+border	biên giới
+boredom	nỗi buồn tẻ
+boron	bo
+bose-einstein condensate	ngưng tụ Bose-Einstein
+bosnia and herzegovina	Bôxnia Hécxêgôvina
+bosom friend	tri kỷ
+bosphorus	eo biển Bosporus
+boston	Bốt xtơn
+botany	thực vật học
+both	cả hai
+bottle	chai
+bottom	đáy
+boulevard	đại lộ
+bouquet	bó hoa
+boutique	cửa hàng thời trang
+bow	cung
+bow wow	gâu gâu
+bowl	chén
+bowstring	dây cung
+bowtie	ca vát nơ bướm
+box	hộp
+boxer	Nghĩa Hòa Đoàn
+boxing	quyền Anh
+boy	con trai
+boy band	ban nhạc con trai ?
+boyfriend	bạn trai
+bra	cái xú chiên
+brain	óc
+brain cancer	ung thư não
+brain drain	chảy máu chất xám
+brake	phanh
+bran	cám
+branch	nhánh
+brandy	rượu nặng
+brass	đồng thau
+brass knuckles	tay đấm sắt
+brave	dũng cảm
+bravery	sự dũng cảm
+brazil	Brasil
+bread	bột
+breadcrumb	bột chiên xù
+breadfruit	quả sa kê
+break	bị bể
+breakfast	bữa sáng
+breast	vú
+breast cancer	ung thư vú
+breastfeed	bú
+breath	hô hấp
+breathe	thở
+breeder	[1] người chăn nuôi
+breeze	ruồi trâu
+breve	dấu trăng
+brick	gạch
+bricklayer	thợ hồ
+brics	BRICS
+bride	cô dâu
+bridegroom	rể
+bridge	cầu
+bright	sáng
+bring	cầm lại
+brisbane	Brisbane
+britain	đảo Anh
+british isles	quần đảo Anh
+briton	người Anh
+brochure	cuốn sách nhỏ
+broken	bị vỡ
+broken heart	vỡ tim
+bromine	brom
+brooch	trâm
+broom	cây chổi
+broth	canh
+brothel	nhà thổ
+brother	anh
+brother-in-arms	chiến hữu
+brother-in-law	anh rể
+brown	nâu
+brown bear	gấu nâu
+brown falcon	cắt nâu
+brown rat	chuột nâu
+brownie	ma tốt
+brunei	Brunei
+brush	bàn chải
+brussels	Bruxelles
+bubble	bong bóng
+bubble tea	trà trân châu
+bucket	xô
+buckingham palace	cung điện Buckingham
+buddha	phật
+buddha's hand	phật thủ
+buddhism	phật giáo
+buddhist	Phật
+buenos aires	Buenos Aires
+buffalo	trâu rừng
+bug	bọ
+build	xây
+builder	chủ thầu
+building	toà nhà
+built-in	có sẵn
+bulgaria	Bulgaria
+bulgarian	tiếng Bun-ga-ri
+bull	bò đực
+bulldozer	xe ủi đất
+bullet	đạn
+bullet train	shinkansen
+bumblebee	ong nghệ
+buoy	phao
+bureau	văn phòng
+bureau de change	quầy đổi tiền
+burma	Myanma
+burmese	Miến Điện
+burmese rosewood	cẩm lai
+burn	đốt
+burp	ợ
+burst	bị bể
+bury	chôn
+buryatia	Buryatia
+bus	xe buýt
+busan	Busan
+bush	cây bụi
+bushido	võ sĩ đạo
+business card	danh thiếp
+business trip	đi công tác
+businessman	thương gia
+busy	bận rộn
+busybody	người bao biện
+but	nhưng
+butcher	người hàng thịt
+butt	mông
+butter	bơ
+butterfly	bươm bướm
+butterfly effect	hiệu ứng bươm bướm
+buttock	mông
+button	cúc
 buy	mua
-sell	bán
-price	giá
-sold	đã bán hết
-empty	trống
-full	đầy
-continue	tiếp tục
+buy time	câu giờ
+by	qua
+bye-bye	từ biệt
+byte	byte
+cabbage	cải bắp
+cabinet	tủ
+cable television	truyền hình cáp
+cacao	cacao
+cactus	cây xương rồng
+cadmium	catmi
+caesar	Caesar
+caesarean section	mổ lấy thai
+caesium	xezi
+cafeteria	nhà ăn
+caffeine	cafêin
+cage	lồng
+cake	bánh
+calamity	tai hoạ
+calamondin	quả tắc
+calcium	canxi
+calculator	người tính
+calendar	lịch
+calf	con bê
+california	Ca Li
+californium	califoni
+call the police	xin gọi cảnh sát
+calorie	calo
+calvary	Canvê [Catholic]
+cambodia	Campuchia
+camel	lạc đà
+camellia	hoa chè
+camera	máy hình
+cameroon	Cameroon
+camouflage	sự nguỵ trang
+campaign	chiến dịch [military]
+camphor	long não
+can	lon
+can you help me	bạn có thể giúp tôi?
+canada	Ca-na-đa
+canadian	người Ca-na-đa
+canadian dollar	đô la Canada
+canal	kênh đào
+canary	chim tước
+canberra	Canberra
 cancel	hủy
-confirm	xác nhận
-warning	cảnh báo
-error	lỗi
-success	thành công
-failed	thất bại
-loading	đang tải
-player	người chơi
-boss	trùm
-key	chìa khóa
+cancer	ung thư
+candidate	ứng cử viên
+candle	cây nến
+candlestick	chúc đài
+candy	kẹo
+candy floss	kẹo bông
+cangue	gông
+cannabis	cần sa
+cannibalism	ăn thịt đồng loại
+cannon	pháo
+cannot	có thể không
+canteen	căng tin
+canton	Quảng Đông
+cantonese	tiếng Quảng Đông
+caoutchouc	cao su
+cap	mũ lưỡi trai
+cape of good hope	mũi Hảo Vọng
+capital	vốn
+capital city	thủ đô
+capitalism	chủ nghĩa tư bản
+capitol	thủ phủ
+capsicum	cây ớt
+capsule	viên thuốc con nhộng
+car	xe hơi
+caramel	kẹo caramen
+carbohydrate	hyđat-cacbon
+carbon	than
+carbonate	cacbonat
+cardamom	bạch đậu khấu
+cardinal	lượng
+cardinal number	số đếm
+cardinality	lực lượng
+cardiology	bệnh học tim
+care	[đến] để ý
+carer	người giữ trẻ
+cargo	hàng hóa
+caribbean sea	biển Caribe
+caricature	mạn họa
+carnival	hội hóa trang
+carpenter	thợ mộc
+carpet	tấm thảm
+carriage	toa
+carrot	cà rốt
+carry	mang
+carrying pole	đòn gánh
+cart	xe bò
+cartilage	sụn
+cartography	bản đồ học
+cartoon	mạn họa
+cartridge	mực
+casablanca	Casablanca
+case sensitive	phân biệt chữ hoa chữ thường
+case study	nghiên cứu tình huống
+cashew	cây điều
+cashew nut	hạt điều
+cashier	nhân viên tính tiền
+caspian sea	Biển Caspi
+cassava	sắn generic term ; củ sắn root ; khoai mì
+cassock	áo thụng
+castilian	tiếng Tây Ban Nha
+castle	lâu đài
+castrate	thiến
+castration	sự thiến
+cat	mèo
+catch a cold	bị cảm lạnh
+caterpillar	sâu
+catfish	cá trê
+cathode	âm cực
+catholic church	Giáo hội Công giáo
+catty	cân
+caucasian	người da trắng
+caucasus	Kavkaz
+cauliflower	hoa lơ
+cave	hang
+ceasefire	lệnh ngừng bắn
+cee	xê
+ceiling	trần
+celery	cần tây
+cell	tế bào
+cell phone	điện thoại di động
+cello	đàn viôlôngxen
+cellophane noodle	miến
+cellular	di động
+celsius	bách phân
+cement	xi măng
+censer	lư hương
+censorware	đồ kiểm duyệt
+census	điều tra dân số
+cent	phần trăm
+center	trung tâm
+centimetre	xentimét
+centipede	con rít
+central african republic	Cộng hòa Trung Phi
+central asia	Trung Á
+central europe	Trung Âu
+centrifuge	máy ly tâm
+centromere	đoạn trung tâm
+century	thế kỷ
+century egg	trứng bách thảo
+cereal	ngũ cốc
+cerebellum	thuộc não
+ceremony	nghi thức
+cerium	xeri
+ceylon	Tích Lan
+chador	chàng mạng
+chain	dây xích
+chair	ghế
+chairman	chủ tịch
+chalcedony	chan-xe-đon
+chalk	phấn
+chalkboard	bảng đen
+chameleon	tắc kè hoa
+champion	quán quân
+championship	chức vô địch
+chance	cơ hội
+chancellor	tể tướng
+chandelier	đèn treo
+changchun	Trường Xuân
+change	thay
+changsha	Trường Sa
+changzhou	Thường Châu
+chaos	hỗn loạn
+chaos theory	lý thuyết hỗn loạn
+chaozhou	Triều Châu
+chapter	chương
+charcoal	than gỗ
+charger	bộ nạp điện
+chase	đuổi
+chassis	sát-xi
+chastity	bình dị
+chastushka	tsa-xtu-sca
+chauffeur	tài xế
+chauvinism	chủ nghĩa Sô vanh
+chauvinist	sô vanh chủ nghĩa
+chayote	su su
+cheap	rẻ
+check	kiểm tra
+checksum	giá trị kiểm tra
+cheek	má
+cheers	sự cạn ly
+cheese	pho mát
+cheetah	báo săn
+chelyabinsk	Chelyabinsk
+chemical element	nguyên tố hóa học
+chemical reaction	phản ứng hóa học
+chemistry	hóa học
+chengdu	Thành Đô
+chengyu	thành ngữ
+cheque	séc
+chernozem	đất đen
+cherry	gỗ anh đào
+cherry blossom	hoa anh đào
+chess	cờ vua
+chess piece	con cờ
+chessboard	bàn cờ
+chest	ngực
+chestnut	hạt dẻ
+chew the cud	nhơi
+chewing gum	kẹo cao su
+chiayi	Gia Nghĩa
+chicago	Chicago
+chicken	gà
+chicken pox	thủy đậu
+chicken-or-egg question	gà hay trứng
+child	đứa bé
+chile	Chile
+chili	ớt
+chilly	lạnh
+chimney	ống khói
+chimpanzee	tinh tinh
+chin	cằm
+china	sứ
+chinatown	phố người Hoa
+chinese	đồ Tàu
+chinese celery	rau cần tay
+chinese character	Hán tự
+chinese dragon	rồng
+chinese new year	Tết Nguyên Đán
+chinese numeral	chữ số Trung Quốc
+chink	người Tàu [lit.: "boat person people"]
+chipmunk	sóc chuột
+chisel	cái đục
+chita	Chita
+chlorine	clo
+chlorophyll	chất diệp lục
+chloroplast	lạp lục
+chocolate	sô-cô-la
+choice	sự quyết định
+choir	dàn hợp xướng
+choke	giảm
+cholera	bệnh tả
+chongqing	Trùng Khánh
+choose	chọn
+chop-chop	đi đi mau
+chopstick	đũa
+chord	dây
+chorus	hợp xướng
+chow	thức ăn
+christ	Chúa Kitô
+christian	người theo đạo Cơ đốc
+christian name	tên thánh
+christianity	Kitô giáo
+christmas	Nô-en
+christmas card	thiếp mừng Nô-en
+christmas day	ngày lễ Nô-en
+christmas eve	đêm Nô-en
+christmas tree	cây Nô-en
+christmastime	tuần Nô-el
+chromium	crom
+chromosome	chất sinh sắt
+chronicles	biên niên sử
+chrysanthemum	cúc đại đóa
+chukotka	Chukotka
+church	nhà thờ
+church service	cúng tế
+chutney	tương ớt
+cicada	con ve sầu
+cigar	xì gà
+cigarette	điếu thuốc lá
+cigarette case	hộp đựng xì gà
+cinderella	Lọ Lem
+cinema	phim
+cinnabar	chu sa
+cinnamon	quế
+circle	vòng tròn
+circular	thông tư
+circumcision	cắt bao quy đầu
+circumflex	mũ
+circus	xiếc
+citation needed	cần dẫn nguồn
+citizen	công dân
+citizenship	quyền công dân
+city	thành phố
+civil war	nội chiến
+civilise	khai hóa
+clam	nghêu
+classical chinese	Hán Văn
+classical music	nhạc cổ điển
+classification	sự phân loại
+classifier	lượng từ
+classroom	phòng đọc
+clause	điều khoản
+claw	vuốt
+clay	đất sét
+clean	lau
+cleave	rẽ
+clef	khóa của âm nhạc
+clergy	tư tế
+clever	thông minh
+click	nhấn chuột
+cliff	vách đá
+climate	khí hậu
+climate change	biến đổi khí hậu
+climatology	khí hậu học
+climb	leo
+clinic	phòng khám bệnh
+clitoris	âm vật
+clock	đồng hồ
+close	đóng
+cloth	vải
+clothes	quần áo
+clothing	quần áo
+cloud	mây
+cloud computing	điện toán đám mây
+clouded leopard	báo gấm
+cloudy	có mây
+clove	đinh hương
+clover	cây xa trục thảo
+club	câu lạc bộ
+clumsy	vụng
+co-sister-in-law	[co-sisters-in-law] chị em cột chèo
+coal	than đá
+coast	bờ biển
+cobalt	coban
+coca-cola	Coca-Cola
+coccyx	xương cụt
+cock-a-doodle-doo	ò-ó-o-o
+cockroach	con gián
+coconut	dừa
+coconut milk	nước cốt dừa
+coconut palm	dừa
+cocoon	kén
+cod liver oil	dầu gan cá
+code	mã
+coffee	cà phê
+coffee grinder	máy xay cà phê
+coffee pot	cà phê nồi
+coffeemaker	ấm đun cà phê
+coffin	quan tài
+cognac	rượu cô-nhắc
+cogon	cotranh
+coitus	sự giao cấu
+cola	Côcácôla
+cold	cảm
+cold war	chiến tranh lạnh
+colleague	đồng nghiệp
+collect	tham gia
+collection	bộ sưu tập
+collectivization	sự tập thể hoá
+colloquy	hội đàm
+cologne	nước hoa co-lô-nhơ
+colombo	Colombo
+colonialism	chủ nghĩa thực dân
+colonization	sự chiếm làm thuộc địa [making into a colony]
+colony	thuộc địa
+color	màu
+colorful	rực rỡ
+colostrum	sữa non
+coma	hôn mê
+comb	mào
+combine harvester	máy liên hợp
+come	lại
+comedy	hài kịch
+comet	sao chổi
+comfort	sự an ủi
+comforter	nước xả quần áo
+command	mệnh lệnh
+commandment	điều răn
+commerce	sự buôn bán
+commit suicide	tự tử
+committee	uỷ ban
+commodity	thương phẩm
+common	chung
+common bean	đậu cô ve
+commonwealth of independent states	Cộng đồng các Quốc gia Độc lập
+communicate	liên lạc
+communism	chủ nghĩa cộng sản
+communist	người cộng sản
+communist party of china	Đảng Cộng sản Trung Quốc
+company	công ty
+comparative	cấp so sánh
+comparative degree	cấp so sánh
+compare	so sánh
+comparison	sự so sánh
+compass	la bàn
+compatriot	đồng bào
+competition	cuộc thi
+completely	hoàn toàn
+complex number	số phức
+complexion	nước da
+complicated	phức tạp
+component	bộ phận
+compose	soạn thảo
+composer	nhà soạn nhạc
+composition	thành phần
+compost	phân trộn
+compound	hợp chất
+comprador bourgeoisie	tư sản mại bản
+compromise	sự thoả hiệp
+computer	máy vi tính
+computerization	điện toán hóa
+comrade	đồng chí
+conceal	giấu
+concentration camp	trại tập trung
+concept	khái niệm
+conception	quan niệm
+conceptualisation	khái niệm hóa
+concern	làm cho lo ngại
+concert	buổi hoà nhạc
+concerto	công xéc tô
+concrete	bê tông
+concubine	vợ lẻ
+condensed milk	sữa đặc
+condom	bao cao su
+conductor	chất dẫn
+confederation	liên minh
+conference	hội nghị
+confiscate	tịch thâu
+conflagration	hỏa hoạn
+conflict	xung đột
+confucian	nho gia
+confucianism	Nho giáo
+confucius	Khổng Tử
+congee	cháo
+congo	Congo
+conjunction	sự liên kết
+connective tissue	mô liên kết
+conquer	chinh phục
+conscience	lương tâm
+conscious	biết rõ
+consensus	đồng lòng
+conservatism	chủ nghĩa bảo thủ
+consonant	phụ âm
+constant	không thay đổi
+constipation	táo bón
+constitute	cấu thành
+constitution	hiến pháp
+consulate	tòa lãnh sự
+consume	ăn
+consumer	người tiêu dùng
+contemplate	nghĩ
+content	nội dung
+contents	nội dung
+continent	đại lục
+continental drift	trôi dạt lục địa
+continental shelf	thềm lục địa
+continue	tiếp tục
+contract	hợp đồng
+contradict	phủ nhận
+contralto	giọng nữ trầm
+contribute	contribute
+conversation	cuộc đối thoại
+conveyor belt	băng chuyền
+cook	nấu
+coolie	cu li
+cooperation	sự hợp tác
+coordinate	tọa độ
+copenhagen	Copenhagen
+copper	đồng
+copyleft	phi bản quyền
+copyright	bản quyền
+coral	san hô
+coral island	đảo san hô
+coral sea	biển San hô
+corkscrew	tóc xoắn
+corn flakes	bánh bột ngô nướng
+cornea	giác mạc
+corner	góc
+cornet	kèn coonê
+cornish	tiếng xứ Cornwall
+corpse	thi thể
+correct	sửa
+corridor	hành lang
+corrupt	tham nhũng
+corruption	sự hối lộ
+cosmetics	mỹ dung phẩm
+cosmodrome	sân bay vũ trụ
+cosmonaut	nhà du hành vũ trụ
+cosmos	vũ trụ
+cost of living	giá sinh hoạt
+couch	đi văng
+coulomb	coulomb
+count	đếm
+counterintelligence	phản gián
+countess	bá tước phu nhân
+country	tỉnn
+country code	mã quốc gia
+countryman	đồng bào
+countryside	miền quê
+county	quận
+courage	can đảm
+courgette	bí xanh
+court	sân
+courtesy	sự lịch sự
+courtyard	sân
+cousin	anh họ [older male]
+cover	nắp
+cow	bò
+coward	người nhát gan
+cowboy	cao bồi
+coworker	đồng nghiệp
+coyote	người vô loại
+crab	cua
+cradle	cái nôi
+crane	con hạc
+crape myrtle	tử vi
+crawl	bò
+crayfish	tôm đồng
+crayon	viết chì màu
+crazy	điên
+create	tạo
+creator	tạo vật chủ
+creature	sinh vật
+credential	giấy chứng nhận
+credit card	thẻ tín dụng
+creel	oi
+cremation	sự hoả táng
+crematorium	lò thiêu
+cress	cải xoong
+crest	mào
+crib	nôi
+cricket	con dế
+crime	tội ác
+crimea	Krym
+criminal	tội phạm
+criminal law	luật hình sự
+criminal record	lý lịch tư pháp
+criminology	tội phạm học
+crimson	đỏ thắm
+crisis	sự biến động
+croatia	Croatia
+croatian	tiếng Cro-xi-an
+crocodile	cá sấu
+cross	chữ thập
+crossbreed	lai
+crossroads	ngã tư
+crow	quạ
+crowded	đông
+crown	thóp
+cruel	độc ác
+cry	khóc
+crybaby	người hay khóc
+cryovolcano	núi lửa băng
+crystal	pha lê
+cuba	Cuba
+cube	hình lập phương
+cubism	lập thể
+cuckold	cắm sừng
+cuckoo	chim cu
+cucumber	cây dưa chuột
+cue	cu
+culantro	ngò gai
+culture	văn hóa
+culture shock	sốc văn hoá
+cum	tinh dịch
+cummingtonite	cumingtonit
+cunt	lồn
+cup	chén
+cupboard	tủ
+curfew	lệnh giới nghiêm
+curiosity	sự tò mò
+curium	curi
+currant	cây phúc bồn tử
+currency	tiền tệ
+curry	cà ri
+custom	tập quán
+customer support	hỗ trợ khách hàng
+cut	cắt
+cutlery	nghề làm dao kéo
+cuttlefish	cá mực
+cyan	xanh lơ
+cycle rickshaw	xích lô
+cycling	đi xe đạp
+cyclohexane	cyclohexan
+cymbal	chĩm chọe
+cyprus	Síp
+cyrillic	chữ Cyrill
+cytology	tế bào học
+czech	tiếng Séc
+czech republic	Cộng hòa Séc
+czechia	Séc
+czechoslovakia	Tiệp Khắc
+d-day	ngày N
+dad	bố
+daddy	bố
+dagger	dao găm
+daikon	củ cải trắng
+daily	mổi ngày
+daisy	hoa cúc
+dalai lama	Đạt-lại Lạt-ma
+dalian	Đại Liên
+damage	mối hại
+dance	nhảy
+dancer	người nhảy
+dandelion	bồ công anh
+dandruff	gàu
+danger	nguy hiểm
+dangerous	nguy hiểm
+danish	tiếng Đan-mạch
+danube	sông Donau
+daqing	Đại Khánh
+dark	tối
+dark matter	vật chất tối
+darkness	bóng tối
+darn	mạng
+data	dữ liệu
+data type	loại dữ liệu
+database	cơ sở dữ liệu
+date	hẹn
+date of birth	ngày tháng năm sinh
+date palm	chi chà là
+dative case	dữ cách
+datong	Đại Đồng
+daughter	con gái
+daughter-in-law	con dâu
+dawn	bình minh
+day	ngày
+day after tomorrow	ngày mốt
+day before yesterday	hôm kia
+day off	ngày nghỉ
+daydream	mơ mộng
+daylily	hoa kim châm
+dazibao	đại tự báo
+deacon	phó tế [Catholic]
+dead	chết
+dead sea	biển Chết
+deaf	điếc
+dear	đắt
+death	cái chết
+deathlore	tử vong học
+decade	chục
+decametre	đêcamet
+decapitate	chặt đầu
+december	tháng mười
+deception	sự lừa dối
+decide	quyết định
+decimetre	đêximet
+decision	sự giải quyết
+decrease	hạ
+dee	dê
+deep	sâu
+deer	hươu
+defender	người bào chữa
+definition	định nghĩa
+deflation	sự giảm giá
+deforestation	phá rừng
+degree	độ
+deist	nhà thần luận
+delay	hoãn
+delicious	thơm tho
+deliveryman	nhân viên giao hàng
+delta	châu thổ
+demagogue	nịnh dân
+demand	nhu cầu
+demilitarized zone	khu phi quân sự
+democracy	dân chủ
+democrat	nhà dân chủ
+democratic people's republic of korea	Cộng hòa Dân chủ Nhân dân Triều Tiên
+democratic republic of the congo	Cộng hòa Dân chủ Congo
+democratization	sự dân chủ hoá
+democratize	dân chủ hoá
+demography	nhân khẩu học
+demon	quỷ
+deng	Đặng
+denitrify	loại nitơ
+denmark	Đan Mạch
+dense	đặc
+dentist	thầy thuốc chữa răng
+deodorant	bay mùi
+depart	ra đi
+department store	cửa hàng bách hóa
+departure	sự rời khỏi
+deportation	sự trục xuất
+depth	độ sâu
+deride	chế nhạo
+desert	sa mạc
+designer	nhà thiết kế
+desirous	thèm muốn
+desist	ngừng
+desperate	tuyệt vọng
+desperation	sự tuyệt vọng
+despite	mặc dù
+dessert	tráng miệng
+detective	thám tử
+develop	phát triển
+devil	ma
+devotion	mộ đạo
+dew	sương
+diabetes	đái tháo đường
+diacritic	dấu phụ
+diagnosis	chẩn đoán
+dialect	thổ ngư
+dialectology	thổ ngư học
+dialog	cuộc đối thoại
+dialogue	cuộc đối thoại
+diamond	kim cương
+diana	thần Đi-anh
+diary	sổ nhật ký
+diaspora	cộng đồng
+dick	cặc
+dicotyledon	thực vật hai lá mầm
+dictator	kẻ độc tài
+dictatorship	chế độ độc tài
+dictionary	từ điển
+die	chết
+diet	nhịn ăn
+differ	khác
+different	khác
+difficult	khó
+dig	đào
+digestion	hệ tiêu hóa
+digital camera	máy ảnh số
+digital television	truyền hình dạng số tự
+dignity	nhân phẩm
+dill	thìa là
+dim sum	điểm tâm
+diminutive	nhỏ xíu
+dimple	má lúm đồng tiền
+dine	hàng
+ding dong	bính bong
+dingo	đingo
+dining car	toa ăn
+dining room	phòng ăn
+dinner	bữa trưa [eaten at midday]
+dinosaur	khủng long
+diocese	giáo phận
+diplomacy	khoa ngoại giao
+diplomat	nhà ngoại giao
+dipper	gáo
+direction	phương hướng
+director	quản đốc
+dirigible	điều khiển được
+dirty	bẩn
+disappoint	làm thất vọng
+disappointment	sự thất vọng
+disaster	tai hoạ
+disc	đĩa
+discount	bớt giá
+discover	phát hiện
+discuss	thảo luận
+discussion	sự thảo luận
+disease	bệnh
+disgrace	sỉ nhục
+dish	món
+dishwasher	máy rửa chén
+disinfectant	thuốc tẩy uế
+disinfection	sự tẩy uế
+dislike	không ưa
+dismay	làm mất tinh thần
+dismiss	Giải tán đám đông
+display	biểu hiện
+dive	lặn
+divide	chia
+divorce	ly hôn
+divorcee	[of a man] người ly dị vợ
+do	làm
+do the laundry	giặt gỵa
+do you accept credit cards	có nhận thẻ tín dụng không?
+do you have children	bạn có con không? [replace bạn with an appropriate pronoun]
+do you speak english	bạn có nói được tiếng Anh không? [generic
+do you speak something	bạn có nói tiếng Việt?
+dockworker	khuân vác
+doctor	tiến sĩ
+document	tài liệu
+documentary	phim tài liệu
+dodecahedron	Khối mười hai mặt
+does anyone here speak english	có ai biết nói tiếng Anh không?
+dog	chó
+dog's life	số chó
+doll	búp bê
+dollar	đồng
+dolphin	cá heo mỏ
+domain	đất đai
+domain name	tên miền
+domestic violence	bạo hành gia đình
+dominance	chiếm ưu thế
+don quixote	Đôn Kihôtê
+don't	đừng
+don't mention it	không có chi
+donald duck	Vịt Donald
+donation	sự tặng
+dong	đồng
+dongguan	Đông Hoản
+donkey	con lừa
 door	cửa
+doorbell	chuông cửa
+double whole note	nốt tròn đôi
+doughnut	bánh rán
+douhua	tào phớ
+dove	bồ câu
+down with	đả đảo
+download	tải xuống
+dowry	của hồi môn
+dozen	tá
+draft	nháp
+dragon	rồng
+dragonfly	con chuồn chuồn
+drainpipe	ống thoát nước
+drama	kịch
+draughts	cờ đam
+draw	vẽ
+drawbridge	cầu sắt
+drawer	ngăn kéo
+drawing	hình vẽ
+dream	mơ
+dress	áo dài
+dress up	ăn mặc đàng hoàng
+drill	thực hành
+drink	uống
+drinking straw	ống hút
+drive	lái xe
+driver	người lái
+driver's license	giấy phép lái xe
+dromedary	lạc đà một bướu
+drop	giọt
+droplet	giọt nhỏ
+drought	hạn hán
+drum	trống
+drunk	say rượu
+dry	khô
+dry season	mùa khô
+dublin	Dublin
+dubnium	dubni
+duck	vịt
+duckling	vịt con
+dulcimer	xim-ba-lum
+duma	Viện Đu-ma
+dumbbell	quả tạ
+dung beetle	bọ hung
+durian	quả sầu riêng
+dusk	chạng vạng
+dust	bụi
+dustpan	xẻng hót rác
+dutch	tiếng Hà Lan
+duty	nhiệm vụ
+dwarf	người lùn
+dwarf planet	hành tinh lùn
+dwarf star	sao lùn
+dynamite	mìn
+dynamo	máy phát điện
+dynasty	triều đại
+dysentery	kiết lỵ
+dyslexia	chứng khó đọc
+dysprosium	đysprosi
+dystrophy	sự loạn đường
+e-book	sách
+e-commerce	thương mại điện tử
+e-mail	thư điện tử
+each	hàng
+eagle	chim đại bàng
+ear	tai
+eardrum	màng nhĩ
+early	sớm
+earring	khuyên tai
+earth	thổ
+earthly branch	địa chi
+earthquake	địa chấn
+earthworm	giun đất
+east	phương đông
+east asia	Đông Á
+east china sea	Biển Hoa Đông
+east timor	Đông Timor
+easter	Lễ Phục Sinh
+easter egg	trứng Phục Sinh
+easter island	Đảo Phục Sinh
+eastern europe	Đông Âu
+eastern hemisphere	đông bán cầu
+easy	dễ
+eat	ăn
+eavesdrop	nghe lén
+eavesdropper	người nghe lén
+echo	tiếng dội
+eclectic	chiết trung
+eco-	sinh
+ecology	sinh thái học
+economics	kinh tế học
+economy	sự tiết kiệm
+ecosystem	hệ sinh thái
+ecuador	Ecuador
+edit	biên tập
+editorial	bài xã luận
+edmonton	Edmonton
+education	sự giáo dục
+eel	lươn
+effect	hiệu ứng
+effort	nỗ lực
+egg	trứng
+egg roll	nem rán
+eggplant	cà
+egret	cò
+egypt	Ai Cập
+egyptian	người Ai Cập
+eh	nhỉ
+eight	tám
+eight o'clock	tám giờ
+eighteen	mười tám
+eighth	thứ tám
+eightieth	thứ tám mươi
+eighty	tám mươi
+eighty-eight	tám mươi tám
+eighty-nine	tám mươi chín
+einsteinium	ensteni
+ejaculation	xuất tinh
+el	e-lờ
+elapse	trôi qua
+elbow	khuỷu tay
+elder	cả
+elder brother	anh
+elder sister	chị
+elect	tân cử
+election	sự bầu cử
+electric car	xe điện
+electric current	dòng điện
+electric shock	va chạm điện
+electrician	thợ điện
+electricity	điện
+electrification	điện khí hóa
+electrocardiogram	điện tâm đồ
+electrode	điện cực
+electromagnetic wave	sóng điện từ
+electron	điện tử
+electronic game	trò chơi điện tử
+electronics	điện tử học
+electroscope	cái nghiệm tĩnh điện
+element	yếu tố
+elephant	voi
+eleven o'clock	mười một giờ
+em	em-mờ
+embargo	cấm vận
+embassy	tòa đại sứ
+embroidery	đồ thêu
+emigrant	người di cư
+emigration	di dân
+emotion	cảm xúc
+emperor	hoàng đế
+empire	đế quốc
+employee	nhân viên
+employment	việc làm
+employment agency	cơ quan việc làm
+empty	tẩy trống
+en	en-nờ
+encoding	biên mã
+encyclopedia	bách khoa toàn thư
+end	kết thúc
+endgame	cuối ván
+endoplasmic reticulum	mạng lưới nội chất
+endosymbiotic theory	thuyết nội cộng sinh
+enemy	kẻ thù
+energy	năng lượng
+engagement	sự đính hôn
+engineer	kĩ sư
+england	nước Anh
+english	người Anh
+english channel	eo biển Manche
+enoki mushroom	nấm kim châm
+enough	đủ
+enter	đi vào
+enteritis	bịnh sưng ruột
+entertainment	giải trí
+entire	toàn bộ
+entomology	côn trùng học
+entrance	lối vào
+entresol	tầng xép
+entry	mục từ
+envelope	phong bì
+enzyme	enzym
+epicentre	chấn tâm
+epidermis	ngoại bì
+epilepsy	động kinh
+epithelium	biểu mô
+epitrochoid	êpitrocoit
+equality	sự bình đẳng
+equation	phương trình
+equator	xích đạo
+equinox	điểm phân
+eradicate	nhổ
+erase	xóa
+eraser	cái tẩy
+erbium	eribi
+erectile dysfunction	liệt dương
+erection	cương cứng
+erotic	tình ái
+error message	thông báo lỗi
+erythrocyte	hồng cầu
+escalator	thang cuốn
+especially	đặc biệt là
+esperanto	quốc tế ngữ
+espresso	espresso
+ess	ét
+essential	bản chất
+essential oil	tinh dầu
+establishment	sự thành lập
+estonia	Estonia
+et cetera	vân vân
+ethics	luân lý
+ethiopia	Ethiopia
+ethnic group	dân tộc
+ethnicity	dân tộc
+ethnology	dân tộc học
+etymology	từ nguyên
+eugenics	thuyết ưu sinh
+eukaryote	sinh vật nhân chuẩn
+eurasia	Lục địa Á-Âu
+eurasian union	Liên minh Á-Âu
+euro	euro
+europe	Châu Âu
+european	người Châu Âu
+european central bank	Ngân hàng Trung ương Châu Âu
+european hedgehog	nhím gai châu Âu
+european union	liên minh châu Âu
+europeanisation	Âu hóa
+europium	europi
+euthanasia	an tử
+evasion	sự lảng tránh
+even	bằng
+evening	buổi chiều
+event	sự kiện
+event horizon	chân trời sự kiện
+every	mỗi
+everybody	mọi người
+everyone	mọi người
+everything	mọi vật
+evil	ác
+evolution	tiến hóa
+evolutionary	tiến hóa
+ewe	cuu cai
+ex	ích
+examination	thi
+example	ví dụ
+excellent	xuất sắc
+except	phản đối
+exchange rate	tỷ giá hối đoái
+excrement	cặn
+excuse me	xin lỗi
+execution	tử hình
+exercise	bài tập
+exercise book	vở
+exist	tồn tại
+existence	sự tồn tại
+exit	lối ra
+exoplanet	hành tinh ngoài hệ Mặt Trời
+expensive	đắt
+experience	kinh nghiệm
+explain	giải thích
+explore	thám hiểm
+explosion	nổ
+export	xuất khẩu
+exposition	sự phơi
+express	biểu hiện
+expression	vẻ
+extradition	dẫn độ
+extremely	vô cùng
+extremism	chủ nghĩa cực đoan
+eye	mắt
+eye for an eye	mắt đền mắt
+eyeball	cầu mắt
+eyebrow	lông mày
+eyelash	lông mi
+eyelid	mi mắt
+eyrie	tổ chim đại bàng
+fable	ngụ ngôn
+fabric softener	làm mềm
+face	mặt
+fact	sự việc
+factory	nhà máy
+fag	pê đê
+fairy	tiên
+fairy tale	chuyện cổ tích
+faith	tín ngưỡng
+fake	giả
+falcon	chim ưng
+fall	ngã
+fall asleep	ngủ gục
+fall for	yêu
+fall ill	bị ốm
+fallopian tube	noan quản
+falun gong	Pháp Luân Công
+family	gia đinh
+famine	nạn đói
+famous	nổi tiếng
+fan	quạt
+fang	răng nanh
+fantasia	phăng-tê-di
+far	xa
+far east	Viễn Đông
+fare	tiền xe
+farm	trang trại
+farmer	nông phu
+faroe islands	Quần đảo Faroe
+fart	địt
+farter	bôi mỡ
+fascism	chủ nghĩa phát xít
+fascist	phát xít
+fashion	thời trang
+fast	nhanh
+fast food	thức ăn nhanh
+fasting	nhịn ăn
+fat	mỡ
+father	ba
+father-in-law	cha chồng
+fattening	mỡ màng
+fava bean	đậu tằm
+favor	ơn
+fax	fax
+fear	sợ
+fearful	sợ hãi
+feather	lông vũ
+february	tháng hai
+feces	cặn
+federation	liên bang
+feed	cho ăn
+feel	cảm thấy
+feeling	sự rờ mó
+feminine	giống cái
+feminism	chủ nghĩa nam nữ bình quyền
+fence	hàng rào
+feng shui	phong thủy
+fermium	fecmi
+fern	cây dương xỉ
+ferris wheel	vòng đu quay
+ferry	phà
+festival	ngày hội
+fetter	cùm
+feudalism	chế độ phong kiến
+fever	cơn sốt
+few	ít
+field	cánh đồng
+fifteen	mười lăm
+fifteenth	thứ mười lăm
+fifth	thứ năm
+fiftieth	thứ năm mươi
+fifty	năm mươi
+fifty-five	năm mươi lăm
+fifty-four	năm mươi bốn
+fifty-one	năm mươi mốt
+fifty-three	năm mươi ba
+fifty-two	năm mươi hai
+fight	chiến đấu
+fighter plane	máy bay tiêm kích
+figure	hình
+figure skating	trượt băng nghệ thuật
+file	tệp
+filipino	tiếng Tagalog
+fill	sự làm đầy
+film	phim
+film director	người đạo diễn
+filter	lọc
+final	vận mẫu
+find	tìm
+fine arts	my thuật
+finger	chọc
+fingernail	móng
+finish	kết thúc
+finland	Phần Lan
+finnish	thuộc Phần-lan
+fir	linh sam
+fire	hỏa
+fire extinguisher	bình chữa cháy
+fire hydrant	trụ cứu hỏa
+fire station	trạm cứu hỏa
+firefighter	lính cứu hỏa
+firefly	đom đóm
+firewall	tường lửa
+firework	pháo hoa
+fireworks	pháo hoa
+first	cơ bản
+first love	tình yêu đầu tiên
+first name	tên thánh
+fish	cá
+fish sauce	nước mắm
+fisherman	ngư dân
+fishery	công nghiệp cá
+fishing	câu cá
+fishing rod	cần câu
+fishmonger	ngưởi bán cá
+five	năm
+five o'clock	năm giờ
+five-spice powder	bột ngũ vị hương
+flag	lá cờ
+flagship	soái hạm
+flake	vảy
+flame	ngọn lửa
+flamethrower	súng phun lửa
+flamingo	hồng hạc
+flanders	Flăng-drơ
+flat	bằng
+flea	con bọ chét
+flerovium	flerovi
+flight	chuyến bay
+flight attendant	tiếp viên hàng không
+flint	đá lửa
+flip-flop	dép
+flock	đàn
+floe	tảng băng
+flood	lụt
+floor	sàn nhà
+floor lamp	đèn chân đế
+floriculture	nghề trồng hoa
+florist	người bán hoa
+flour	bột
+flower	hoa
+flowerpot	chậu hoa
+flu	bệnh cúm
+fluorine	flo
+flute	sáo
+fly	bay
+flying dutchman	Người Hà Lan bay
+flying fox	dơi quạ
+flying saucer	đĩa bay
+foal	ngựa con
+fog	sương mù
+foie gras	gan ngỗng béo
+folder	thư mục
+folk song	dân ca
+folktale	truyện dân gian
+fond	luyến
+font	phông
+food	thức ăn
+foodstuff	thực phẩm
+fool	thằng ngu
+foolish	dại dột
+foot	chân
+foot soldier	lính bộ binh
+foot-and-mouth disease	sốt lở mồm long móng
+football	bóng đá {c}
+footwear	giày dép
+footwrap	vải bọc chân
+for	cho
+for example	ví dụ
+for god's sake	trời ơi
+force	lực
+ford	chỗ cạn
+forefinger	ngón tay trỏ
+forehead	trán
+foreign	lạ
+foreign affairs	ngoại giao
+foreign country	nước ngoài
+foreign language	ngoại ngữ
+foreigner	người nước ngoài
+forename	tên thánh
+forensic science	pháp y khoa học
+forest	rừng
+forest fire	cháy rừng
+forever	mãi mãi
+forget	quên
+forgive	tha thứ
+fork	dĩa
+form	đơn
+formaldehyde	fomanđêhít
+format	thiết kế
+former	trước
+forsythia	liên kiều
+fort	pháo đài
+fortieth	hạng bốn mươi
+fortress	pháo đài
+forty	bốn mười
+forum	chợ
+forward	đầu
+foshan	Phật Sơn
+foundation	nền
+fountain	suối nước
+fountain pen	bút máy
+four	bốn
+four o'clock	bốn giờ
+fourteen	mười bốn
+fourth	thứ tư
+fox	cáo
+frabjous	tuyệt vui
+fragrant	thơm
+frail	yếu ớt
+france	Pháp
+francis	Phanxicô [Catholic]
+francium	franxi
+franco-	Pháp
+free	giải phóng
+freedom	sự tự do
+freedom of religion	tự do tín ngưỡng
+freedom of speech	tự do ngôn luận
+french	Pháp
+french bread	bánh mì Pháp
+french fries	khoai tây chiên [lit.: fried western potato]
+french guiana	Guyane thuộc Pháp
+french indochina	Đông Dương thuộc Pháp
+frequency	tần số
+fresh	tươi
+fresh air	không khí trong lành
+friday	thứ sáu lit.: number six
+fried rice	cơm chiên
+friend	người bạn
+friendship	tình bạn
+frog	con ếch
+from	từ
+frost	băng giá
+fruit	quả
+frustrating	tức
+fry	chiên
+fuck	đụ
+fuel	nhiên liệu
+fugue	tẩu pháp
+fujian	Phúc Kiến
+full	đầy đủ
+fundraiser	vận động gây quỹ
+fundraising	gây quỹ
+funeral	đám tang
+fungus	nấm
+funnel	cái quặn
+fur seal	hải cẩu
+furniture	đồ đạc
+fushun	Phủ Thuận
+future	tương lai
+fuzhou	Phúc Châu
+gadolinium	gađolini
+galaxy	thiên hà
+gall bladder	bao đựng mật
+gallant	ga-lăng
+gallium	gali
+gallows	giá treo cổ
+gambling	đổ bác
+game	trò chơi
+game theory	lý thuyết trò chơi
+gang	đoàn
+ganges	Hằng
+gangrene	bệnh thối hoại
+gansu	Cam Túc
+garage	ga ra
+garbage	rác
+garden	vườn
+gardener	người làm vườn
+garland chrysanthemum	tần ô
+garlic	tỏi
+garlic chive	hẹ
+gas	khí tê
+gas chamber	buồng khí
+gas station	trạm xăng
+gas tank	thùng xăng
+gasify	khí hoá
+gasoline	dầu xăng
+gastronomy	ẩm thực
+gate	cổng
+gateau	bánh ngọt
+gather	tham gia
+gaur	bò tót
+gay	gay
+gay marriage	hôn nhân đồng giới
+gaydar	trực giác nhận biết đồng tính
+gaza	Gaza
+gaza strip	Dải Gaza
+gecko	tắc kè
+gee	giê
+geisha	geisha
+gender	giống
+general public	công chúng
+genetics	di truyền học
+geneva convention	Hiệp định Geneva
+genghis khan	Thành Cát Tư Hãn
+genitive	sinh cách
+genius	thiên tài
+genome	bộ gen
+geography	địa lý học
+geology	địa chất học
+geometry	hình học
+georgia	Gruzia
+gerbil	chuột nhảy
+germ	mầm
+german	Đức
+german autumn	Mùa thu Đức
+german democratic republic	Cộng hòa Dân chủ Đức
+german shepherd	chó chăn cừu Đức
+germanium	gecmani
+germano-	Đức
+germany	nước Đức
+gestapo	sở Ghextapô
+get	nhận được
+get lost	lạc
+get married	kết hôn
+geyser	mạch nước phun
+ghee	bơ sữa trâu lỏng
+ghost	ma
+giant panda	gấu trúc lớn
+gibberish	Lời nói lắp bắp
+gibraltar	Gibraltar
+gift	quà
+gifu	Gifu
+gig	biểu diễn
+gin	rượu gin
+ginger	gừng
+ginger beer	loại bia có mùi rừng
+ginseng	nhân sâm
+giraffe	hươu cao cổ
+girl	cô gái
+girlfriend	bạn gái
+gist	mấu chốt
+give	cho
+give birth	sinh
+give me	cho tôi
+gland	tuyến
+glans	quy đầu
+glans penis	quy đầu
+glass	ly
+gloaming	hoàng hôn
+global warming	sự nóng lên của khí hậu toàn cầu
+globalisation	toàn cầu hóa
+glockenspiel	chuông
+glove	găng tay
+glue	keo
+glutinous rice	gạo nếp
+gnat	ruồi nhuế
+gneiss	gơ-nai
+gnu	linh dương đầu bò
+go	đi
+go nuts	phát điên
+go out	ra
+go to bed	đi ngủ
+go to work	đi làm
+goa	Goa
+goalkeeper	thủ thành
+goat	dê
+gobi	sa mạc Gobi
+god	thiên chúa
+goddess	nữ thần
+godfearing	ngoan đạo
+goguryeo	Cao Câu Ly
+gold	vàng
+golden gate bridge	Cầu Cổng Vàng
+golden horde	Kim Trướng hãn quốc
+golden ratio	tỷ lệ vàng
+golden rule	nguyên tắc vàng
+goldfish	cá vàng
+goldsmith	thợ bạc
+golf	golf
+gonorrhea	lậu mủ
+good	tốt
+good day	xin chào buổi ngày
+good evening	chào buổi tối
+good friday	Thứ sáu Tuần Thánh
+good luck	chúc may mắn!
+good morning	chào buổi sáng
+good news	tin mừng
+good night	chúc ngủ ngon
+goodbye	tạm biệt
+goods	hàng hoá
+goose	ngỗng
+gooseberry	đăng tin vịt
+gorilla	khỉ đột
+goryeo	Cao Ly
+government	chính phủ
+governor	thống đốc
+governor general	thống đốc
+governor-general	tổng đốc
+grace note	nốt láy
+graduate	tốt nghiệp
+grain	ngũ cốc
+gram	gam
+grammar	ngữ pháp
+grand unification theory	lý thuyết thống nhất lớn
+granddaughter	[[[gái]]] cháu
+grandfather	[paternal] ông nội
+grandmother	[paternal] bà nội
+grandson	cháu trai
+grape	nho
+graphite	than chì
+grass	cỏ
+grass mud horse	ngựa cỏ bùn
+grass script	thảo thư
+grasshopper	châu chấu
+grateful	biết ơn
+grater	bàn mài
+grave	mộ
+gravestone	bia mộ
+graveyard	nghĩa trang
+gravity	trọng lực
+gray	xám
+grease	mỡ
+great	tuyệt
+great britain	Đại Anh
+great lakes	Ngũ Đại Hồ
+great leap forward	Đại nhảy vọt
+great pyramid of giza	Kim tự tháp Cheops
+great wall of china	Vạn Lý Trường Thành
+great-grandchild	chắt
+great-grandfather	cụ ông
+great-grandmother	cụ bà
+greater london	Đại Luân Đôn
+greco-	Hy Lạp
+greece	Hy Lạp
+greek	Hy Lạp
+green	xanh
+green pepper	ớt xanh
+green tea	trà xanh
+greengrocer	người bán rau cải
+greenhouse effect	hiệu ứng nhà kính
+greenland	Greenland
+greens	rau
+gregorian calendar	lịch Gregorius
+grenade	lựu đạn
+grill	nướng vĩ
+grim reaper	tử thần
+grip	nắm chặt
+gross domestic product	tổng sản phẩm nội địa
+grow	trưởng thành
+grue	xanh
+guangdong	Quảng Đông
+guangxi	Quảng Tây
+guangzhou	Quảng Châu
+guanyin	Quan Âm
+guava	ổi
+guess	đoán
+guest	khách
+guest room	phòng trọ
+guesthouse	nhà khách
+guide book	sách hướng dẫn
+guilin	Quế Lâm
+guilt	điều sai quấy
+guinea	Guinea
+guinea pig	chuột lang
+guitar	đàn ghi-ta
+guiyang	Quý Dương
+guizhou	Quý Châu
+gujarat	Gujarat
+gulf	vịnh
+gulf of finland	vịnh Phần Lan
+gulf of mexico	vịnh Mexico
+gum	lợi
+gun	bắn
+gunpowder	thuốc súng
+guqin	cổ cầm
+guyana	Guyana
+gymnasium	thể dục
+gypsy	digan
+gyrus	hồi não
+habit	tập quán
+hackberry	cơm nguội
+hacker	hacker
+haematology	huyết học
+hafnium	hafini
+hagia sophia	Hagia Sophia
+haha	ha ha
+haikou	Hải Khẩu
+hail	mưa đá
+hail mary	Kinh Kính Mừng
+hainan	Hải Nam
+hair	tóc
+hairdresser	thợ cắt tóc nữ
+haiti	Haiti
+haitian creole	tiếng Hai Ti
+hakka	Khách Gia
+halcyon days	những ngày thanh bình
+half	nửa
+half past	một giờ rươi
+halloween	Halloween
+halva	bánh hanva
+hamate bone	xương móc
+hamburger	hambua
+hamlet	xóm
+hammer	búa
+hammer and sickle	búa và liềm
+hammock	cái võng
+hamster	chuột đồng
+han	nhà Hán
+han chinese	người Hán
+hand	tay
+handan	Hàm Đan
+handbag	túi xách tay
+handball	banh để liệng
+handkerchief	khăn tay
+handsaw	cưa tay
+hang	treo
+hanger	móc
+hangover	dựng xiên
+hangzhou	Hàng Châu
+hanoi	Hà Nội
+hanyu pinyin	Bính âm Hán ngữ
+happen	xảy ra
+happiness	hạnh phúc
+happy	mừng
+happy birthday	chúc mừng sinh nhật
+happy new year	chúc mừng năm mới
+harbin	Cáp Nhĩ Tân
+harbour	hải cảng
+hard	khó
+hard disk	ổ đĩa cứng
+hard disk drive	ổ đĩa cứng
+hard drive	ổ đĩa cứng
+hard rock	hard rock
+hardworking	chăm chỉ
+hare	thỏ rừng
+harpsichord	đàn clavico
+harvard	Harvard
+harvest	mùa màng
+haryana	Haryana
+hashish	hasit
+hat	mũ
+hate	ghét
+hatred	sự ghét
+havana	La Habana
+have	có
+have a bun in the oven	đeo ba lô ngược wear a backpack on the front
+have eyes bigger than one's stomach	con mắt lớn hơn cái bụng
+have sex	giao cấu
+have to	phải
+hawk	chim ưng
+hawthorn	sơn tra
+hay	cỏ khô
+hazelnut	hạt phỉ
+he	[young man] anh ấy
+head	đầu
+head louse	chấy
+head of state	nguyên thủ quốc gia
+head to toe	từ đầu đến đuôi [literally
+headache	chứng nhức đầu
+headlamp	đèn pha
+headland	mũi đất
+headmaster	hiệu trưởng
+headquarters	trụ sở
+headscarf	khăn trùm đầu
+headwaiter	người đầu bếp
+health	sức khỏe
+healthy	khỏe mạnh
+hear	nghe
+hearing	thính giác
+heart	trái tim
+heart attack	nhồi máu cơ tim
+heater	bếp lò
+heaven	trời
+heavenly stem	thiên can
+heavy	nặng
+hebei	Hà Bắc
+hebrew	tiếng Hê-brơ
+hectometre	hectomet
+hedgehog	nhím
+heel	gót
+hefei	Hợp Phì
+height	độ cao
+heihe	Hắc Hà
+heilongjiang	Hắc Long Giang
+heir	người thừa kế
+helicopter	máy bay lên thẳng
+helium	heli
+hell	địa ngục
+hello	a-lô
+helmet	mũ bảo hiểm
+help	giúp
+helpful	hay giúp đỡ
+hemisphere	bán cầu
+hemoglobin	hemoglobin
+hemorrhoid	trĩ
+hemp	cây gai dầu
+hen	gà mái
+henan	Hà Nam
+hepatitis	bệnh viêm gan
+hepburn	hệ phiên âm La-tinh Hepburn
+herb	cỏ
+herd	bầy
+here	đây
+here you are	của bạn đây
+heritage	di sản
+hermaphrodite	người ái nam ái nữ
+hero	anh hùng
+herod	Herod
+heroin	bạch phiến
+heron	con diệc
+herring	cá trích
+hertz	hertz
+hertzsprung-russell diagram	biểu đồ Hertzsprung-Russell
+heterosexual	dị tính luyến ái
+hexagon	hình sáu góc
+hey	ê
+hezbollah	Hezbollah
+hi	chào (depending on the relationship between speaker and person addressed
+hibernate	ngủ đông
+hiccup	cái nấc
+hidden	ẩn
+hide	giấu
+high	cao
+hill	đồi
+hindi	tiếng Hin-đi
+hindu	Ấn Độ giáo
+hinduism	Ấn-độ giáo
+hinny	con la
+hippodrome	trường đua ngựa
+hippopotamus	lợn nước
+hiragana	hiragana
+his	của anh ấy
+historical	thuộc về sử học
+history	lịch sử
+hit	đập
+hmong	H'Mông
+ho chi minh city	Thành phố Hồ Chí Minh
+hobby	sở thích riêng
+hockey	khúc côn cầu
+hoe	cái cuốc
+hogshead	Bơrin
+hohhot	Hô Hòa Hạo Đặc
+hokkaido	Hokkaido
+hokkien	tiếng Mân Nam
+hold	giữ
+holiday	ngày lễ
+holiday-maker	người đi nghỉ mát
+holland	Hà Lan
+holmium	holmi
+holocaust	Holocaust
+holy	thánh
+holy father	Chúa Cha
+holy land	Đất Thánh
+holy roman empire	Đế quốc La Mã Thần thánh
+holy see	Tòa Thánh
+holy shit	vãi
+holy spirit	Thánh Thần
+home	nhà
+home page	trang chủ
+homeland	quê hương
+hometown	quê hương
+homophobia	ghê sợ đồng tính luyến ái
+homosexual	đồng tính
+homosexuality	tính tình dục đồng giới
+honey	mật ong
+honeymoon	tuần trăng mật
+hong kong	Hồng Kông
+hongweibing	hồng vệ binh
+honorific	kính ngữ
+honour	danh dự
+hookah	shisha
+hooray	hoan hô
+hope	hy vọng
+horn	râu
+horny	nứng
+horror	sự khiếp
+horror movie	phim kinh dị
+horse	mã
+horse-leech	đỉa trâu
+horsemeat	thịt ngựa
+horsepower	mã lực
+horseshoe	móng ngựa
+horticulture	nghề làm vườn
+hose	cái cuốc
+hospital	bệnh viện
+hot	cay
+hot chocolate	nước sôcôla
+hot pot	lẩu
+hotel	khách sạn
+hour	giờ
+house	nhà
+house warming	ăn mừng nhà mới
+housekeeper	bà quản gia
+how	thế nào
+how are you	bạn khỏe không?
+how come	tại sao
+how long	bao lâu
+how many	mấy [below ten]
+how much	mấy [below ten]
+how much does it cost	cái này giá bao nhiêu?
+how old are you	bạn bao nhiêu tuổi?
+however	tuy nhiên
+hsinchu	Tân Trúc
+hsk	kiểm tra trình độ tiếng Hán
+hu	Hồ
+huai'an	Hoài An
+huaibei	Hoài Bắc
+huainan	Hoài Nam
+hualien	Hoa Liên
+huang he	Hoàng Hà
+huaqiao	hoa kiều
+hubby	[informally] ông xã
+hubei	Hồ Bắc
+hue	Huế
+hug	ôm
+huh	ủa
+hui	người Hồi
+huizhou	Huệ Châu
+human	con người
+human being	con người
+human right	nhân quyền
+human rights	nhân quyền
+humanism	nhân văn chủ nghỉa
+humankind	loài người
+humble	hạ thấp
+humerus	xương cánh tay
+humid	ẩm
+humour	sự hài hước
+hump	bướu
+humus	mùn
+hunan	Hồ Nam
+hundred	một trăm
+hundred thousand	trăm nghìn
+hungarian	Hung-ga-ri
+hungary	Hungary
+hunger	đói
+hungry	đói
+hunt	săn bắn
+hunter	người đi săn
+huqin	hồ cầm
+hurrah	hoan hô
+hurricane	bão
+hurry	mau lên
+hurry up	mau lên
+hurt	đau
+husband	chồng
+hush up	ỉm
+hydra	Hydra
+hydrate	hydrat
+hydrofoil	tàu cánh ngầm
+hydrogen	hiđrô
+hydrology	thủy văn học
+hydrolysis	sự thuỷ phân
+hyena	linh cẩu
+hygiene	vệ sinh
+hymen	màng trinh
+hyper-	siêu
+hypersexuality	chứng cuồng dâm
+hypertrophy	sự nở to
+hypocrisy	đạo đức giả
+hypocrite	kẻ đạo đức giả
+hypothyroidism	sự giảm hoạt động của tuyến giáp
+hypotrochoid	nội trocoit
+hysteria	ittêri
+i am english	tôi là người Anh
+i ching	Kinh Dịch
+i don't know	tôi không biết [polite]
+i don't speak english	tôi không nói được tiếng Anh
+i don't think so	tôi không nghĩ vậy
+i don't understand	tôi không hiểu
+i have a question	tôi có một câu hỏi
+i have no money	tôi không có tiền
+i like you	[man to a woman] anh thích em
+i live in melbourne	tôi sống ở Melbourne
+i love you	em yêu anh [woman to man]
+i need a doctor	tôi cần bác sĩ
+i need a drink	tôi đang khát
+i need an interpreter	tôi cần thông dịch viên
+i need your help	tôi cần sự giúp đỡ của bạn
+i think therefore i am	tôi tư duy
+i told you so	tôi đã nói như thế rồi mà
+i want to go to the toilet	tôi muốn đi nhà vê sinh
+i'm	tôi là
+i'm a christian	tôi là người theo đạo Cơ đốc
+i'm a muslim	tôi là người Hồi
+i'm blind	tôi đui mù
+i'm fine	tôi khỏe
+i'm hungry	tôi đói
+i'm jewish	tôi là người Do thái
+i'm looking for a job	tôi đang tìm một công việc
+i'm married	tôi đã lập gia-đình
+i'm not religious	tôi không tôn giáo
+i'm scared	tôi sợ
+i'm sick	tôi bị bệnh
+i'm single	tôi độc thân
+i'm sorry	xin lỗi
+i'm thirsty	tôi đang khát
+i'm tired	tôi mệt
+i've	tôi có
+ibuprofen	ibuprofen
+ice	băng
+ice age	kỷ băng hà
+ice cream	kem
+iceberg	núi băng trôi
+icebreaker	tàu phá băng
+iceland	Iceland
+ichthyology	ngư học
+icicle	cột băng
+icon	điển hình
+idea	ý định
+ideal	lý tưởng
+idiom	thành ngữ
+idiot	thằng ngốc
+if	nếu mà
+igneous rock	đá mácma
+ignorance	sự thiếu hiểu biết
+ignorance is bliss	ngu si hưởng thái bình
+iguana	kỳ nhông
+ikebana	ikebana
+ill	bệnh
+illness	sự đau yếu
+illumination	bôi lên {f}
+illustrious	có tiếng
+imitate	nhái
+immigrant	dân nhập cư
+immigration	sự nhập cư
+imperative mood	mệnh lệnh cách 命令格
+import	nhập khẩu
+important	quan trọng
+improve	cải thiện
+in	ở
+in front of	phía trước
+in order to	để
+in other words	nói cách khác
+incest	loạn luân
+income tax	thuế thu nhập
+inconvenient	bất tiện
+increase	tăng
+incredible	khó tin
+incredibly	khó tin nổi
+independence	độc lập
+index	chỉ số
+india	Ấn Độ
+indian	người Ấn độ
+indian myna	sáo nâu
+indian ocean	Ấn Độ Dương
+indianapolis	Indianapolis
+indigo	cây chàm
+indium	indi
+indo-	Ấn
+indochina	Đông Dương
+indonesia	Indonesia
+indonesian	tiếng In-đô-nê-xi-a
+industrialization	sự công nghiệp hoá
+industry	công nghiệp
+inexpensive	rẻ
+infant	trẻ sơ sinh
+infantry	bộ binh
+infantryman	bộ binh
+infarct	nhồi máu
+inferiority complex	mặc cảm tự ti
+inferno	địa ngục
+infertility	vô sinh
+infinitive	lối vô định
+infinity	vô cực
+inflation	sự tăng giá
+inflorescence	sự nở hoa
+information	thông tin
+information technology	công nghệ thông tin
+infrakingdom	phân thứ giới
+infrared	hồng ngoại
+ingredient	thành phần
+initial	thanh mẫu
+injury	sự làm hại
+ink	mực
+inkwell	lọ mực
+inn	quán trọ
+innate	bẩm sinh
+inner mongolia	Nội Mông
+innkeeper	chủ quán trọ
+insane	điên
+insanity	tính trạng điên
+insect	sâu bọ
+insomnia	mất ngủ
+inspection	sự kiểm tra
+instead	thay vì
+instead of	thay vì
+instinct	bản năng
+instrumental case	tạo cách
+insulin	insulin
+insurgent	người khởi nghĩa
+intellectual property	sở hữu trí tuệ
+intelligence quotient	chỉ số thông minh
+intelligent	thông minh
+intelligentsia	giới trí thức
+interbeing	Tiếp Hiện
+interjection	thán từ
+interlingua	Interlingua
+internal combustion engine	động cơ đốt trong
+international	quốc tế
+international monetary fund	Quỹ tiền tệ quốc tế
+international phonetic alphabet	bảng mẫu tự phiên âm quốc tế
+internationale	Quốc tế ca
+internet cafe	cà phê internet
+interphalangeal	gian đốt
+interpret	dịch
+interpreter	thông dịch viên
+interval	khoảng thời gian
+interview	sự gặp gỡ
+intestine	ruột
+intonation	ngữ điệu
+intricate	phức tạp
+introduce	giới thiệu
+introduction	giới thiệu
+invade	xâm lược
+invader	kẻ xâm lược
+invasion	sự xâm lược
+invent	phát minh
+invention	phát minh
+invertebrate	động vật không xương sống
+invest	đầu tư
+investment	sự đầu tư
+investor	người đầu tư
+invite	mời
+invoice	hóa đơn {c}
+iodine	iot
+iowa	Iowa Ai-ô-òa
+iran	Iran
+ireland	Ireland
+iridium	iriđi
+iris	diên vĩ
+irkutsk	Irkutsk
+iron	ủi
+iron curtain	bức màn sắt
+irrawaddy	Ayeyarwaddy
+is that so	thế à?
+isinglass	thạch
+islam	Hồi giáo
+island	đảo
+islet	hòn đảo nhỏ
+isn't it so	phải không?
+israel	Israel
+isthmus	eo đất
+it	nó
+it's all greek to me	nói tiếng Miên
+it's raining	trời đang mưa
+it's too expensive	giá đắt quá
+italian	Ý
+italo-	Ý
+italy	Ý
+ivory	ngà voi
+ivory tower	tháp ngà
+izhevsk	Izhevsk
+j-pop	J-Pop
+jacket	áo vét tông
+jackfruit	trái mít
+jackson	Jackson
+jacob	Giacôbê
+jade	ngọc thạch
+jakarta	Jakarta
+jam	mứt
+jamaica	Jamaica
+jammu and kashmir	Jammu và Kashmir
+jamo	chamo
+january	tháng giêng
+japan	Nhật Bản
+japanese	Nhật
+japanese giant hornet	ong bắp cày khổng lồ châu á
+japanese knotweed	cốt khí
+japanification	Nhật hóa
+jar	hủ
+jarbua terapon	Cá Căng cát
+jasmine	lài
+jaw	hàm
+jazz	nhạc jazz
+jeans	jeans
+jehovah	Giê-hô-va
+jehovah's witnesses	Nhân chứng Giê-hô-va
+jellyfish	sứa
+jerusalem	Jerusalem
+jerusalem artichoke	cúc vu
+jesus	Giêsu
+jesus christ	Chúa Giê-su Ki-tô
+jet plane	máy bay phản lực
+jew	người Do Thái
+jew's harp	đàn môi
+jewess	người Do Thái [gender-neutral]
+jewish	Do thái
+jiamusi	Giai Mộc Tư
+jiangmen	Giang Môn
+jiangsu	Giang Tô
+jiangxi	Giang Tây
+jilin	Cát Lâm
+jinan	Tể Nam
+jlpt	kiểm tra trình độ tiếng Nhật
+job	công việc
+john	Gioan [Catholic]
+john the baptist	Gioan Baotixita [Catholic]
+joint venture	liên doanh
+joint-stock company	công ty cổ phần
+joke	đùa
+joseph	Giuse
+joss paper	đồ mã
+jot	chút
+journalism	nghề làm báo
+journalist	nhà báo
+journey	cuộc hành trình
+judaism	Do thái giáo
+judas	Giuđa
+judge	thẩm phán
+judo	judo
+juggling	tung hứng
+juice	nước ép
+jujitsu	nhu thuật
+jujube	táo tàu
+july	tháng bảy
+june	tháng 6
+junk	ghe
+jupiter	thần Jupiter
+just	chỉ
+k-pop	K-Pop
+kabuki	kịch kabuki
+kagawa	Kagawa
+kalach	bánh ca-lát
+kaliningrad	Kaliningrad
+kamchatka	Kamchatka
+kampuchea	Căm Bốt
+kana	kana
+kanazawa	Kanazawa
+kangaroo	canguru
+kanji	Chữ Kanji
+kaohsiung	Cao Hùng
+kaolin	caolin
+karaoke	caraôkê
+karnataka	Karnataka
+katakana	katakana
+kathmandu	Kathmandu
+kathoey	kathoey
+kay	ca
+kazakhstan	Ka-dắc-xtan
+kazan	Kazan
+kazoo	nhạc ống sáo ca-du
+keelung	Cơ Long
+keep	giữ
+keep quiet	im lặng
+kefir	rượu kêfia
+kelp	tảo bẹ
+kemerovo	Kemerovo
+kenya	Kenya
+kestrel	chim cắt
+ketchup	nước xốt cà chua
+ketone	xeton
+key	phím
+key fob	móc chìa khoá
+keyboard	bàn phím
+keyhole	lỗ khoá
+khabarovsk	Khabarovsk
+khaki	màu kaki
+khan	hãn
+kharkiv	Kharkiv
+khmer	tiếng Khơ-Me
+khmer rouge	Khmer Đỏ
+khrushchev	Khrushchyov
+kick	đá
+kickboxing	quyền cước
+kidnap	bắt cóc
+kidnapping	sự bắt cóc
+kidney	thận
+kiev	Kiev
+kievan rus	Rus Kiev
+kill	giết
+kill time	giết thời gian
+killer	người giết
+kiln	lò
+kilogram	kilôgam
+kilometre	cây số
+kim	Kim
+kimono	kimono
+kind	loại
+kindergarten	mẫu giáo
+kindle	nhóm
+kinetic energy	động năng
+kinetics	động lực học
+king	vua
+kingdom	giới
+kingdom of thailand	Vương quốc Thái Lan
+kingfisher	bói cá
+kip	kíp
+kiss	hôn
+kiss me	hôn tôi
+kitchen	nhà bếp
+kite	vẹt
+kitten	mèo con
+kiwi fruit	trái ki wi
+knee	đầu gối
+knife	dao
+knight	hiệp sĩ
+knit	đan
+knock	gõ
+know	biết
+knowledge	tri thức
+koala	koala
+kobe	Thần Hộ
+kofu	Kōfu
+kohlrabi	su hào
+kolkhoz	nông trường tập thể
+komi	tiếng Komi
+komsomol	Côm-xô-môn
+komsomolsk	Komsomolsk
+kopi luwak	cà phê chồn
+korea	Triều Tiên Đại Hàn [both Koreas]
+korea strait	eo biển Triều Tiên
+korean	tiếng Hàn Quốc
+korean peninsula	bán đảo Triều Tiên
+koumiss	rượu sữa ngựa
+kowtow	khấu đầu
+krasnodar	Krasnodar
+kremlin	Kremli
+krypton	kripton
+ku klux klan	Ku Klux Klan
+kuala lumpur	Kuala Lumpur
+kulak	phú nông
+kumquat	cẩm quất or less commonly kim quất is the Sino-Vietnamese prefix for "fruit")
+kung fu	võ thuật Trung Quốc [literally wushu]
+kunming	Côn Minh
+kurdish	tiếng Kurd
+kuril islands	quần đảo Kuril
+kursk	Kursk
+kuwait	Cô-oét
+kvass	nước cơvat
+kyoto	Kyoto
+kyrgyzstan	Kyrgyzstan
+la	la
+laboratory	phòng thí nghiệm
+labour	lao động
+lack	thiếu
+ladder	thang
+ladle	cái môi
+ladybird	bọ cánh cứng
+lagoon	phá
+lagrange point	điểm Lagrange
+lake	hồ
+lakh	ức
+lamb	cừu con
+lamp	đèn
+lampshade	chụp đèn
+land	đất
+land mine	mìn
+landscape	phong cảnh
+language	tiếng
+language exchange	trao đổi ngôn ngữ
+language family	ngữ hệ
+langur	voọc
+lanthanum	lantan
+lanzhou	Lan Châu
+lao	Lào
+lao people's democratic republic	Cộng hòa Dân chủ Nhân dân Lào
+laos	Lào
+laozi	Lão Tử
+lapis lazuli	đá da trời
+laptop	máy tính xách tay
+larch	thông rụng lá
+large	rộng
+lark	chim chiền chiện
+larynx	thanh quản
+laser	la-de
+last	cuối cùng
+last year	năm ngoái
+late	trể
+latin	La Mã
+latin america	Mỹ Latinh
+latinization	Latinh hóa
+latitude	vĩ độ
+laugh	cười
+laughter	tiếng cười
+lava	lava
+law	pháp luật
+lawn	bãi cỏ
+lawrencium	lorenxi
+lawyer	luật sư
+lay	đẻ trứng
+lazio	Lazio
+lazy	lười biếng
+lazybones	kẻ lười biếng
+lead	chì
+leader	lãnh đạo
+leaf	lá
+league of nations	Hội Quốc Liên
+leak	tiết lộ
+leap	bước nhảy
+learn	học
+leather	da thuộc
+leave	bỏ
+leech	đỉa
+leek	tỏi tây
+left	trái
+left-wing	cánh tả
+leg	chân
+legalise	hợp pháp hoá
+legalization	sự hợp pháp hoá
+lemon	vị chanh
+lemur	vượn cáo
+length	chiều dài
+lenin	Lê nin
+leninism	chủ nghia Lê nin
+lent	Mùa Chay
+lentil	đậu lăng
+leo	Sư Tử
+leopard	báo
+leprosy	phong cùi
+lesotho	Lesotho
+lesson	bài
+let	trở [literally: to give]
+let there be light	phải có sự sáng
+let's	hãy
+let's go	hãy đi
+letter	chư
+lettuce	rau diếp
+leukocyte	bạch huyết cầu
+leveret	thỏ con
+lexical item	đơn vị từ vựng
+lexicography	từ điển học
+lhasa	Lhasa
+li	Lý
+liaoning	Liêu Ninh
+liar	kẻ nói dối
+libation	sự rảy ra
+liberalism	chủ nghĩa tự do
+liberate	giải phóng
+liberation	giải phóng
+liberia	Liberia
+librarian	thủ thư
+library	thư viện
+lid	nắp
+lie	nói dối
+liechtenstein	Liechtenstein
+life	đời sống
+life insurance	bảo hiểm nhân thọ
+lift	thang máy
+ligament	dây chằng
+ligand	phối tử
+light	nhẹ
+light bulb	bóng đèn
+light year	năm ánh sáng
+lighter	bật lửa
+lightfast	bền
+lighthouse	hải đăng
+lightning	chớp
+lightspeed	tốc độ ánh sáng
+lijiang	Lệ Giang
+like	như
+like water off a duck's back	như nước đổ đầu vịt
+lily	hoa bách hợp
+lime	vôi
+limestone	đá vôi
+limited liability company	công ty trách nhiệm hữu hạn
+linear algebra	đại số tuyến tính
+lingerie	đồ lót
+linguistics	ngôn ngữ học
+lingzhi	nấm linh chi
+linyi	Lâm Nghi
+lion	sư tử
+lioness	sư tử cái
+lip	môi
+lipstick	cây son
+liqueur	rượu mùi
+liquid	nước
+lisbon	Lisboa
+listen	nghe
+literature	văn chương
+lithium	lithi
+lithium hydride	hiđrua liti
+lithuania	Lítva
+litre	lít
+little	ít
+little brother	em trai
+little by little	dần dần
+little finger	ngón út
+little red riding hood	cô bé quàng khăn đỏ
+little sister	em gái
+liuzhou	Liễu Châu
+live	ở
+liver	gan
+livermorium	livermori
+lizard	con thằn lằn
+ljubljana	Ljubljana
+loan	cho mượn
+loanword	từ vay mượn
+lobster	tôm hùm
+local	địa phương
+location	vị trí
+locative case	giới cách
+lock	khóa
+locust	con châu chấu
+loess	hoàng sa
+log out	đăng xuất
+loganberry	thực quả mâm xôi
+logarithm	đối số
+logic	luận lý
+london	Luân Đôn
+loneliness	sự cô đơn
+long	lâu
+long live	vạn tuế
+long time no see	lâu quá không gặp
+longan	nhãn
+longevity	sự sống lâu
+longitude	kinh độ
+longyearbyen	Longyearbyen
+look	nhìn
+look for	tìm
+loose	rộng
+loquat	nhót tây
+los angeles	Lốt An giơ lét
+lose	mất
+lose face	mất mặt
+loss	mất
+lost	bị mất
+lotus	Họ Sen
+loudspeaker	loa
+louse	con rận
+love	yêu
+love song	tình ca
+lovely	dễ thương
+lover	người yêu
+low	thấp
+loyal	trung thành
+lucky	may
+luggage	hành lý
+luke	Luca [Catholic]
+lukewarm	ấm
+lullaby	hát ru
+lumbago	y chứng đau lưng
+lunar calendar	âm lịch
+lunar eclipse	nguyệt thực
+lunarian	người Mặt Trăng
+lunch	ăn trưa
+lung	phổi
+lung cancer	ung thư phổi
+lungi	khăn quấn
+luoyang	Lạc Dương
+luster	ánh
+lute	đàn luýt
+lutetium	Luteti
+luthier	thợ làm đàn
+luxembourg	Luxembourg
+luxurious	sang trọng
+lychee	vải
+lye	nước gio
+lymph node	hạch bạch huyết
+lyrics	thơ tình
+lysosome	tiêu thể
+ma	Mã
+macaque	khỉ
+macaroni	macarôni
+macau	Ma Cao
+macedonia	cộng hòa Macedonia
+machine	máy
+machine language	ngôn ngữ máy
+mackerel	cá thu
+mad	điên
+madhya pradesh	Madhya Pradesh
+madrid	Madrid
+maebashi	Maebashi
+mafia	xã hội đen
+magazine	tạp chí
+magenta	màu đỏ sậm
+magician	phù thủy
+magma	macma
+magnesium	magiê
+magnet	nam châm
+magnetosphere	quyển từ
+magnolia	ngọc lan
+magpie	chim ác là
+mahjong	mạt chược
+mahout	quản tượng
+maid	con gái
+maiden	gái trinh
+maiden name	tên thời con gái
+mailbox	hòm thư
+mailman	người đưa thư
+main	chính
+mainland	đại lục
+mainland china	Trung Quốc đại lục
+mainlander	người ở đất liền
+maize	bắp
+make	làm
+make love	làm tình
+make out	chim nhau
+makhorka	thuốc lào
+malaria	bệnh sốt rét
+malay	tiếng Mã-lai
+malaysia	Malaysia
+malt	mạch nha
+maltose	đường mạch nha
+mammal	loài thú
+mammoth	voi ma mút
+man	người
+manager	người quản lý
+manchuria	Mãn Châu
+mandarin	Quan thoại
+mandarin orange	quýt hồng
+manga	manga
+mangalore	Mangalore
+manganese	mangan
+mango	xoài
+mangosteen	quả măng cụt
+manicure	sửa móng tay
+manifest	biểu hiện
+manitoba	Manitoba
+mankind	đàn ông
+manslaughter	tội giết người
+many	nhiều
+many a mickle makes a muckle	tích tiểu thành đại
+many thanks	cảm ơn nhiều
+manzhouli	Mãn Châu Lý
+mao	Mao
+maoism	chủ nghĩa Mao
 map	bản đồ
+maple	phong
+march	tháng ba
+margarine	bơ thực vật
+marigold	hoa vạn thọ
+marijuana	cần sa
+marine corps	thủy quân lục chiến
+mark	Máccô [Catholic]
+marker pen	đánh dấu
+market	chợ
+market economy	nền kinh tế thị trường
+marmalade	mứt cam
+maroon	hạt dẻ
+marquess	hầu tước
+marriage	hôn nhân
+marriage agency	cơ quan hôn nhân
+married	kết hôn
+marry	gả
+mars	Sao Hoả
+marshmallow	kẹo dẻo
+marsupial	thú có túi
+martial art	môn võ
+martial law	giới nghiêm
+marx	Marx
+marxism	chủ nghĩa Mác
+marxism-leninism	chủ nghĩa Marx-Lenin
+mary	Maria
+mascara	thuốc bôi mi mắt
+masculine	nam tính
+mass	thánh lễ
+mass media	phương tiện
+mass number	số khối
+mast	cột buồm
+masterpiece	kiệt tác
+masturbate	thủ dâm
+masturbation	sự thủ dâm
+match	đấu
+matchstick	diêm
+material	vật chất
+maternal grandfather	ông ngoại
+maternal grandmother	bà ngoại
+maternal uncle	cậu [for both elder and younger than mother
+mathematics	toán học
+matsue	Matsue
+matter	vật chất
+matthew	Mátthêu [Catholic]
+matthias	Mátthia
+mattress	nệm
+mauritius	Mauritius
+mausoleum	lăng mộ
+mauve	cẩm quỳ
+may	tháng năm
+maybe	có lẽ
+mayor	thị trưởng
+me	cho mình
+me too	tôi cũng vậy
+meal	bữa
+meaning	nghĩa
+measles	bệnh sởi
+measure word	lượng từ
+meat	thịt
+meatgrinder	máy băm thịt
+mechanic	thợ máy
+mechanics	lực học
+medal	huy chương
+medication	phép trị liệu
+medicine	thuốc
+meditation	ngồi thiền
+mediterranean sea	Địa Trung Hải
+meet	gặp
+meeting	hội nghị
+megahertz	mêga Hertz
+megametre	megamet
+megaton	triệu tấn
+mekong	sông Mê Kông
+melon	dưa tây
+memoir	hồi ký
+memorial day	Lễ Chiến sĩ trận vong
+memorize	ghi nhớ
+memory	trí nhớ
+mendelevium	menđelevi
+menstruation	chu kỳ kinh nguyệt
+mention	đề cập
+menu	thực đơn
+meow	ngoao
+mercenary	lính đánh thuê
+merchant	thương gia
+mercury	thuỷ
+merkel	Merkel
+mermaid	mỹ nhân ngư
+merry	vui
+merry christmas	chúc mừng Giáng sinh
+merry-go-round	trò kéo quân
+mesa	núi mặt bàn
+messiah	Đấng Mê-si
+metabolism	trao đổi chất
+metadata	siêu dữ liệu
+metal	kim loại
+metamorphic rock	đá biến chất
+metamorphosis	sự biến thái
+metaphor	ẩn dụ
+metaphysics	siêu hình học
+meteor	sao băng
+meteorite	thiên thạch
+meteorology	khí tượng học
+metonymy	phép hoán dụ
+metre	mét
+metro	metro
+metropolis	siêu đô thị
+mexico	México
+miai	dạm ngõ
+micah	Mi-cheâ
+microbe	vi trùng
+microbiology	vi sinh vật học
+microchip	mạch vi xử lý
+microcomputer	máy tính nhỏ
+micrometer	micrômet
+microorganism	vi trùng
+microphone	máy vi âm
+microscope	kính hiển vi
+microwave	máy hâm nóng
+mid-autumn festival	Tết Trung Thu
+middle	giữa
+middle ages	Trung cổ
+middle east	Trung Đông
+middle finger	ngón giữa
+middle of nowhere	khỉ ho cò gáy
+midnight	ban đêm
+midwife	bà đỡ
+midwifery	sản khoa học
+mikado	Ngự Môn
+militarism	chũ nghĩa quân phiệt
+milk	sữa
+milkmaid	cô gái vắt sữa
+milkman	người bán sữa
+milkshake	loại kem sưa
+milky way	Ngân Hà
+mill	cối xay
+millennium	thiên niên kỷ
+millet	cây kê
+milliard	tỷ
+milligram	miligam
+millimetre	milimet
+million	triệu
+millionaire	nhà triệu phú
+millisecond	một phần nghìn giây
+mimic	nhái
+min bei	Mân Bắc
+min nan	tiếng Mân Nam
+mind	tinh thần
+mine	mỏ
+mineral	khoáng sản
+mineral water	nước khoáng
+mineralogy	vật học
+minimum	tối thiểu
+minion	kẻ nô lệ
+ministry	bộ
+minsk	Minsk
+minuscule	chữ nhỏ
+minute	phút
+miracle	phép lạ
+mirage	ảo ảnh
+mirror	gương
+miscarriage	sự sẩy thai
+miss	cô
+missile	tên lửa
 mission	nhiệm vụ
-objective	mục tiêu
-tutorial	hướng dẫn
-settings	cài đặt
-options	tùy chọn
-volume	âm lượng
-exit	thoát
-quit	thoát
-retry	thử lại
-skip	bỏ qua
-yes	có
+missionary	người truyền giáo
+mistake	lỗi
+mito	Mito
+mitochondrion	ti thể
+mitosis	nguyên phân
+mixed marriage	hôn nhân hỗn hợp
+miyazaki	Miyazaki
+mobile phone	điện thoại di động
+mobocracy	sự thống trị của quần chúng
+model	người mẫu
+modem	modem
+modern greek	tiếng Hy Lạp hiện đại
+modernization	sự hiện đại hoá
+modest	khiêm tốn
+modification	sửa đổi
+molar	răng hàm
+moldova	Moldova
+mole	nốt ruồi
+mole cricket	dế trũi
+molecule	phân tử
+mollusc	động vật thân mềm
+molotov cocktail	chai cháy
+molybdenum	molypđen
+moment	mô men
+monarchic	quân chủ
+monarchy	quân chủ
+monastery	tu viện
+monday	thứ hai
+money	tiền
+money laundering	rửa tiền
+mongolia	Mông Cổ
+mongolian	Mông Cổ
+monk	tu sĩ
+monkey	con khỉ
+monocle	kính một mắt
+monocotyledon	thực vật một lá mầm
+monopoly	Cờ Tỷ Phú
+monorail	đường một rầy
+monosodium glutamate	bột ngọt
+month	tháng
+montreal	Môn re an
+monument	đài tưởng niệm
+mood	tâm trạng
+moon	mặt trăng
+mooncake	bánh trung thu
+moonlight	ánh trăng
+moonshine	rượu ngang
+moose	nai anxet
+mop	cán lau nhà
+morality	đạo đức
+more	nhiều hơn
+morgue	nhà xác
+morning	buổi sáng
+morocco	Maroc
+morpheme	hình vị
+morphine	mocfin
+moscow	Moskva [modern]
+moses	Môi-se
+mosque	nhà thờ Hồi giáo
+mosquito	muỗi
+mosquito coil	nhang muỗi
+most	nhất
+mother	mẹ
+mother tongue	tiếng mẹ đẻ
+mother's day	ngày Hiền Mẫu
+motherland	quê hương
+motion	cử động
+motive	động cơ
+motor	động cơ
+motorcycle	xe mô tô
+motorway	đường cao tốc
+mountain	núi
+mountain range	dãy núi
+mountaineering	sự leo núi
+mouse	[mouse or rat] chuột
+mousetrap	bẫy chuột
+moustache	râu mép
+moutai	rượu Mao Đài
+mouth	miệng
+movement	cử động
+movie	phim
+movie star	minh tinh màn bạc
+mow	cắt
+mozambique	Mozambique
+mr	ông
+mrs	bà
+mucus	nước nhầy
+mud	bùn
+mudanjiang	Mẫu Đơn Giang
+mudslide	lở đất
+muggle	Muggle
+muhammad	Muhammad
+mulberry	trái dâu
+multimedia	đa phương tiện
+multiplicity	vô cùng
+mum	mẹ
+mumbai	Mumbai
+mummy	xác ướp
+munich	München
+murder	giết
+murderer	kẻ giết người
+muscle	cơ
+museum	nhà bảo tàng
+mushroom	nấm
+music	âm nhạc
+musical instrument	nhạc cụ
+musician	nhạc sĩ
+muslim	Hồi giáo
+mussel	trai
+must	phải
+mustard	mù tạc
+mutable	có thể thay đổi
+mute	thầm lặng
+my	của tôi
+my name is	tên của tôi là
+myanmar	Miến Điện
+mycology	môn học nấm
+myriad	vạn
+myrmecology	kiến học
+myrrh	hất nhựa thơm
+mysterious	thần bí
+mystery	bí ẩn
+nag	ỷ eo
+nagano	Nagano
+nagasaki	Nagasaki
+nagorno-karabakh	Nagorno-Karabakh
+nail	móng
+naked	khoả thân
+name	tên
+namibia	Namibia
+nanchang	Nam Xương
+nanjing	Nam Kinh
+nanning	Nam Ninh
+nanometre	nanômét
+nanotechnology	công nghệ nano
+nantong	Nam Thông
+nantou	Nam Đầu
+napalm	bom napan
+nape	gáy
+napkin	khăn ăn
+nara	Nara
+narrate	kể lại
+narrow	hẹp
+national anthem	quốc ca
+national day	ngày quốc khánh
+national debt	nợ quốc gia
+national emblem	quốc huy
+national park	vườn quốc gia
+national socialism	chủ nghĩa Quốc xã
+nationalisation	sự quốc gia hoá
+nationalism	chủ nghĩa dân tộc
+nationality	quốc tịch
+nato	NATO
+natural language	ngôn ngữ tự nhiên
+natural law	luật của tự nhiên
+natural science	khoa học tự nhiên
+nature	tính
+nautical mile	hải lý
+navel	rốn
+navy	hải quân
+navy blue	màu xanh nước biển
+nay	nói đúng hơn
+naypyidaw	Naypyidaw
+nazi	Quốc xã
+nazism	chủ nghĩa Quốc xã
+near	gần
+nearby	gần
+nearly	gần
+nebula	tinh vân
+neck	cổ
+necklace	chuỗi hạt
+necktie	cà vạt
+need	cần
+needle	cây kim
+neem	sầu đâu
+negligence	tính cẩu thả
+negro	người da đen
+neighbour	láng giềng
+neither	không X cũng không X
+neo-nazism	chủ nghĩa Quốc xã mới
+neodymium	neođim
+neon	neon
+nepal	Nepal
+nephrotoxicity	ngộ độc thận
+neptunium	neptuni
+nerve	thần kinh
+nerve cell	tế bào thần kinh
+nest	làm tổ
+netherlands	Hà Lan
+nettle	tầm ma
+network	mạng
+neurology	thần kinh học
+neuron	tế bào thần kinh
+neurosis	chứng loạn thần kinh chức năng
+neutrality	trung lập
+never	không bao giờ
+new	mới
+new testament	Tân Ước
+new world	thế giới mới
+new year	năm mới
+new york city	Thành phố New York
+new zealand	New Zealand
+news	tin tức
+news agency	hãng thông tấn
+newspaper	tờ báo
+newt	sa giông
+nexus	kết nối
+nguyen	Nguyễn
+nice	đẹp
+nickel	nikel
+nickname	tên hiệu
+nicotine	nhựa thuốc
+night	tối
+night market	chợ đêm
+nightfall	chạng vạng
+nightmare	ác mộng
+nine	chín
+nine o'clock	chín giờ
+nineteen	mười chín
+ninetieth	thứ chín mươi
+ninety	chín mươi
+ningbo	Ninh Ba
+ningxia	Ninh Hạ
+ninja	ninja
+ninjutsu	nhẫn thuật
+ninth	thứ chín
+niobium	niobi
+nipple	núm vú
+nippo-	Nhật
+nirvana	niết-bàn
+nit	trứng chấy
+nitrocellulose	nitroxeluloza
+nitrogen	nitơ
+nitroglycerine	nitroglyxerin
+nizhny novgorod	Nizhny Novgorod
 no	không
+no doubt	chắc chắn
+no idea	chẳng biết
+no one	không ai
+no problem	không sao
+no smoke without fire	không có lửa làm sao có khói
+no smoking	cấm hút thuốc
+nobelium	nobeli
+nobility	quí tộc
+noise pollution	ô nhiễm tiếng ồn
+nominalization	danh từ hoá
+nominative case	nguyên cách
+non-governmental organization	tổ chức phi chính phủ
+nonrepudiation	chống thoái thác
+noodle	mì sợi
+noon	buổi trưa
+normal	bình thường
+normalization	sự thông thường hoá
+north	phía bắc
+north america	Bắc Mỹ 北美)
+north carolina	Bắc Carolina
+north korea	Bắc Triều Tiên
+north pole	bắc cực
+northeast	phía đông bắc
+northern europe	Bắc Âu
+northern hemisphere	bắc bán cầu
+northwest	phía tây bắc
+norway	Na Uy
+norway maple	phong na uy
+norwegian	tiếng Na Uy
+nose	mũi
+nostalgia	[yearning for the past] hoài cổ
+nostril	lỗ mũi
+not	không
+not at all	không có gì [it’s nothing]
+not yet	chưa
+notebook	quyển vở
+nothing	không
+notion	khái niệm
+nougat	kẹo nu-ga
+noun	danh từ
+nourishment	dinh dưỡng
+novel	tiểu thuyết
+novelist	tiểu thuyết gia
+november	tháng mười một
+novgorod	Novgorod
+novokuznetsk	Novokuznetsk
+now	bây giờ
+nowadays	ngày nay
+nuclear reactor	lò phản ứng hạt nhân
+nuclear weapon	vũ khí hạt nhân
+nucleolus	hạch nhân
+nude	trần
+nudiustertian	ngày hôm kia
+number	số
+numeral	chữ số
+numerous	đông
+nun	xơ
+nunchaku	song tiết côn
+nuoc mam	nước mắm
+nuremberg	Nürnberg
+nurse	y tá
+nut	đậu
+nutcracker	cái kẹp để kẹp trái de
+nutmeg	hạt nhục đậu khấu
+nutrition	sự dinh dưỡng
+nylon	ni lông
+o'clock	một giờ
+oak	sồi
+oat	yến mạch
+obama	Obama
+obedience	sự nghe lời
+obesity	béo phì
+obi	dải lưng thêu
+object	đồ vật
+oblast	oblast
+obligation	nghĩa vụ
+oblivious	tỉnh bơ
+oboe	kèn ôboa
+observatory	đài thiên văn
+obsessive-compulsive disorder	rối loạn ám ảnh cưỡng chế
+obstetrics	sản khoa học
+obverse	phải
+occasionally	đôi khi
+occupation	sự chiếm đóng
+ocean	đại dương
+oceania	Châu Đại Dương
+oceanography	hải dương học
+ochre	thổ hoàng
+october	tháng mười
+octopus	bạch tuộc
+odisha	Orissa
+odour	mùi
+of	có
+of course	tất nhiên
+off	đi
+office	văn phòng
+officer	chỉ huy
+official	chánh thức
+often	thường
+oh	ồ
+oh my god	trời ơi
+ohio	Ohio
+oil	dầu
+oink	ủn ỉn
+ointment	bom mát
+oita	Ōita
+ok	tốt
+okra	mướp tây Northern
+okroshka	okroshka
+old	cũ
+old testament	Cựu Ước
+old world	Cựu Thế giới
+olive	ô liu
+olympic games	Thế vận hội
+olympus	núi Olympus
+omelette	món trứng tráng
+omsk	Omsk
+on	trên
+on foot	đi bộ
+once again	một lần nữa
+once upon a time	ngày xửa ngày xưa
+oncology	ung thư học
+one	ta
+one hundred million	trăm triệu
+one o'clock	một giờ
+onion	hành tây
+online	trực tuyến
+only	chỉ
+open	mở
+opera	ca kịch
+operating system	hệ điều hành
+operation	hoạt động
+ophthalmologist	bác sĩ chữa mắt
+ophthalmology	khoa mắt
+opinion	ý kiến
+opium	thuốc phiện
+opponent	đối thủ
+oppositionist	người phản đối
+optical	quang học
+optics	quang học
+or	hay
+oral sex	làm tình bằng miệng
+orange	cam
+orange county	Quận Cam
+orangutan	đười ươi
+orbit	quỹ đạo
+orchard	vườn cây ăn trái
+orchestra	dàn nhạc
+orchid	cây lan
+order	gọi món
+ordinal number	số thứ tự
+ordinate	tung độ
+ore	quặng
+orenburg	Orenburg
+organ	khí quan
+organization	tổ chức
+orgasm	cực khoái
+orient	Phương Đông
+ornithology	khoa nghiên cứu chim
+orphan	đứa trẻ mồ côi
+orphanage	trại trẻ mồ côi
+orthoclase	oc-to-cla
+orthodoxy	Chính Thống giáo Đông phương
+osaka	Ōsaka
+osmanthus	mộc tê
+osmium	osimi
+osteoporosis	chứng loãng xương
+ostrich	đà điểu
+other	khác
+otorhinolaryngology	khoa tai mũi họng
+otsu	Ōtsu
+ouch	úi da
+oud	Đàn Ả Rập
+our	của chúng tôi
+ours	của chúng tôi
+out	bật mí
+outback	xa xôi hẻo lán
+outer mongolia	Ngoại Mông
+outer space	vũ trụ
+outgrow	thành cao hơn
+outsource	thuê ngoài
+outsourcing	thuê ngoài
+ovary	buồng trứng
+oven	lò
+overcoat	áo măng tô
+overhear	nghe lén
+overnight	ở qua đêm
+overseas	hải ngoại
+overseas chinese	hoa kiều
+oviduct	noan quản
+ovum	trứng
+owl	con cú
+own	sở hữu
+ox	bò
+oxide	oxyt
+oxidize	làm gỉ
+oxygen	ôxy
+oyster	hàu
+oyster sauce	dầu hàu
+ozone	ozon
+paan	ăn trầu
+pacific ocean	Thái Bình Dương
+pacifism	chủ nghĩa hoà bình
+package	kiện hàng
+packet	gói
+paddy	ruộng lúa
+page	trang
+pager	máy nhắn tin
+pagoda	chùa
+pain	đau
+paint	sơn
+painter	họa sĩ
+painting	bức tranh
+pair	đôi
+pair of compasses	com-pa
+pakistan	Pakistan
+palace	cung điện
+palanquin	kiệu
+palestine	Palestine
+palladium	palađi
+palm	gan bàn tay
+palm sugar	đường thốt nốt
+panama canal	kênh đào Panama
+pancake	bánh tráng
+panchen lama	Ban-thiền Lạt-ma
+pancreas	tụy
+pangaea	Pangaea
+pangolin	tê tê
+pantheism	thuyết phiếm thần
+panther	báo đen
+panties	quần trẻ con
+pants	quần lót dài
+papaya	đu đủ
+paper	giấy
+paper money	tiền giấy
+papua new guinea	Papua New Guinea
+parabola	parabôn
+paracel islands	Quần đảo Hoàng Sa
+parachute	cái dù
+paradise	thiên đường
+paraguay	Paraguay
+paramita	ba-la-mật-đa
+pardon	tha thứ
+parents	bố mẹ
+paris	Paris
+parish	xã
+park	đậu
+parking lot	bãi đậu xe
+parking space	chỗ đậu xe
+parliament	nghị viện
+parrot	vẹt
+parsley	mùi tây
+part	phần
+participant	người tham gia
+participate	tham gia
+party	tiệc
+paskha	món pa-xơ-kha
+pass away	qua đời
+passenger	hành khách
+passion	đam mê
+passion fruit	trái chanh dây
+passionate	đam mê
+passive	bị động
+passover	lễ Vượt Qua
+passport	hộ chiếu
+password	mật khẩu
+past	quá khứ
+past tense	thời quá khứ
+pastor	linh mục
+paternal grandfather	ông nội
+paternal grandmother	bà nội
+paternal uncle	bác [father’s elder brother]
+pathology	bệnh
+patient	kiên nhẫn
+patriot	người yêu nước
+patronymic	phụ danh
+paul	Phao-lô
+pavement	vỉa hè
+paw	chân
+pawnshop	tiệm cầm đồ
+pay	trả
+pea	đậu
+peace	hòa bình
+peaceful	hòa bình
+peach	đào
+peacock	chim công
+peanut	đậu phộng
+pear	lê
+pearl	ngọc trai
+peasant	nông dân
+peasantry	nông dân
+pedestrian	bằng chân
+pediatrician	bác sĩ khoa nhi
+pedicab	[from "cyclo"] xích lô
+pedicure	sửa móng chân
+pedophilia	ái nhi
+pee	pê
+peel	gọt
+peking opera	Kinh kịch
+pelican	chim bồ nông
+pelmeni	mằn thắn
+pelvis	khung chậu
+pen	bút mực
+pen pal	bạn qua thư
+pencil	bút chì
+pencil case	hộp bút
+pencil sharpener	cái gọt bút chì
+penguin	chim cánh cụt
+penicillin	penicillin
+peninsula	bán đảo
+penis	dương vật
+penmanship	thư pháp
+peony	mẫu đơn
+people	nhân dân
+people's republic of china	Cộng hòa Nhân dân Trung Hoa
+pepper	hạt tiêu
+pepper spray	bình xịt hơi cay
+percent	phần trăm
+perestroika	perestroika
+perfume	mùi thơm
+perhaps	có lẽ
+pericarp	vỏ quả
+perigee	điểm cận địa
+perihelion	điểm cận nhật
+perilla	tía tô
+perineum	hội âm
+periodization	thời đại hóa
+perish	diệt vong
+peristalsis	sự nhu động
+peritoneum	màng bụng
+perm	Pecmi
+permanence	sự thường xuyên
+persecution	sự khủng bố
+persia	Ba Tư
+persian	tiếng Ba Tư
+persian gulf	Vịnh Ba Tư
+persimmon	hồng
+person	người
+personal computer	máy tính cá nhân
+personality	tính cách
+persuade	thuyết phục
+perth	Perth
+peru	Peru
+pervasive	lan toả
+petal	cánh hoa
+peter	Phêrô
+phallicism	sự tôn thờ dương vật
+pharaoh	Pharaông
+pharmacology	dược lý học
+pharmacy	dược khoa
+philip	Philípphê
+philippine eagle	Đại bàng Philippines
+philippines	Philippines
+philosopher's stone	hòn đá phù thủy
+philtrum	nhân trung
+phnom penh	Phnôm Pênh
+pho	phở
+phone	điện thoại
+phoneme	âm vị 音素
+phonetics	ngư âm học
+phonology	âm vị học
+phosphorus	photpho
+photograph	tấm hình
+photographer	nhà nhiếp ảnh
+photopaper	giấy ảnh
+photosynthesis	quang hợp
+phrase	cụm từ
+phycology	thuộc tảo
+phylogenetics	phân loại theo tiến hóa
+phylum	ngành
+physical education	thể dục
+physics	vật lý học
+physiology	sinh lý học
+piano	dương cầm
+piccolo	sáo nhỏ
+pick one's nose	ngoáy mũi
+pickpocket	kẻ móc túi
+picnic	du ngoạn
+pictorial	họa báo
+picture	hình
+piece	mảnh
+pig	chi lợn
+pigeon	chim bồ câu
+piglet	lợn con
+pigment	sắc tố
+pillow	cái gối
+pilot	phi công
+pimp	kẻ mối lái
+pimple	mụn nhọt
+pin	ghim
+pincers	kềm
+pine	thông
+pineapple	dứa
+pink	hồng
+pinyin	bính âm
+piranha	cá răng đao
+pirate	kẻ cướp biển
+pisces	Cung song ngư
+pistachio	hạt dẻ
+pistol	súng ngắn
+pizza	bánh pizza
+placate	xoa dịu
+place	nơi
+placenta	nhau
+plague	bệnh dịch
+plaice	cá bơn sao
+plain	đồng bằng
+plaintiff	nguyên cáo
+planck's constant	hằng số Planck
+plane	bào
+planet	hành tinh
+planet x	hành tinh X
+planetarium	cung thiên văn
+plant	trồng
+plastic bag	bao bì nilon
+plate	dĩa
+plateau	cao nguyên
+platform	sân ga
+platinum	platin
+play	chơi
+plaza	quảng trường
+please	làm ơn
+please sit down	làm ơn ngồi xuống
+please speak more slowly	làm ơn nói chậm hơn
+please turn left	làm ơn rẽ trái
+please turn right	làm ơn rẽ phải
+pleased	hân hạnh
+pleased to meet you	rất vui được gặp bạn [generic
+pleasure	niềm vui thích
+pledge	cam kết
+pleiades	Tua Rua
+pleurisy	viêm màng phổi
+pliers	cái kìm
+plucky	can đảm
+plum	mơ
+plum blossom	hoa mơ
+plumber	thợ sữa ống nước
+plus	cộng
+pluto	Diêm Vương Tinh
+plutonium	plutoni
+pneumonia	viêm phổi
+podgorica	Podgorica
+poem	bài thơ
+poet	thi sĩ
+poetry	thơ
+point	nơi
+pointer	que chỉ
+poison	chất độc
+poland	Ba Lan
+polar bear	gấu trắng Bắc Cực
+police	cảnh sát
+police officer	cảnh sát
+policeman	cảnh sát
+policewoman	nữ cảnh sát
+polish	tiếng Ba-lan
+politburo	bộ chính trị
+polite	lịch sự
+political	chính trị
+political party	chánh đảng
+political prisoner	tù nhân chính trị
+political scientist	nhà chính trị học
+politician	chính khách
+politics	chính trị
+pollution	sự ô nhiễm
+polonium	poloni
+poltergeist	yêu tinh
+polyethylene	polyetylen
+polygon	đa giác
+polynesian	thuộc Pô-li-nê-di
+polytheism	thuyết đa thần
+pomegranate	quả lựu
+pomelo	bưởi
+pony	ngựa pôni
+poo	phân
+poor	nghèo
+popcorn	bắp rang
+pope	Giáo hoàng
+popiah	bò bía
+poplar	dương
+popular	phổ biến
+population	dân số
+population density	mật độ dân số
+populous	đông
+porcelain	sứ
+porcupine	nhím
+pork	thịt heo
+pork rind	tóp mỡ
+porpoise	cá heo
+port	cảng
+port moresby	Port Moresby
+port-au-prince	Port-au-Prince
+portion	phần
+portmanteau	va li
+portmanteau word	từ kết hợp
+portrait	điển hình
+portugal	Bồ Đào Nha
+portuguese	Bồ-đào-nha
+possess	sở hữu
+post office	sở bưu điện
+post-traumatic stress disorder	rối loạn stress sau sang chấn
+postage stamp	tem
+postcard	bưu thiếp
+postcode	mã bưu chính
+pot	nồi
+pot calling the kettle black	Chó chê mèo lắm lông
+potassium	kali
+potato	khoai tây
+poultry	gà vẹt
+pound sterling	bảng Anh
+pour	đổ
+poverty	sự nghèo nàn
+power station	trạm phát điện
+practice	luyện tập
+prague	Praha
+praise	khen ngợi
+praseodymium	prazeođim
+prawn	tôm
+pray	cầu
+prayer	kinh cầu nguyện
+prayer beads	tràng hạt
+precious	quý
+precious stone	đá quý
+predicate	thuộc từ
+preface	lời tựa
+prefecture	tỉnh
+pregnancy	sự có thai
+pregnant	có thai
+premature ejaculation	xuất tinh sớm
+prepare	chuẩn bị
+preposition	giới từ
+prepositional case	giới cách
+preposterous	vô lý
+prepuce	bao quy đầu
+prescription	toa thuốc
+present	hiện tại
+preservative	chất bảo quản
+president	tổng thống
+press	ấn
+press release	thông cáo báo chí
+pretty	xinh xắn
+prevalent	thịnh
+priapism	chứng cương đau
+price	giá
+priest	linh mục
+primate	tổng giám mục
+prime minister	thủ tướng
+prime number	số nguyên tố
+primer	sách vỡ lòng
+prince	hoàng tử
+princess	công chúa
+principal	chủ yếu
+print	in
+printer	máy in
+printing house	nhà in
+prison	ngục
+privilege	đặc quyền
+probably	có lẽ
+probe	thăm dò
+problem	vấn đề
+profession	nghề
+professional	chuyên gia
+professor	giáo sư
+profit	lợi ích
+prognosis	dự đoán
+program	chương trình
+programmer	lập trình viên
+programming language	ngôn ngữ lập trình
+progress	tiến bộ
+project	kế hoạch
+promethium	prometi
+pronoun	đại từ
+pronounce	phát âm
+pronunciation	phát âm
+propeller	cánh quạt
+property	quyền sở hữu
+prophet	nhà tiên tri
+propiska	đăng ký
+propolis	keo ong
+proportion	tỉ lệ
+prostate	nhiếp hộ tuyến
+prostitute	đĩ
+prostitution	sự mại dâm
+prostokvasha	sữa chua
+protactinium	protactini
+protect	bảo vệ
+protestant	người phản kháng
+protist	sinh vật đơn bào
+proton	proton
+province	tỉnh
+psalm	thánh ca
+psychologist	bắc sĩ tâm lý
+psychology	tâm lý học
+psychotherapy	tâm lý trị liệu
+pub	quán rượu
+pubic hair	lông mu
+public	công cộng
+public opinion	ý kiến công chúng
+public school	trường công
+public transport	giao thông công cộng
+publisher	[person] người xuất bản
+publishing house	nhà xuất bản
+puducherry	Puducherry
+puffy	sưng vù
+pull	kéo
+pullover	áo len có nón
+pulpit	tòa giảng
+pulsar	sao xung
+pumice	đá bọt
+pump	bơm
+pumpkin	bí ngô
+punctuation	chấm câu
+punish	phạt
+pupa	nhộng
+pupil	học sinh
+puppet	con rối
+puppy	chó con
+purple	tía
+purse	ví tiền
+pus	mủ
+push	xô
+put	để
+put on	mặc vào
+putinism	chủ nghĩa Putin
+putonghua	tiếng Phổ thông
+puttee	xà cạp
+puzzle	câu đố
+pyongyang	Bình Nhưỡng
+pyramid	kim tự tháp
+pythagoras	Pytago
+python	trăn
+qed	DPCM
+qi	khí
+qingdao	Thanh Đảo
+qinghai	Thanh Hải
+qiqihar	Tề Tề Cáp Nhĩ
+quadrillion	triệu tỷ
+quail	chim cút
+quantity	lượng số
+quanzhou	Tuyền Châu
+quarrel	cãi cọ
+quarterfinal	tứ kết
+quartz	thạch anh
+quasar	chuẩn tinh
+quatrain	thơ bốn câu
+quay	ke
+queen	Hậu
+question	câu hỏi
+quick	nhanh
+quickly	nhanh
+quidditch	Quidditch [as written in a translation]
+quiet	yên tĩnh
+quintillion	tỷ tỷ
+quixotic	hào hiệp viển vông
+quiz	thi
+quote unquote	nháy nháy
+qur'an	kinh Qur’an
+rabbit	thỏ
+raccoon	gấu mèo Mỹ
+racism	chủ nghĩa phân biệt chủng tộc
+radiation	phóng xạ
+radical	bộ thủ
+radio	radio
+radish	củ cải
+radium	rađi
+radon	rađơn
+raft	bè
+ragout	ragu
+railway	đường sắt
+railway station	nhà ga
+rain	mưa
+rain cats and dogs	trời mưa như trút
+rainbow	cầu vồng
+raincoat	áo mưa
+raindrop	giọt mưa
+rainy	trời mưa
+rainy season	mùa mưa
+raisin	nho khô
+ram	cừu đực
+ramadan	ra-ma-đan
+rambutan	chôm chôm
+ranch	điền trang
+rape	cưỡng dâm
+rapeseed	cải dầu
+rapprochement	hòa giải
+rare	hiếm
+rare earth	đất hiếm
+rare earth element	đất hiếm
+raspberry	mâm xôi
+rat	chuột
+rather than	hơn là
+raw material	nguyên liệu
+ray	tia
+razor blade	lươi lam
+reaction	phản ứng
+read	đọc
+reading	sự đọc
+real	thật
+real estate	bất động sản
+real time	tức thời
+reality television	truyền hình thực tế
+really	thật sự
+realtime	tức thời
+realtor	địa ốc viên
+receipt	biên lai
+receive	nhận
+recent	gần đây
+recently	gần đây
+recipe	công thức
+recommend	khuyến nghị
+reconciliation	hoà giải
+recreation	sự tiêu khiển
+rectangle	hình chữ nhật
+rectum	ruột thẳng
+recycle	tái chế
+red	đỏ
+red envelope	lì xì [from Chinese]
+red sea	biển Đỏ
+red square	quảng trường Đỏ
+red yeast rice	gạo đỏ
+redhead	người tóc hung hung đỏ [lit: "red-haired person]
+redshift	dịch chuyển đỏ
+referee	trọng tài
+reference book	sách hướng dẫn
+referendum	trưng cầu dân ý
+reflect	suy nghĩ
+refrigerator	tủ ướp lạnh
+refuse	từ chối
+regime	chế độ
+register	đăng ký
+regret	hối tiếc
+reign	triều đại
+reindeer	tuần lộc
+relationship	liên hệ [informal]
+relative	họ hàng
+release	xả
+religion	tôn giáo
+religious	sùng đạo
+rely	tin cậy
+remember	nhớ
+remind	nhắc nhở
+remote	xa
+remove	chuyển đi
+renaissance	Thời Phục Hưng
+renminbi	nhân dân tệ
+repair	chửa
+repeat	nhắc lại
+replace	thay thế
+reply	trả lời
+report	báo cáo
+representation	sự đại diện
+reproduction	sinh sản
+reptile	động vật bò sát
+republic	cộng hòa
+republic of china	Trung Hoa Dân Quốc
+republic of india	Cộng hoà Ấn Độ
+republic of korea	Đại Hàn Dân Quốc
+republic of the congo	Cộng hòa Congo
+request	thỉnh cầu
+require	yêu cầu
+requirement	yêu cầu
+research	nghiên cứu
+reserve	dự bị
+reside	cư trú
+respect	kính trọng
+respected	đáng kính
+respiration	Hô hấp
+rest	nghỉ ngơi
+restaurant	quán ăn
+restrictive	hạn chế
+result	kết quả
+retire	về hưu
+reunification	thống nhất
+revanchism	chính sách trả thù
+revenge	sự trả thù
+reverse	số de
+reverse engineering	kỹ nghệ đảo ngược
+revise	ôn
+revolution	cuộc cách mạng
+revolutionary	nhà cách mạng
+reykjavik	Reykjavík
+rhenium	reni
+rheology	lưu biến học
+rheumatism	phong thấp
+rhinoceros	tê giác
+rhodium	rođi
+rhombus	hình thoi
+rhubarb	đại hoàng
+rhythm	nhịp điệu
+rhythm section	phần nhịp điệu
+rib	xương sườn
+ribbon	dai đất
+rice	lúa
+rice cake	bánh bèo
+rice congee	cháo
+rice cooker	nồi cơm điện
+rice paper	bánh tráng
+rice vinegar	gạo dấm
+rich	giàu
+rickshaw	xe kéo
+ride	cỡi
+ridicule	nhạo báng
+rifle	súng trường
+right	phải
+ring	vòng
+rinse	tráng
+river	hà
+road	đường
+road roller	máy lu
+roast	nướng
+roast pork	heo quay
+rob	cướp
+robber	kẻ cướp
+robot	người máy
+rock	đá
+rock music	nhạc rock
+rock sugar	đường phèn
+rocket	rốc két
+rodent	gặm nhấm
+roll	ổ
+rollercoaster	tàu lượn siêu tốc
+rom	người Di-gan
+romaji	chữ cái Latinh
+roman	chữ cái Latinh
+roman empire	Đế quốc La Mã
+romance	Rôman
+romania	Romania
+romanian	tiếng Romania
+romantic	lãng mạn
+rome	Roma
+romeo and juliet	Romeo và Juliet
+roof	mái nhà
+room	buồng
+rooster	gà trống
+root	rễ
+root beer	xá xị
+rope	dây
+rosary	mân côi
+rose	hoa hồng
+round	xoe
+rousong	ruốc
+router	router
+rowan	thanh lương trà
+royalty	vương quyền
+rubber	cao su
+rubbish	rác rưởi
+rubidium	rubiđi
+ruble	đồng rúp
+ruby	hồng ngọc
+rugby	bóng bầu dục
+ruin	hư hại
+rule	quy tắc
+ruler	cây thước
+rum	rượu rum
+run	chạy
+running dog	chó săn
+runway	đường băng
+russia	Nga
+russian	nga
+russian doll	múp bê làm tổ
+russian empire	Đế quốc Nga
+russian federation	Liên bang Nga
+russification	Nga hóa
+russo-	Nga
+rust	rỉ sét
+ruthenium	ruteni
+rutherfordium	rutherfordi
+rwanda	Rwanda
+rye	lúa mạch đen
+sabotage	phá hoại
+sacramental	á bí tích
+sacred	thánh
+sacrifice	hy sinh
+sad	buồn
+sadness	buồn
+safe	tủ sắt
+safety	an toàn
+saiga	linh dương saiga
+saigon	Sài Gòn
+sail	buồm
+sailing ship	thuyền buồm
+saint	thánh
+saint petersburg	Sankt-Peterburg
+saint valentine's day	ngày lễ Tình Nhân
+sake	sake
+sakhalin	Sakhalin
+sakura	hoa anh đào
+salaam	xalam
+salary	lương
+sale	sự bán
+salesperson	người bán hàng
+saliva	nước bọt
+salmon	cá hồi
+salt	muối
+salvation	sự cứu rỗi
+samara	Samara
+samarium	samari
+sambo	xam-bô
+same	giống nhau
+samsara	luân hồi
+samurai	xamurai
+sand	cát
+sandal	dép
+sandstone	sa thạch
+sandstorm	bão cát
+sandwich	kẹp
+sanskrit	tiếng Phạn
+santa claus	ông già Nô en
+sanya	Tam Á
+saola	sao la
+sapling	cây nhỏ
+sapodilla	hồng xiêm
+sapphire	xa-phia
+sapporo	札幌 Trát Hoảng
+saratov	Saratov
+sarkozy	Sarkozy
+satan	Satan
+satay	satê
+satellite	vệ tinh
+satisfy	thỏa mãn
+saturday	thứ bảy
+sauce	xốt [sauce used for dressing a dish]
+saucepan	cái soong
+saudi arabia	Ả Rập Saudi
+sauerkraut	món dưa cải bắp
+sausage	xúc xích
+savage	người dã man
+save	cứu nguy
+saw	cưa
+sawdust	mùn cưa
+saxophone	xacxô
+say	nói
+say goodbye	chia tay
+scabbard	vỏ
+scabies	bệnh ghẻ
+scales	cái cân
+scallop	con điệp
+scandium	scandi
+scar	sẹo
+scared	sợ hãi
+scarf	khăn choàng cổ
+scarlet	đĩ
+scenario	truyện phim
+scent	mùi
+schnapps	rượu sơnap
+scholarship	học bổng
+school	trường
+science	khoa học
+scientific	khoa học
+scientist	nhà khoa học
+scissors	kéo
+scorpion	bò cạp
+scotch tape	băng dính
+screen	màn
+screenwriter	nhà biên kịch
+screw	ốc vít
+screwdriver	chìa vít
+scribble	viết nguệch ngoạc
+scroll bar	thanh trượt
+scrotum	bìu dái
+sculptor	nhà điêu khắc
+sculpture	điêu khắc
+sea	biển
+sea cucumber	hải sâm
+sea horse	cá ngựa
+sea of japan	biển Nhật Bản
+seagull	hải âu
+seal	dấu niêm
+search	tìm
+seashell	vỏ sò
+season	mùa
+seasoning	đồ gia vị
+seat	ghế
+seaweed	tảo biển
+secession	sự ra khỏi
+second	thứ
+second base	chốt hai
+secret	bí mật
+secretary	thư ký
+sect	tông phái
+sectarianism	chủ nghĩa bè phái
+security	an toàn
+sedan	kiệu
+sedative	làm dịu
+sedimentary rock	đá trầm tích
+seduction	sự quyến rũ
+see	nhìn thấy
+see you	hẹn gặp lại
+see you later	gặp lại sau nhé
+seed	hột
+seeing is believing	bách văn bất như nhất kiến
+seek	tìm
+seem	dường như
+seldom	ít khi
+selenite	người Mặt Trăng
+self-respect	lòng tự trọng
+self-respecting	tự trọng
+selfie	tự sướng
+sell	bán
+sell like hot cakes	bán chạy như tôm tươi
+semantics	ngữ nghĩa học
+semen	tinh dịch
+semester	học kỳ
+semibreve	nốt tròn
+semiconductor	chất bán dẫn
+semifinal	bán kết
+send	gửi
+senegal	Sénégal
+senkaku islands	quần đảo Senkaku
+sensual	xác thịt
+sentence	câu
+seoul	Xơ-un
+separatism	chủ nghĩa phân lập
+seppuku	thiết phúc
+serbia	Serbia
+serbian	tiếng Xéc-bi
+serf	nông nô
+seriously	nghiêm túc
+serum	huyết thanh
+server	máy chủ
+service	cây thanh lương trà
+sesame	mè
+sesame oil	dầu mè
+set	bộ
+seven	bảy
+seven o'clock	bảy giờ
+seventeen	mười bảy
+seventh	thứ bảy
+seventieth	thứ bảy mươi
+seventy	bay mươi
+several	dăm [about five]
+sew	khâu
+sewing machine	máy may
+sex	giới tính
+sex appeal	hấp dẫn tình dục
+sex shop	sex shop
+sex toy	công cụ hỗ trợ tình dục
+sex worker	gái mại dâm
+sexism	phân biệt giới tính
+sexology	tình dục học
+sexual harassment	quấy rối tình dục
+sexual intercourse	giao cấu
+sexual orientation	thiên hướng tình dục
+sexual reproduction	sinh sản hữu tính
+sexuality	tình dục
+sexually transmitted disease	bệnh lây truyền qua đường tình dục
+shaanxi	Thiểm Tây
+shad	cá trích đầy mình
+shadow	bóng
+shadow cabinet	nội các bóng tối
+shag	quan hệ tình dục
+shake	bắt tay
+shakespeare	Sếch-xpia
+shamanism	Saman giáo
+shame	sự xấu hổ
+shampoo	dầu gội đầu
+shampoo ginger	gừng gió
+shandong	Sơn Đông
+shanghai	Thượng Hải
+shantou	Sán Đầu
+shanxi	Sơn Tây
+shape	hình dáng
+share	đều có
+shareholder	cổ đông
+shark	cá mập
+shark fin	vây cá mập
+shark fin soup	súp vây cá mập
+she	[young girl and older than the speaker] chị ấy
+sheath	vỏ
+sheep	cừu
+shell	vỏ
+shenyang	Thẩm Dương
+shenzhen	Thâm Quyến
+shepherd	người chăn cừu
+sheremetyevo	Sheremetyevo
+shiitake	nấm hương
+shijiazhuang	Thạch Gia Trang
+shin	ống quyển
+shine	tỏa sáng
+shingles	bệnh zona
+shinto	Thần đạo
+shintoist	Thần đạo
+ship	tàu thuỷ
+shipbuilding	nghề đóng tàu
+shirt	áo sơ mi
+shiso	tía tô
+shit	cứt
+shock	sốc
+shoe	giày
+shoelace	dây giày
+shoemaker	thợ đóng giày
+shogun	shōgun
+shojo	thiếu nữ
+shoot	bắn
+shoot the breeze	buôn dưa lê sell melons
+shop	cửa hàng
+shop assistant	nhân viên bán hàng
+shopping	sự đi mua hàng
+shopping centre	trung tâm mua sắm
+shore	bờ
+short	đoản
+short story	truyện ngắn
+shot	pô
+should	nên
+shoulder	vai
+shoulder blade	xương bả vai
+shout	kêu la
+shovel	cái mai
+showbusiness	giới giải trí
+shower	vòi sen
+shrike	bách thanh
+shrimp	tôm
+shrub	cây nhỏ
+shut	đóng
+shuttlecock	quả cầu lông {m}
+siam	Xiêm
+siamese	Xiêm
+siamese cat	xiêm mèo
+siberia	Xibia
+siberian husky	husky Xibia
+sibling	anh chị em
+sichuan	Tứ Xuyên
+sick	bệnh
+sickle	liềm
+sidewalk	vỉa hè
+sieve	rây
+sight	cảnh
+sign language	ngôn ngữ ký hiệu
+signal	tín hiệu
+signature	chữ ký
+significant	quan trọng
+silence	sự yên lặng
+silicon	silic
+silk	lụa
+silk road	Con đường tơ lụa
+silkworm	tằm
+silver	bạc
+simon	Simon
+simple	giản dị
+simplified chinese	giản thể tự
+sin	tội
+since	từ
+sing	hát
+singer	ca sĩ
+single	độc thân
+singlet	áo mai ô
+sinicization	Hán hóa
+sinner	tội nhân
+sino-	Trung
+sino-japanese	Hán Nhật
+sino-korean	Hán Hàn
+sino-vietnamese	Hán Việt
+sinocentrism	chủ nghĩa dĩ Hoa vi trung
+sinologist	nhà Hán học
+sinology	Hán học
+siren	nhân ngư
+sister	chị or chị gái [elder]
+sister-in-law	em vợ
+sit	ngồi
+sit down	ngồi xuống
+situation	vị trí
+six	sáu
+six o'clock	sáu giờ
+sixteen	mười sáu
+sixth	thứ sáu
+sixtieth	thứ sáu mươi
+sixty	sáu mươi
+sixty-one	sáu mươi mốt
+sixty-two	sáu mươi hai
+skandha	uẩn
+skateboard	ván trượt
+skewer	xiên
+ski	xki
+skilful	giỏi
+skin	da
+skin cancer	ung thư da
+skin color	màu da
+skinhead	gã đầu trọc
+skinny	gầy
+skirt	váy
+skopje	Skopje
+skull	sọ
+sky	trời
+skylark	chiền chiện
+skyscraper	nhà chọc trời
+slang	tiếng lóng
+slav	người Slav
+slave	nô lệ
+slavic	Slav
+sledge	xe trượt tuyết
+sleep	ngủ
+sleeping bag	túi ngủ
+sleeve	tay áo
+slingshot	súng cao su
+slip of the tongue	nói nhịu
+sloop	thuyền nhỏ một buồm; tàu tuần tra
+sloth	lười
+slovakia	Slovakia
+slovenia	Slovenia
+slow	chậm
+slug	sên lãi
+slum	khu ổ chuột
+small	tiểu
+smart	thông minh
+smartphone	điện thoại thông minh
+smell	mùi
+smile	cười
+smith	Nguyễn
+smoke	khói
+smoking	sự hút thuốc
+smolensk	Smolensk
+snail	ốc
+snake	xà
+snatch victory from the jaws of defeat	dành lấy thắng lợi từ thế thất bại
+sneak	trộm
+sneeze	nhảy mui
+sniper	bắn tỉa
+snooker	bi da
+snow	tuyết
+snow globe	quả cầu tuyết
+snow leopard	báo tuyết
+snow queen	Bà chúa Tuyết
+snow white	Nàng Bạch Tuyết
+snowflake	hoa tuyết
+snowman	người tuyết
+so	vậy
+so-called	nháy nháy
+so-so	tàm tạm
+soap	xà phòng
+soap dish	hộp đựng xà phòng
+soccer	bóng đá
+sochi	Sochi
+social security	an sinh xã hội
+socialism	chủ nghĩa xã hội
+socialist	xã hội chủ nghĩa
+socialist republic of vietnam	Cộng hòa Xã hội chủ nghĩa Việt Nam
+society	xã hội
+sociology	xã hội học
+sock	vớ
+soda pop	nước ngọt
+sodium	natri
+sofa	ghế xô-fa
+soft	nhẹ
+softball	bóng mềm
+software	phần mềm
+solar eclipse	nhật thực
+solar system	hệ Mặt Trời
+solar wind	Gió Mặt Trời
+solarium	nhà tắm nắng
+solder	hàn
+soldier	người lính
+solitary	đơn độc
+some	một số
+somebody	một người nào đó
+something	cái gì
+sometimes	thỉnh thoảng
+somewhere	ở chỗ nào
+son	con trai
+son of a bitch	đồ chó đẻ
+son-in-law	rể
+song	ca hát
+song of solomon	Sách Diễm ca
+soon	sớm
+soprano	bè xôpran
+sorcery	yêu thuật
+sore throat	đau họng
+sorrow	nỗi buồn
+sorry	xin lỗi
+soul	linh hồn
+sound	âm thanh
+sound card	bo mạch âm thanh
+sound out	ráp vần
+soup	canh
+sour cream	kem chua
+soursop	bình bát
+south	phía nam
+south africa	Cộng hòa Nam Phi
+south america	Nam Mỹ
+south asia	Nam Á
+south china sea	Biển Đông
+south korea	Hàn Quốc
+south ossetia	Nam Ossetia
+south pole	nam cực
+south sudan	Nam Sudan
+south vietnam	Việt Nam Cộng hòa
+south yemen	Nam Yemen
+south-southeast	nam đông nam
+southeast	phía đông nam
+southeast asia	Đông Nam Á
+southern cross	Nam Thập Tự
+southern europe	Nam Âu
+southern hemisphere	nam bán cầu
+southern ocean	Nam Đại Dương
+southwest	phía tây nam
+souvenir	đồ lưu niệm
+sovereignty	chủ quyền
+soviet	xô viết
+soviet union	Liên Xô
+sow	gieo
+soy milk	sữa đậu nành
+soy sauce	nước tương
+soybean	đậu nành
+soyuz	Soyuz
+space	khoảng
+space shuttle	tàu con thoi
+space station	trạm không gian
+spaceship	như spacecraft
+spacetime	không-thời gian
+spade	xẻng
+spain	Tây Ban Nha 西班牙
+spanish	Tây Ban Nha
+spark plug	bugi
+sparrow	sẻ
+speak	nói
+speaker	loa
+special	đặc biệt
+spectacle	cảnh tượng
+spectacles	kính
+spectacular	ngoạn mục
+specter	bóng ma
+speech	lời nói
+speed	tốc độ
+speed limit	tốc độ tối đa [literally “maximum speed”]
+speedy	sẵn sàng
+spell	đánh vần
+spelunking	sự thích khảo sát hang động
+sperm	tinh dịch
+spermatozoon	tinh trùng
+sphere	mặt cầu
+sphincter	cơ thắt
+sphinx	nhân sư
+spice	gia vị
+spicy	cay
+spider	nhện
+spiderweb	mạng nhện
+spinach	rau bina
+spinal cord	tuỷ sống
+spinning top	đánh quay
+spiral	xoắn ốc
+spit	nhổ
+spleen	lách
+spoon	thìa
+spoonerism	nói lái
+sport	thể thao
+spouse	[husband] chồng
+spratly islands	quần đảo Trường Sa
+spray	phun
+spring	lò xo
+spring roll	nem rán
+spruce	vân sam
+sputnik	vệ tinh nhân tạo
+spy	gián điệp
+spyware	phần mềm gián điệp
+square	vuông
+square root	căn bậc hai
+squid	mực ống
+squirrel	họ sóc
+sri jayawardenepura kotte	Sri Jayawardenepura Kotte
+sri lanka	Sri Lanka
+stadium	sân vận động
+stage	vũ đài
+stair	cầu thang
+staircase	cầu thang
+stairs	cầu thang
+stairway	lan can
+stalactite	thạch nhũ
+stalin	Stalin
+stalinism	chủ nghĩa Stalin
+stamp	ấn chương
+stance	quan điểm
+stanchion	cột chống hai bên sườn tàu
+stand	đứng
+stand up	đứng dậy
+standard	trình độ
+standard lamp	đèn chân đế
+standardization	tiêu chuẩn hoá
+standstill	bế tắc
+star	sao
+star fruit	khế
+star-spangled banner	Lá cờ ánh sao chói lọi
+starch	tinh bột
+starfish	sao biển
+starlight	ánh sáng sao
+start	bắt đầu
+state	nhà nước
+state of israel	Nhà nước Do Thái
+statement	sự bày tỏ
+statics	tĩnh học
+station	nhà ga
+stationery	văn phòng phẩm
+statue	tượng
+stay	ở lại
+steal	ăn cắp
+steam	hơi
+steel	thép
+stepdaughter	con gái riêng
+stepfather	bố dượng
+stepmother	mẹ ghẻ
+steppe	thảo nguyên
+stepson	con trai riêng
+sterile	vô sinh
+steroid	xteoit
+stethoscope	ống nghe
+stick	thanh
+sticky rice	gạo nếp
+still	còn
+stingray	cá đuối ó
+stink	bốc mùi thối
+stirrup	bàn đạp ở yên ngựa
+stock exchange	sàn giao dịch chứng khoán
+stomach	bụng
+stomachache	đau dạ dày
+stone	đá
+stop	bến xe
+storey	tầng
+stork	cò
+storm	bão
+story	chuyện
+stove	bếp
+strait	chật hẹp
+strange	lạ lùng
+strange quark	quark lạ
+stranger	người lạ
+stratosphere	tầng bình lưu
+straw	rơm
+straw mushroom	nấm rơm
+strawberry	trái
+stream	suối
+street	đường
+stretch	duỗi
+strike	đánh
+string	chuỗi
+striptease	điệu múa thoát y
+stroll	đi dạo
+strong	mạnh
+structure	cấu trúc
+stubborn	bướng bỉnh
+student	học sinh
+study	học
+stupa	tháp chứa hài cốt vị sư
+stupid	ngu
+sturdy	kết thật
+styx	Styx
+subgum	thập cẩm
+subject	chủ đề
+subjunctive	lối cầu khẩn
+submarine	tàu ngầm
+subspecies	loài phụ
+substance	chất
+subtitle	phụ đề
+subtropics	cận nhiệt đới
+suburb	vùng ven đô
+subway	xe điện ngầm
+success	sự thành công
+successful	thành công
+such	như thế
+suck	bú
+sudden	thình lình
+suddenly	thình lình
+sue	thưa kiện
+suez canal	kênh đào Suez
+suffer	cảm thấy đau
+suffering	khổ
+sufficient	đủ
+sugar	đường
+sugar apple	na
+suggest	đề nghị
+suggestion	sự gợi ý
+suicide	tự sát
+suifenhe	Tuy Phân Hà
+suitcase	va li
+sulfur	lưu
+summer	mùa hè
+summer solstice	hè chí
+summit	đỉnh
+sun	mặt trời
+sun bear	gấu chó
+sun shower	mưa bóng mây
+sunbath	tắm nắng
+sunbathe	tắm nắng
+sundae	kem mứt
+sunday	Chủ nhật
+sundial	đồng hồ mặt trời
+sunfish	cá mặt trăng
+sunflower	hoa hướng dương
+sunglasses	kính râm
+sunlight	ánh sáng mặt trời
+sunrise	bình minh
+sunset	hoàng hôn
+sunstroke	say nắng
+super	siêu
+supercomputer	siêu máy tính
+superhero	siêu anh hùng
+superlative degree	cấp cao nhất
+superman	siêu nhân
+supermarket	siêu thị
+supermodel	siêu mẫu
+supernova	siêu tân tinh
+superpower	siêu cường
+superstar	siêu sao
+superstition	mê tín
+supersymmetry	siêu đối xứng 超對稱
+supper	ăn tối
+supreme	tối cao
+surface	mặt
+suriname	Suriname
+surname	họ
+surprise	bất ngờ
+surprised	ngạc nhiên
+surrogate mother	thay thế mẹ
+sushi	sushi
+suspicion	sự nghi ngờ
+suva	Suva
+suzerain	chúa
+suzhou	Tô Châu
+swahili	tiếng Swahili
+swallow	nuốt
+swamp	đầm lầy
+swan	thiên nga
+swap	giao hoán
+swastika	chữ Vạn
+swear	thề
+sweat	mồ hôi
+sweater	áo săng-đay
+sweden	Thụy Điển
+swedish	tiếng Thụy Điển
+sweep	quét dọn
+sweet	ngọt
+sweet potato	khoai lang
+sweetener	chất ngọt
+sweetheart	người yêu
+sweetshop	bánh cửa hàng
+swim	bơi
+swimmer	tuyển thủ bơi lội
+swimming	sự bơi
+swimming pool	hồ bơi
+swimsuit	quần áo bơi
+swiss franc	franc Thụy Sĩ
+switch	ngắt điện
+switzerland	Thụy Sĩ
+sword	gươm
+swordfish	cá kiếm
+sydney	Sydney
+symbol	ký hiệu
+symbolically	tượng trưng
+symphony	giao hưởng
+symphony orchestra	dàn nhạc giao hưởng
+symposium	Hoi nghi
+symptom	triệu chứng
+synagogue	giáo đường Do thái
+synclinal	nếp uốn lõm
+syndrome	hội chứng
+syntax	cú pháp
+synthesizer	bộ tổng hợp
+syria	Syria
+syringe	ống chích
+syrup	xi-rô
+system	hệ thống
+table	bàn
+table of contents	mục lục
+table tennis	bóng bàn
+tablecloth	khăn trải bàn
+tablespoon	muỗng canh
+tablet computer	máy tính bảng
+tachometer	máy đo tốc độ
+tactics	chiến thuật
+tadpole	nòng nọc
+taichung	Đài Trung
+taiga	taiga
+tail	đuôi
+tailbone	xương cụt
+tainan	Đài Nam
+taipei	Đài Bắc
+taiwan	Đài Loan
+taiwan strait	eo biển Đài Loan
+taiyuan	Thái Nguyên
+takamatsu	Takamatsu
+take	nắm
+take part	tham gia
+take place	xảy ra
+take root	mọc rễ
+taken aback	sửng sốt
+tale	truyện
+talent	tài năng
+talk	nói
+tall	cao
+tallinn	Tallinn
+tamarind	me
+tambourine	trống lục lạc
+tamil	tiếng Tamil
+tamil nadu	Tamil Nadu
+tamil tigers	Những con Hổ giải phóng Tamil
+tampon	tăm-bông
+tangerine	quả quýt
+tangshan	Đường Sơn
+tank	xe tăng
+tansy	cây cúc ngài
+tantalum	tantali
+tanzania	Tanzania
+taoism	Đạo giáo
+taoist	Đạo giáo
+taoyuan	Đào Viên
+tap	vòi
+tapioca	bột báng
+tapioca pearl	bột bán
+tapioca starch	bột năng
+target	mục tiêu
+taro	khoai môn
+task	nhiệm vụ
+taste	nếm
+tasting	sự nếm thử
+tatarstan	Tatarstan
+tattoo	xăm
+tavern	tửu quán
+tax	thuế
+taxi	taxi
+taxi driver	lái xe taxi
+tbilisi	Tbilisi
+tchaikovsky	Tchaikovsky
+tea	trà
+tea ceremony	trà đạo
+teach	dạy
+teacher	giáo viên
+teacup	chén uống trà
+teahouse	phòng trà
+teakettle	ấm đun nước
+teal	mòng két
+teapot	ấm trà
+tear	nước mắt
+technetium	tecnexi
+technician	nhà kỹ thuật
+technique	kỹ thuật
+technological	công nghệ
+technology	kỹ thuật
+tee	tê
+teenager	thiếu niên
+telco	công ty viễn thông
+telega	telega
+telegraph	máy điện báo
+telepathy	thần giao cách cảm
+telephone	điện thoại
+telephone number	số điện thoại
+television	truyền hình
+television show	chương trình truyền hình
+television station	đài truyền hình
+tellurium	telua
+temperate zone	ôn đới
+temperature	nhiệt độ
+template	bản mẫu
+temple	đền
+temple of heaven	Thiên Đàn
+tempura	tempura
+ten	mười
+ten commandments	mười điều răn
+ten o'clock	mười giờ
+ten thousand	mười nghìn
+tendon	gân
+tennis	quần vợt
+tennis player	người chơi quần vợt
+tenor	nam cao
+tent	lều
+tenth	thứ mười
+teochew	tiếng Triều Châu
+terbium	tecbi
+termite	mối
+terraforming	địa khai hóa
+terran	người Trái đất
+terrible	khủng khiếp
+territory	lãnh thổ
+terror	nỗi khiếp sợ sự khủng bố
+terrorism	khủng bố
+terrorist	khủng bố
+test	thi
+test case	ca chuẩn
+testicle	hòn dái
+tetrameter	câu thơ tứ bộ vi
+text	văn bản
+textbook	sách giáo khoa
+thai	Thái
+thai basil	húng quế
+thaification	Thái hóa
+thailand	Thái Lan
+thallium	tali
+than	hơn
+thank	cám ơn
+thank you	cám ơn (plus one of: ông
+thank you very much	cám ơn (ông
+thanks	cám ơn (plus one of: ông
+thanksgiving	lễ Tạ ơn
+that	đó
+that's all	thôi
+the	cái
+the hague	Den Haag
+theater	nhà hát
+theft	sự trộm cắp
+their	của họ
+theirs	của họ
+theism	thuyết có thần
+theme	chủ đề
+then	thì
+theology	thần học
+theory	thuyết
+there	đằng kia
+there are	có [singular and plural]
+there be	có
+there is	có [singular and plural]
+therefore	bởi vậy
+thermodynamics	nhiệt động học
+thermometer	nhiệt kế
+thermosphere	tầng nhiệt
+thesis	đồ án tốt nghiệp
+thetis	Thetis
+they	họ
+thick	dày
+thief	kẻ trộm
+thigh	đùi
+thimble	cái đê
+thin	mỏng
+thing	vật
+think	nghĩ
+third	thứ ba
+third reich	Đức Quốc Xã
+thirst	sự khát nước
+thirsty	khát
+thirtieth	thứ ba mươi
+thirty	ba mười
+thirty-six	tam thập lục
+this	này
+thither	đằng kia
+thomas	Tôma
+thong	dép
+thoracic	ngực
+thorium	thori
+thorough	hoàn toàn
+thou	mày
+thought	tư duy
+thousand	một nghìn
+three	ba
+three o'clock	ba giờ
+threnody	bài điếu ca
+throat	cuống họng
+thrombosis	chứng nghẽn mạch
+throw	ném
+thud	ịch
+thug	du côn
+thulium	tuli
+thumb	ngón tay cái
+thumbnail	hình nhỏ
+thunder	sấm
+thunderstorm	bão tố có sấm sét
+thursday	thứ năm
+thy	của mày
+thyme	húng tây
+tian shan	Thiên Sơn
+tian'anmen	Thiên An Môn
+tianjin	Thiên Tân
+tibet	Tây Tạng
+tibetan mastiff	chó ngao Tây Tạng
+tick	bọ chét
+ticket	vé
+tidal wave	sóng thủy-triều
+tide	thủy triều
+tier	tầng
+tiger	con hổ
+tigress	hổ cái
+tilde	dấu ngã
+time	lần
+time is money	thời gian là tiền bạc
+time zone	múi giờ
+timetable	thời khắc biểu
+timpani	trống định âm
+tin	thiếc
+tinsmith	thợ thiếc
+tip	bo
+tissue	khăn giấy
+titanium	titan
+to	cho
+to one's heart's content	cho đã
+toad	cóc
+toaster	máy nướng bánh mì
+tobacco	thuốc lá
+today	hôm nay
+toe	ngón chân
+toenail	móng chân
+toffee	kẹo bơ cứng
+tofu	đậu phụ
+together	cùng nhau
+togo	Togo
+toilet	xí bệt
+toilet paper	giấy vệ sinh
+tokyo	Tokyo
+tomato	cà chua
+tomato sauce	nước xốt cà chua
+tomb	mộ
+tomorrow	ngày mai
+ton	tấn
+tone	nốt
+tone mark	dấu thanh điệu
+tone sandhi	biến điệu
+tone-deaf	không có khả năng phân biệt chính xác các nốt nhạc khác nhau
+tongs	cái gắp đá
+tongue	lưỡi
+too	quá
+too many cooks spoil the broth	lắm thầy nhiều ma too many shamans
+tooth	răng
+toothache	đau răng
+toothbrush	bàn chải đánh răng
+toothpaste	kem đánh răng
+toothpick	tăm
+top	đánh quay
+topic	chủ đề
+toponym	địa danh
+torch	đuốc
+torfl	kiểm tra trình độ tiếng Nga
+tornado	vòi rồng
+torpedo	ngư lôi
+torso	thân
+tortoise	[tortoise or turtle] rùa
+totalitarianism	chủ nghĩa toàn trị
+totem	tô-tem
+touch	đạt tới
+tourism	sự du lịch
+tout	công bố
+tovarish	tovaris
+toward	về phía
+towel	khăn
+tower	tháp
+tower of london	tháp Luân Đôn
+town	tỉnh
+toy	đồ chơi
+toyama	Toyama
+trachea	khí quản
+tractor	máy kéo
+trade	thương mại
+trade union	công đoàn
+trademark	thương hiệu
+tradition	sự truyền miệng
+traditional chinese	phồn thể tự
+traditional chinese medicine	Đông y
+traffic	sự giao thông
+traffic jam	ách tắc giao thông
+traffic light	đèn giao thông
+traffic sign	biển báo giao thông
+train	xe lửa
+trait	đặc điểm
+traitor	kẻ phản bội
+trajectory	quỹ đạo
+tram	tàu điện
+trampoline	giàn nhún
+transclude	nhúng chéo
+transclusion	sự nhúng chéo
+translate	dịch
+translation	bản dịch
+translationary	dịch
+translator	thông dịch viên
+transliteration	sự chuyển chữ bản chuyển chữ
+transparent	trong suốt
+transtheism	siêu thần
+trauma	chấn thương
+travel	du lịch
+traveller	người đi du lịch
+treason	sự phản bội
+tree	cây
+trefoil	cây chia ba
+trematode	sán lá
+tremble	run
+triad	Hội Tam Hoàng
+triathlon	ba môn phối hợp
+tribe	bộ lạc
+tricycle	xe ba bánh
+trigger finger	ngón tay bật
+trigonometry	lượng giác học
+trill	láy rền
+trinidad and tobago	Trinidad và Tobago
+triumphal arch	khải hoàn môn
+troll	quỷ khổng lồ
+trophy	chiếc cúp
+tropical rainforest	rừng mưa nhiệt đới
+trotskyite	người theo chủ nghĩa Trốt-xki
+trout	cá hồi
+trowel	cái bay
+truce	đình chiến
+truck	xe tải
+true	thật
+trumpet	kèn
+truth	chân lý
+try	cố
+tsar	sa hoàng
+tsarina	nữ sa hoàng
+tsarism	chế độ sa hoàng
+tsu	Tsu
+tsunami	sóng thần
+tube	ống
+tuberculosis	bệnh lao
+tuesday	thứ ba
+tuk-tuk	xe lam
+tulip	uất kim hương
+tuna	cá ngừ đại dương
+tungsten	vonfam
+tuning fork	thanh mẫu
+tunisia	Tunisia
+tunnel	đường hầm
+turban	khăn đóng
+turboprop	động cơ tuabin cánh quạt
+turin	Torino
+turkey	gà tây
+turkish	tiếng Thổ Nhĩ Kỳ
+turkish delight	như rahat-loukoum
+turkmenistan	Turkmenistan
+turmeric	củ nghệ
+turnip	củ cải
+turnover	doanh thu
+turquoise	xanh thổ
+turtle	rùa [tortoise or turtle]
+tuxedo	ximôckinh
+tv	truyền hình
+tweezers	nhíp
+twelfth	một phần mười hai
+twelve o'clock	mười hai giờ
+twentieth	thứ hai mươi
+twenty	hai mươi
+twenty-one	hai mười mốt
+twenty-third	thứ hai mươi ba
+twilight	hoàng hôn
+twin	trẻ sinh đôi
+twin towers	Trung tâm Thương mại Thế giới
+two	hai
+two o'clock	hai giờ
+tycoon	trùm tư bản
+type	nhóm
+typewriter	máy chữ
+typhoid fever	bệnh thương hàn
+typhoon	bão
+tyrant	bạo chúa
+tyre	vỏ
+udder	bầu vú
+ufa	Ufa
+ugly	xấu
+ukha	canh cá
+ukraine	Ukraina
+ukrainian	tiếng U-kren
+ulaanbaatar	Ulaanbaatar
+ultranationalism	chủ nghĩa dân tộc cực đoan
+uluru	Uluru
+umbrella	dù
+ume	mơ ta
+un	LHQ
+un security council	Hội đồng Bảo an Liên Hiệp Quốc
+uncle	bác [North
+uncle sam	Chú Sam
+under	dưới
+underdot	dấu nặng
+underpants	quần đùi
+understand	hiểu
+underwear	quần áo lót
+unemployed	thất nghiệp
+unemployment	sự thất nghiệp
+unfair	bất công
+unicycle	xe đạp một bánh
+unidentified flying object	tàu bay chưa nhận biết
+unification	thống nhất
+uniform	đồng phục
+union	liên minh
+union of soviet socialist republics	Liên bang Cộng hòa Xã hội Chủ nghĩa Xô viết
+unit test	ca kiểm thử đơn vị
+unite	đoàn kết
+united arab emirates	A-rập thống nhất Ê-mi-rát
+united kingdom	Vương quốc Anh
+united nations	Liên Hiệp Quốc
+united states	Hoa Kỳ
+united states of america	Hoa Kỳ
+universe	vũ trụ
+university	trường đại học
+unlucky	xui xẻo
+unrequited love	tình yêu đơn phương
+up	lên
+update	cập nhật
+upload	tải lên
+uprising	nổi dậy
+upset	tức
+upside down	đổ lộn
+uranium	urani
+uranus	Thiên Vương Tinh
+urbanization	sự thành thị hoá
+urdu	tiếng Urdu
+ureter	ống dẫn đái
+urethra	ống đái
+urinary bladder	bàng quang
+urine	nước tiểu
+urology	khoa tiết niệu
+urticaria	mề đay
+uruguay	Uruguay
+us	Mỹ
+us dollar	đô-la Mỹ
+usa	Mỹ
+usable	dùng được
+use	ích
+useful	có ích
+user	thành viên
+usonia	Hoa Kỳ
+usonian	người Hoa Kỳ 花旗
+ussr	Liên Xô
+usual	bình thường
+utilise	tận dụng
+uvula	lưỡi gà
+vacation	kỳ nghỉ
+vaccine	vacxin
+vacuum cleaner	máy hút bụi
+vagina	âm đạo
+valley	thung lũng
+value	giá trị
+vampire	ma cà rồng
+vanadium	vanađi
+vancouver	Vancouver
+vandalism	phá hoại
+variable	biên sô
+vase	lọ hoa
+vatican city	Thành Vatican
+vector field	trường vector
+vector space	không gian vectơ
+vee	vê
+vegetable	rau
+vegetable garden	vườn rau
+vein	tĩnh mạch
+velocity	tốc độ
+velvet	nhung
+vendor	ngưởi bán hàng rong
+venereal disease	bệnh hoa liễu
+venezuela	Venezuela
+vengeance	sự trả thù
+ventilator	thông gió
+venus	Sao Kim
+verb	động từ
+version	phiên bản
+very	rất [placed before the word to intensify]
+vesak	Phật Đản
+vest	áo gi lê
+veterinarian	thầy thuốc thú y
+vice versa	ngược lại
+victory	thắng lợi
+victory day	ngày chiến thắng
+videocassette	máy chiếu phim
+vienna	Viên
+vientiane	Viêng Chăn
+vietcong	Việt cộng
+vietnam	Việt Nam
+vietnamese	Việt
+vietnamese balm	kinh giới
+view	cảnh vật
+villa	biệt thự
+village	làng
+vinegar	giấm
+viola	viola
+violent	mạnh mẽ
+violet	tím
+violin	vĩ cầm
+violinist	tay chơi vi-ô-lông
+virgin	gái trinh
+virtue	đức
+virus	virus
+visa	thị thực
+vishnu	Vishnu
+vision	thị giác
+visit	thăm
+visitor	khách
+vitamin	vitamin
+vladivostok	Vladivostok
+vocabulary	từ vựng
+vocal	nói to tiếng
+vodka	vodka
+voice	giọng nói
+voice-over	lời thuyết minh
+volcano	núi lửa
+volgograd	Volgograd
+volleyball	bóng chuyền
+volt	vôn
+volunteer	quân tình nguyện
+vomit	nôn
+voronezh	Voronezh
+vote	bỏ phiếu
+vowel	nguyên âm
+vulgarian	người thường
+vulture	kền kền
+vulva	âm hộ
+wagtail	chim chìa vôi
+waif	trẻ bơ vơ
+waistcoat	áo gi lê
+wait	đợi
+waiter	người hầu bàn
+waitress	chị hầu bàn
+wakayama	Wakayama
+wake up	thức dậy
+walk	[1
+wall	tường
+wallet	ví tiền
+wallpaper	giấy dán tường
+walls have ears	tai vách mạch rừng
+walnut	óc chó
+walrus	con moóc
+wang	Vương
+want	muốn
+war	chiến tranh
+war crime	tội ác chiến tranh
+wardrobe	tủ áo
+warehouseman	người giữ kho
+warm	ấm
+warsaw	Warszawa
+warship	tàu chiến
+wart	mụn cóc
+wasabi	wasabi
+wash	rửa
+washing machine	máy giặt
+washington	Washington
+wasp	ong bắp cày
+waste of time	thì giờ mất công
+waste time	tốn thì giờ
+watch	xem
+watch out	coi chừng
+water	nước
+water buffalo	trâu
+water caltrop	củ ấu
+water chestnut	năn ngọt
+water closet	xí bệt
+water dog	chó lội nước
+water lily	súng
+water of crystallization	nước kết tinh
+water spinach	rau muống
+watercress	cải xoong
+waterfall	thác nước
+watering can	cái sa
+watermelon	dưa hấu
+watt	watt
+wave	sóng
+wave-particle duality	lưỡng tính sóng-hạt
+wax	sáp
+wax paper	giấy nến
+waypoint	tọa độ điểm
+we	chúng ta
+weak	yếu
+wealth	tài phúc
+weapon	vũ khí
+wear	mặc
+weather	thời tiết
+weave	dệt
+web	mạng
+web browser	trình duyệt
+web page	trang web
+web site	website
+webcam	webcam
+wed	cưới
+wedding	đám cưới
+wedding dress	soirée
+wednesday	thứ tư
+week	tuần
+weekend	cuối tuần
+weep	khóc
+weight	trọng lượng
+welcome	sự chào
+welder	thợ hàn
+well	tốt
+well-behaved	ngoan
+wellington	Wellington
+welt	lằn roi
+wen	Ôn
+werewolf	người sói
+west	phía tây
+west bank	Bờ Tây
+west bengal	Tây Bengal
+western europe	Tây Âu
+western hemisphere	tây bán cầu
+westerner	người phưng tây
+westernization	sự Tây phương hoá
+wet	ướt
+whale	cá voi
+whaling	săn bắt cá voi
+wharf	bến tàu
+what	gì
+what about	còn
+what are you doing	bạn đang làm gì? [generic
+what date is it today	hôm nay ngày mấy?
+what does xx mean	XX nghĩa là gì?
+what goes around comes around	ác quả ác báo
+what is that	cái này là gì?
+what is your name	tên bạn là gì?; informal
+what the fuck	thôi kệ
+what the hell	éo biết
+what time is it	mấy giờ rồi?
+what's your job	công việc của bạn là gì? [generic
+what's your name	Tên bạn là gì?; informal
+wheat	lúa mì
+wheel	bánh xe
+wheel of fortune	Chiec Non k Dieu
+wheelbarrow	xe đẩy
+wheelchair	xe lăn
+when	khi
+when the cat's away the mice will play	vắng chủ nhà
+where	đâu
+where are you from	bạn từ đâu đến?
+where do you live	[generic
+where is the toilet	nhà vệ sinh ở đâu?
+whip	roi
+whisk	cái đánh trứng
+whiskey	huých-ki
+whisper	nói thầm
+whistle	còi
+white	bạch
+white dwarf	sao lùn trắng
+white house	Nhà Trắng
+white mulberry	cây dâu trắng
+white sea	Biển Trắng
+white tea	trà trắng
+whither	đâu
+who	ai
+who are you	bạn là ai? [[[bạn]] you should be replaced with an appropriate pronoun]
+whole	toàn thể
+whooping cough	ho gà
+whore	đĩ
+whose	của ai
+why	sao
+wide	rộng
+widow	quả phụ
+widower	người góa vợ
+width	chiều rộng
+wife	vợ
+wig	bộ tóc giả
+wikify	wiki hóa
+wikipedia	Wikipedia
+wiktionary	Wiktionary
+wild boar	lợn rừng
+wild turkey	[Western chicken] gà tây
+wildfire	chất cháy
+will	sẽ
+will you marry me	lập gia đình tôi
+willow	liễu
+win	thắng
+wind	gió
+window	cửa sổ
+windowpane	kính cửa sổ
+windpipe	khí qun
+windy	có gió
+wine	rượu vàng
+wing	cánh
+wing chun	Vịnh Xuân quyền
+winner	người chiến thắng
+winter	mùa đông
+winter melon	bí đao
+winter solstice	đông chí
+wipe	xoá
+wisdom tooth	răng khôn
+wise	khôn
+wish	cầu mong
+wish you well	chúc may mắn
+with	với
+withdraw	rút tiền
+without	không có
+wok	cái xanh
+wolf	sói
+wolf cub	gấu chó sói
+wolfberry	củ khởi
+wolverine	chồn Gulo
+woman	phụ nữ
+womb	tử cung
+wood	gỗ
+wood ear	mộc nhĩ
+woodpecker	chim gõ kiến
+woof	gâu gâu
+word	lời
+work	việc làm
+worker	công nhân
+working class	giai cấp công nhân
+world	thế giới
+world exposition	triển lãm Thế giới
+world trade organization	Tổ chức Thương mại Thế giới
+world war	chiến tranh thế giới
+world war i	Chiến tranh thế giới thứ nhất
+world war ii	chiến tranh thế giới thứ hai
+world's oldest profession	gái làng chơi
+worldview	thế giới quan
+worldwide	toàn thế giới
+worm	giun
+wormwood	ngải cứu
+worry	lo
+wound	vết thương
+wrap	bao
+wrist	cổ tay
+write	ghi
+write down	viết ra
+writer	nhà văn
+wroclaw	Wrocław
+wrong	xấu
+wu	Ngô
+wuhan	Vũ Hán
+wunderkind	thần đồng
+wushu	võ thuật
+wuxi	Vô Tích
+wye	i dài
+x-ray	tia X
+x-ray radiation	tia X
+xenon	xenon
+xenophobia	tinh bài ngoại
+xi	Tập
+xi'an	Tây An
+xiamen	Hạ Môn
+xiangqi	cờ tướng
+xingshu	hành thư
+xining	Tây Ninh
+xinjiang	Tân Cương
+xinyang	Tín Dương
+xuzhou	Từ Châu
+xylophone	mộc cầm
+yacht	du thuyền
+yak	bò tây tạng
+yang	dương
+yangon	Răng Gun
+yangtze	Trường Giang
+yangzhou	Dương Châu
+yantai	Yên Đài
+yard	sân
+yardlong bean	đậu đũa
+yarn	sợi
+yaroslavl	Yaroslavl
+yawn	ngáp
+yay	hoan hô
+yeah	ừ [informal]
+year	năm
+year-round	quanh năm
+yeast	men
+yekaterinburg	Yekaterinburg
+yellow	vàng
+yellow fever	sốt vàng
+yellow sea	Hoàng Hải
+yemen	Yemen
+yen	yên
+yep	ừ
+yes	vâng [Northern Vietnam]
+yesterday	hôm qua
+yesteryear	xưa
+yet	đã ... chưa
+yi jing	Kinh Dịch
+yichang	Nghi Xương
+yiddish	tiếng Yiddish
+yin	âm
+yin-yang	âm dương
+yinchuan	Ngân Xuyên
+yogurt	sữa chua
+yolk	lòng đỏ
+you	chị
+you get what you pay for	tiền nào của đó
+you're welcome	không có gì [it’s nothing]
+you-know-who	Kẻ-mà-ai-cũng-biết-là-ai-đấy
+young	trẻ
+younger brother	em trai
+younger sister	em gái
+youngest	út
+your	của bạn (replace bạn with the appropriate word or kinship term: ông
+yours	của bạn (replace bạn with the appropriate word or kinship term: ông
+youth	thanh niên
+ytterbium	ytecbi
+yttrium	ytri
+yuan	nguyên
+yugoslavia	Nam Tư
+yum cha	ẩm trà
+yunnan	Vân Nam
+zealand	Zealand
+zeeland	Sealand
+zelkova	chi cử
+zen	thiền
+zero	số không
+zeus	Dớt
+zhang	Trương
+zhangzhou	Chương Châu
+zhejiang	Chiết Giang
+zhengzhou	Trịnh Châu
+zhenjiang	Trấn Giang
+zhongshan	Trung Sơn
+zhuang	Trang
+zhuhai	Châu Hải
+zibo	Truy Bác
+zinc	kẽm
+zincworker	thợ kẽm
+zip fastener	khoá kéo
+zira	Zira
+zirconium	ziriconi
+zoo	thảo cầm viên
+zoology	động vật học
+zygote	hợp tử
