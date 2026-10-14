@@ -26,7 +26,7 @@ std::string g_captureError;
 struct TranslateJob {
     CapturedFrame frame;
     bool cropLeftPanel;
-    TargetLanguage language;
+    SourceLanguage language;
 };
 
 void setCaption(const std::string& text) {
@@ -86,8 +86,9 @@ std::string wrapText(const std::string& text, size_t columns) {
 
 void translateWorker(void* argument) {
     TranslateJob* job = static_cast<TranslateJob*>(argument);
-    const std::string english = recognizeText(job->frame.rgba.data(), job->frame.width, job->frame.height, job->cropLeftPanel);
-    const TargetLanguage language = job->language;
+    const SourceLanguage language = job->language;
+    const bool japaneseSource = language == SourceLanguage::Japanese;
+    const std::string english = recognizeText(job->frame.rgba.data(), job->frame.width, job->frame.height, job->cropLeftPanel, japaneseSource);
     delete job;
     if (english.empty()) {
         setCaption("No readable text on this frame.");
@@ -128,7 +129,7 @@ void requestTranslation(bool cropLeftPanel) {
         return;
     }
     job->cropLeftPanel = cropLeftPanel;
-    job->language = g_language.load() == 1 ? TargetLanguage::Japanese : TargetLanguage::Vietnamese;
+    job->language = g_language.load() == 1 ? SourceLanguage::Japanese : SourceLanguage::English;
 
     g_state.store(1);
     const Result created = threadCreate(&g_thread, translateWorker, job, nullptr, 0x100000, 0x2B, -2);
@@ -167,7 +168,7 @@ public:
         const s32 barHeight = std::min(height - 96, 36 + 22 * (1 + static_cast<s32>(std::count(body.begin(), body.end(), '\n'))));
         const s32 y = height - barHeight;
 
-        const char* languageLabel = g_language.load() == 1 ? "Y  Japanese" : "Y  Vietnamese";
+        const char* languageLabel = g_language.load() == 1 ? "Y  Japanese text" : "Y  English text";
         renderer->drawRect(0, 0, width, 80, tsl::Color{0x0, 0x0, 0x0, 0xC});
         renderer->drawString("X  this frame", false, 16, 26, 20, tsl::style::color::ColorText);
         renderer->drawString(languageLabel, false, 16, 48, 18, tsl::style::color::ColorText);

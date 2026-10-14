@@ -4,4 +4,4 @@
 
 #include <string>
 
-std::string recognizeText(const uint8_t* rgba, int width, int height, bool cropLeftPanel);
+std::string recognizeText(const uint8_t* rgba, int width, int height, bool cropLeftPanel, bool japaneseSource);

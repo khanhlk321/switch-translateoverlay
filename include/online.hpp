@@ -6,4 +6,4 @@
 
 bool networkStart();
 void networkStop();
-bool translateOnline(const std::string& english, TargetLanguage language, std::string& translated);
+bool translateOnline(const std::string& text, SourceLanguage source, std::string& translated);

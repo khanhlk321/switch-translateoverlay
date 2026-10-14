@@ -124,101 +124,121 @@ void applyGamePhrases() {
 
 void applyJapaneseGamePhrases() {
     const char* pairs[][2] = {
-        {"new game", "ニューゲーム"},
-        {"load game", "ロード"},
-        {"save game", "セーブ"},
-        {"continue game", "つづきから"},
-        {"game over", "ゲームオーバー"},
-        {"you died", "しんでしまった"},
-        {"are you sure", "本当にいいですか"},
-        {"return to title", "タイトルにもどる"},
-        {"press any button", "ボタンを押してください"},
-        {"press start", "スタートを押してください"},
-        {"please wait", "お待ちください"},
-        {"options menu", "オプション"},
-        {"start", "スタート"},
-        {"press", "押す"},
-        {"continue", "つづける"},
-        {"new", "新規"},
-        {"game", "ゲーム"},
-        {"load", "ロード"},
-        {"save", "セーブ"},
-        {"options", "オプション"},
-        {"settings", "設定"},
-        {"yes", "はい"},
-        {"no", "いいえ"},
-        {"ok", "決定"},
-        {"cancel", "キャンセル"},
-        {"back", "戻る"},
-        {"exit", "終了"},
-        {"quit", "終了"},
-        {"menu", "メニュー"},
-        {"pause", "一時停止"},
-        {"resume", "再開"},
-        {"inventory", "もちもの"},
-        {"item", "アイテム"},
-        {"items", "アイテム"},
-        {"equipment", "そうび"},
-        {"equip", "そうび"},
-        {"weapon", "武器"},
-        {"armor", "よろい"},
-        {"potion", "ポーション"},
-        {"health", "たいりょく"},
-        {"magic", "まほう"},
-        {"skill", "スキル"},
-        {"skills", "スキル"},
-        {"quest", "クエスト"},
-        {"mission", "ミッション"},
-        {"objective", "目標"},
-        {"map", "マップ"},
-        {"shop", "ショップ"},
-        {"buy", "買う"},
-        {"sell", "売る"},
-        {"gold", "ゴールド"},
-        {"level", "レベル"},
-        {"attack", "攻撃"},
-        {"defend", "防御"},
-        {"defense", "防御"},
-        {"enemy", "敵"},
-        {"victory", "勝利"},
-        {"defeat", "敗北"},
-        {"retry", "リトライ"},
-        {"confirm", "確認"},
-        {"delete", "削除"},
-        {"select", "選択"},
-        {"selected", "選択中"},
-        {"next", "次へ"},
-        {"skip", "スキップ"},
-        {"auto", "オート"},
-        {"on", "オン"},
-        {"off", "オフ"},
-        {"volume", "音量"},
-        {"language", "言語"},
-        {"controller", "コントローラー"},
-        {"tutorial", "チュートリアル"},
-        {"loading", "読み込み中"},
-        {"warning", "警告"},
-        {"complete", "完了"},
-        {"failed", "失敗"},
-        {"success", "成功"},
-        {"player", "プレイヤー"},
-        {"boss", "ボス"},
-        {"key", "鍵"},
-        {"door", "ドア"},
-        {"locked", "ロック中"},
-        {"open", "開く"},
-        {"close", "閉じる"},
-        {"talk", "話す"},
-        {"status", "ステータス"},
-        {"party", "パーティ"},
-        {"i", "私"},
+        {"ニューゲーム", "trò chơi mới"},
+        {"つづきから", "chơi tiếp"},
+        {"ゲームオーバー", "thua cuộc"},
+        {"しんでしまった", "bạn đã chết"},
+        {"本当にいいですか", "bạn có chắc không"},
+        {"タイトルにもどる", "về màn hình chính"},
+        {"ボタンを押してください", "nhấn nút bất kỳ"},
+        {"スタートを押してください", "nhấn start"},
+        {"お待ちください", "vui lòng đợi"},
+        {"スタート", "bắt đầu"},
+        {"押す", "nhấn"},
+        {"つづける", "tiếp tục"},
+        {"新規", "mới"},
+        {"ゲーム", "trò chơi"},
+        {"ロード", "tải"},
+        {"セーブ", "lưu"},
+        {"オプション", "tùy chọn"},
+        {"設定", "cài đặt"},
+        {"はい", "có"},
+        {"いいえ", "không"},
+        {"決定", "đồng ý"},
+        {"キャンセル", "hủy"},
+        {"戻る", "quay lại"},
+        {"終了", "thoát"},
+        {"メニュー", "menu"},
+        {"一時停止", "tạm dừng"},
+        {"再開", "tiếp tục"},
+        {"もちもの", "túi đồ"},
+        {"アイテム", "vật phẩm"},
+        {"そうび", "trang bị"},
+        {"武器", "vũ khí"},
+        {"よろい", "giáp"},
+        {"ポーション", "thuốc"},
+        {"たいりょく", "máu"},
+        {"まほう", "phép"},
+        {"スキル", "kỹ năng"},
+        {"クエスト", "nhiệm vụ"},
+        {"ミッション", "nhiệm vụ"},
+        {"目標", "mục tiêu"},
+        {"マップ", "bản đồ"},
+        {"ショップ", "cửa hàng"},
+        {"買う", "mua"},
+        {"売る", "bán"},
+        {"ゴールド", "vàng"},
+        {"レベル", "cấp"},
+        {"攻撃", "tấn công"},
+        {"防御", "phòng thủ"},
+        {"敵", "kẻ địch"},
+        {"勝利", "chiến thắng"},
+        {"敗北", "thất bại"},
+        {"リトライ", "thử lại"},
+        {"確認", "xác nhận"},
+        {"削除", "xóa"},
+        {"選択中", "đã chọn"},
+        {"選択", "chọn"},
+        {"次へ", "tiếp"},
+        {"スキップ", "bỏ qua"},
+        {"オート", "tự động"},
+        {"オン", "bật"},
+        {"オフ", "tắt"},
+        {"音量", "âm lượng"},
+        {"言語", "ngôn ngữ"},
+        {"コントローラー", "tay cầm"},
+        {"チュートリアル", "hướng dẫn"},
+        {"読み込み中", "đang tải"},
+        {"警告", "cảnh báo"},
+        {"完了", "hoàn thành"},
+        {"失敗", "thất bại"},
+        {"成功", "thành công"},
+        {"プレイヤー", "người chơi"},
+        {"ボス", "trùm"},
+        {"鍵", "chìa khóa"},
+        {"ドア", "cửa"},
+        {"ロック中", "đã khóa"},
+        {"開く", "mở"},
+        {"閉じる", "đóng"},
+        {"話す", "nói chuyện"},
+        {"ステータス", "trạng thái"},
+        {"パーティ", "đội"},
+        {"私", "tôi"},
     };
     for (const auto& pair : pairs)
         addPhrase(pair[0], pair[1]);
 }
 
-bool isWordChar(unsigned char c) {
-    return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '\'' || c == '-';
+bool isWordCodepoint(uint32_t codepoint) {
+    if ((codepoint >= 'A' && codepoint <= 'Z') || (codepoint >= 'a' && codepoint <= 'z') || (codepoint >= '0' && codepoint <= '9') || codepoint == '\'' || codepoint == '-')
+        return true;
+    if (codepoint >= 0x3040 && codepoint <= 0x30FF)
+        return true;
+    if (codepoint >= 0x4E00 && codepoint <= 0x9FFF)
+        return true;
+    return codepoint == 0x30FC || codepoint == 0x3005;
+}
+
+uint32_t decodeUtf8(const std::string& text, size_t& index) {
+    const unsigned char lead = static_cast<unsigned char>(text[index]);
+    if (lead < 0x80) {
+        index++;
+        return lead;
+    }
+    if ((lead & 0xE0) == 0xC0 && index + 1 < text.size()) {
+        const uint32_t codepoint = (static_cast<uint32_t>(lead & 0x1F) << 6) | (static_cast<unsigned char>(text[index + 1]) & 0x3F);
+        index += 2;
+        return codepoint;
+    }
+    if ((lead & 0xF0) == 0xE0 && index + 2 < text.size()) {
+        const uint32_t codepoint = (static_cast<uint32_t>(lead & 0x0F) << 12)
+            | (static_cast<uint32_t>(static_cast<unsigned char>(text[index + 1]) & 0x3F) << 6)
+            | (static_cast<unsigned char>(text[index + 2]) & 0x3F);
+        index += 3;
+        return codepoint;
+    }
+    index++;
+    return lead;
 }
 
 struct Token {
@@ -235,15 +255,17 @@ std::vector<Token> tokenize(const std::string& line) {
             tokens.push_back({currentWord, current});
         current.clear();
     };
-    for (unsigned char c : line) {
-        if (c == ' ' || c == '\t') {
+    for (size_t index = 0; index < line.size();) {
+        const size_t start = index;
+        const uint32_t codepoint = decodeUtf8(line, index);
+        if (codepoint == ' ' || codepoint == '\t') {
             flush();
             continue;
         }
-        const bool word = isWordChar(c);
+        const bool word = isWordCodepoint(codepoint);
         if (!current.empty() && word != currentWord)
             flush();
-        current.push_back(static_cast<char>(c));
+        current.append(line, start, index - start);
         currentWord = word;
     }
     flush();
@@ -338,7 +360,7 @@ void loadDictionary() {
     g_japanese.clear();
     if (R_SUCCEEDED(fsdevMountSdmc())) {
         loadWordList("sdmc:/switch/translate/en-vi.tsv", g_vietnamese);
-        loadWordList("sdmc:/switch/translate/en-ja.tsv", g_japanese);
+        loadWordList("sdmc:/switch/translate/ja-vi.tsv", g_japanese);
         fsdevUnmountDevice("sdmc");
     }
     g_active = &g_vietnamese;
@@ -347,9 +369,9 @@ void loadDictionary() {
     applyJapaneseGamePhrases();
 }
 
-std::string translateText(const std::string& english, TargetLanguage language) {
+std::string translateText(const std::string& english, SourceLanguage language) {
     const std::unordered_map<std::string, std::string>& dict =
-        language == TargetLanguage::Japanese ? g_japanese : g_vietnamese;
+        language == SourceLanguage::Japanese ? g_japanese : g_vietnamese;
     std::string out;
     std::string line;
     std::istringstream input(english);

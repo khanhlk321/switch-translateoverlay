@@ -2,10 +2,10 @@
 
 #include <string>
 
-enum class TargetLanguage {
-    Vietnamese,
+enum class SourceLanguage {
+    English,
     Japanese,
 };
 
 void loadDictionary();
-std::string translateText(const std::string& english, TargetLanguage language);
+std::string translateText(const std::string& text, SourceLanguage source);

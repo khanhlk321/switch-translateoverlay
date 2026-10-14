@@ -14,12 +14,14 @@ constexpr int kNorm = 24;
 constexpr char kAlphabet[] = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,!?'-:";
 
 struct GlyphTemplate {
-    char ch;
+    uint32_t codepoint;
     std::vector<uint8_t> ink;
 };
 
-std::vector<GlyphTemplate> g_templates;
+std::vector<GlyphTemplate> g_latin;
+std::vector<GlyphTemplate> g_kana;
 bool g_ready = false;
+bool g_matchJapanese = false;
 
 void normalize(const std::vector<uint8_t>& src, int sw, int sh, std::vector<uint8_t>& dst) {
     dst.assign(kNorm * kNorm, 0);
@@ -46,6 +48,48 @@ void normalize(const std::vector<uint8_t>& src, int sw, int sh, std::vector<uint
     }
 }
 
+void addGlyph(stbtt_fontinfo& font, float scale, uint32_t codepoint, std::vector<GlyphTemplate>& dest) {
+    int width = 0;
+    int height = 0;
+    unsigned char* bitmap = stbtt_GetCodepointBitmap(&font, scale, scale, static_cast<int>(codepoint), &width, &height, nullptr, nullptr);
+    if (bitmap == nullptr || width < 1 || height < 1) {
+        if (bitmap != nullptr)
+            stbtt_FreeBitmap(bitmap, nullptr);
+        return;
+    }
+
+    int x0 = width;
+    int y0 = height;
+    int x1 = 0;
+    int y1 = 0;
+    for (int y = 0; y < height; y++) {
+        for (int x = 0; x < width; x++) {
+            if (bitmap[y * width + x] > 40) {
+                x0 = std::min(x0, x);
+                y0 = std::min(y0, y);
+                x1 = std::max(x1, x + 1);
+                y1 = std::max(y1, y + 1);
+            }
+        }
+    }
+    if (x1 <= x0 || y1 <= y0) {
+        stbtt_FreeBitmap(bitmap, nullptr);
+        return;
+    }
+
+    std::vector<uint8_t> cropped(static_cast<size_t>((x1 - x0) * (y1 - y0)), 0);
+    for (int y = y0; y < y1; y++) {
+        for (int x = x0; x < x1; x++)
+            cropped[static_cast<size_t>((y - y0) * (x1 - x0) + (x - x0))] = bitmap[y * width + x] > 40 ? 1 : 0;
+    }
+    stbtt_FreeBitmap(bitmap, nullptr);
+
+    GlyphTemplate glyph;
+    glyph.codepoint = codepoint;
+    normalize(cropped, x1 - x0, y1 - y0, glyph.ink);
+    dest.push_back(std::move(glyph));
+}
+
 void buildTemplates() {
     if (g_ready)
         return;
@@ -60,48 +104,28 @@ void buildTemplates() {
         return;
 
     const float scale = stbtt_ScaleForPixelHeight(&font, 32.0f);
-    for (const char* p = kAlphabet; *p != '\0'; p++) {
-        int width = 0;
-        int height = 0;
-        unsigned char* bitmap = stbtt_GetCodepointBitmap(&font, scale, scale, static_cast<int>(*p), &width, &height, nullptr, nullptr);
-        if (bitmap == nullptr || width < 1 || height < 1) {
-            if (bitmap != nullptr)
-                stbtt_FreeBitmap(bitmap, nullptr);
-            continue;
-        }
+    for (const char* p = kAlphabet; *p != '\0'; p++)
+        addGlyph(font, scale, static_cast<uint32_t>(*p), g_latin);
+    for (uint32_t codepoint = '0'; codepoint <= '9'; codepoint++)
+        addGlyph(font, scale, codepoint, g_kana);
 
-        int x0 = width;
-        int y0 = height;
-        int x1 = 0;
-        int y1 = 0;
-        for (int y = 0; y < height; y++) {
-            for (int x = 0; x < width; x++) {
-                if (bitmap[y * width + x] > 40) {
-                    x0 = std::min(x0, x);
-                    y0 = std::min(y0, y);
-                    x1 = std::max(x1, x + 1);
-                    y1 = std::max(y1, y + 1);
-                }
-            }
-        }
-        if (x1 <= x0 || y1 <= y0) {
-            stbtt_FreeBitmap(bitmap, nullptr);
-            continue;
-        }
+    for (uint32_t codepoint = 0x3041; codepoint <= 0x3096; codepoint++)
+        addGlyph(font, scale, codepoint, g_kana);
+    for (uint32_t codepoint = 0x30A1; codepoint <= 0x30FA; codepoint++)
+        addGlyph(font, scale, codepoint, g_kana);
+    addGlyph(font, scale, 0x30FC, g_kana);
+    const uint32_t kanji[] = {
+        0x7D42, 0x4E86, 0x8A2D, 0x5B9A, 0x672C, 0x5F53, 0x5F85, 0x62BC, 0x7D9A, 0x65B0,
+        0x8CB7, 0x58F2, 0x653B, 0x6483, 0x9632, 0x5FA1, 0x6575, 0x52DD, 0x5229, 0x6557,
+        0x5317, 0x78BA, 0x8A8D, 0x524A, 0x9664, 0x9078, 0x629E, 0x97F3, 0x91CF, 0x8A00,
+        0x8A9E, 0x8AAD, 0x8FBC, 0x4E2D, 0x8B66, 0x544A, 0x5B8C, 0x5931, 0x6210, 0x529F,
+        0x9375, 0x8A71, 0x79C1, 0x76EE, 0x6A19, 0x505C, 0x6B62, 0x518D, 0x958B, 0x6B66,
+        0x5668, 0x623B, 0x9589, 0x958B
+    };
+    for (uint32_t codepoint : kanji)
+        addGlyph(font, scale, codepoint, g_kana);
 
-        std::vector<uint8_t> cropped(static_cast<size_t>((x1 - x0) * (y1 - y0)), 0);
-        for (int y = y0; y < y1; y++) {
-            for (int x = x0; x < x1; x++)
-                cropped[static_cast<size_t>((y - y0) * (x1 - x0) + (x - x0))] = bitmap[y * width + x] > 40 ? 1 : 0;
-        }
-        stbtt_FreeBitmap(bitmap, nullptr);
-
-        GlyphTemplate glyph;
-        glyph.ch = *p;
-        normalize(cropped, x1 - x0, y1 - y0, glyph.ink);
-        g_templates.push_back(std::move(glyph));
-    }
-    if (!g_templates.empty())
+    if (!g_latin.empty())
         g_ready = true;
 }
 
@@ -122,16 +146,30 @@ float intersectionOverUnion(const std::vector<uint8_t>& a, const std::vector<uin
     return static_cast<float>(inter) / static_cast<float>(uni);
 }
 
-char classifyBox(const std::vector<uint8_t>& ink, int width, int height, float& score) {
+void appendUtf8(std::string& text, uint32_t codepoint) {
+    if (codepoint < 0x80) {
+        text.push_back(static_cast<char>(codepoint));
+    } else if (codepoint < 0x800) {
+        text.push_back(static_cast<char>(0xC0 | (codepoint >> 6)));
+        text.push_back(static_cast<char>(0x80 | (codepoint & 0x3F)));
+    } else {
+        text.push_back(static_cast<char>(0xE0 | (codepoint >> 12)));
+        text.push_back(static_cast<char>(0x80 | ((codepoint >> 6) & 0x3F)));
+        text.push_back(static_cast<char>(0x80 | (codepoint & 0x3F)));
+    }
+}
+
+uint32_t classifyBox(const std::vector<uint8_t>& ink, int width, int height, float& score) {
     std::vector<uint8_t> sample;
     normalize(ink, width, height, sample);
     score = 0.0f;
-    char best = '?';
-    for (const GlyphTemplate& glyph : g_templates) {
+    uint32_t best = '?';
+    const std::vector<GlyphTemplate>& templates = g_matchJapanese ? g_kana : g_latin;
+    for (const GlyphTemplate& glyph : templates) {
         const float iou = intersectionOverUnion(glyph.ink, sample);
         if (iou > score) {
             score = iou;
-            best = glyph.ch;
+            best = glyph.codepoint;
         }
     }
     if (score < 0.28f)
@@ -254,8 +292,8 @@ std::string readMask(const std::vector<uint8_t>& mask, int width, int height, fl
                 }
             }
             float score = 0.0f;
-            const char ch = classifyBox(ink, glyph.x1 - glyph.x0, glyph.y1 - glyph.y0, score);
-            text.push_back(ch);
+            const uint32_t codepoint = classifyBox(ink, glyph.x1 - glyph.x0, glyph.y1 - glyph.y0, score);
+            appendUtf8(text, codepoint);
             scoreSum += score;
             scoreCount++;
         }
@@ -267,20 +305,34 @@ std::string readMask(const std::vector<uint8_t>& mask, int width, int height, fl
 int scoreText(const std::string& text) {
     int letters = 0;
     int unknown = 0;
-    for (unsigned char c : text) {
-        if (c == '?')
-            unknown++;
-        else if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9'))
+    for (size_t i = 0; i < text.size();) {
+        const unsigned char c = static_cast<unsigned char>(text[i]);
+        if ((c & 0x80) == 0) {
+            if (c == '?')
+                unknown++;
+            else if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9'))
+                letters++;
+            i++;
+        } else if ((c & 0xE0) == 0xC0) {
             letters++;
+            i += 2;
+        } else if ((c & 0xF0) == 0xE0) {
+            letters++;
+            i += 3;
+        } else {
+            i++;
+        }
     }
     return letters - unknown * 2;
 }
 
 }
 
-std::string recognizeText(const uint8_t* rgba, int width, int height, bool cropLeftPanel) {
+std::string recognizeText(const uint8_t* rgba, int width, int height, bool cropLeftPanel, bool japaneseSource) {
     buildTemplates();
-    if (g_templates.empty())
+    g_matchJapanese = japaneseSource;
+    const std::vector<GlyphTemplate>& templates = japaneseSource ? g_kana : g_latin;
+    if (templates.empty())
         return {};
     if (rgba == nullptr || width < 16 || height < 16)
         return {};

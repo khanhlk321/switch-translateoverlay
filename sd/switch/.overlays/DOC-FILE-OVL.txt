@@ -1,0 +1,4 @@
+Sau khi chạy make, copy file translate.ovl vào thư mục này trên thẻ nhớ:
+sd:/switch/.overlays/translate.ovl
+
+Bản 0.1 chưa kèm sẵn file .ovl.

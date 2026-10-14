@@ -1,0 +1,66 @@
+Screen Translate 0.1
+Cách dùng
+================
+
+Overlay này đọc chữ tiếng Anh hoặc tiếng Nhật trên màn hình Nintendo Switch và hiện bản dịch tiếng Việt.
+
+Cài vào thẻ nhớ
+---------------
+
+Máy cần đã có Tesla Menu (thư mục sd:/switch/.overlays/ hoạt động được).
+
+1. Biên dịch ra file translate.ovl theo phần cuối hướng dẫn này.
+2. Copy translate.ovl vào:
+
+   sd:/switch/.overlays/translate.ovl
+
+3. Copy hai file từ điển trong thư mục sd của bản này vào thẻ nhớ:
+
+   sd/switch/translate/en-vi.tsv  ->  sd:/switch/translate/en-vi.tsv
+   sd/switch/translate/ja-vi.tsv  ->  sd:/switch/translate/ja-vi.tsv
+
+en-vi.tsv dùng khi chữ trên màn hình là tiếng Anh. ja-vi.tsv dùng khi chữ trên màn hình là tiếng Nhật. Cả hai đều dịch ra tiếng Việt. File .ovl chưa có trong gói này vì máy đóng gói không cài devkitPro.
+
+Cách dịch một khung hình
+------------------------
+
+1. Mở game và dừng ở đúng dòng chữ cần dịch.
+2. Bấm tổ hợp mở Tesla. Mặc định là giữ L, bấm xuống trên D-pad, rồi bấm thẳng cần analog phải. Nếu bạn đã đổi tổ hợp trong Tesla thì dùng tổ hợp đó.
+3. Game tạm dừng ở khung hình đó. Overlay hiện bên trái và bắt đầu dịch ra tiếng Việt.
+4. Đọc bản dịch ở khung phía dưới.
+5. Bấm B để đóng overlay và chơi tiếp. Bản dịch biến mất khi đóng.
+
+Nút trong overlay
+-----------------
+
+X    Dịch lại khung hình hiện tại ra tiếng Việt.
+Y    Chọn chữ trên màn hình là tiếng Anh hay tiếng Nhật. Dòng trên cùng hiện "Y  English text" hoặc "Y  Japanese text".
+B    Đóng overlay.
+
+Đổi ngôn ngữ nguồn xong thì bấm X để dịch lại khung hình.
+
+Khi có mạng và khi không có mạng
+--------------------------------
+
+Nếu Switch đang kết nối Wi-Fi, overlay gửi câu vừa đọc được lên dịch vụ MyMemory và hiện câu tiếng Việt.
+
+Nếu không có Wi-Fi, hoặc trang dịch không trả lời, overlay dùng từ điển trên thẻ nhớ. Từ điển dịch theo từng từ và một số cụm trong game. Không cần mạng sau khi đã copy hai file .tsv.
+
+Giới hạn
+--------
+
+Chữ giao diện rõ đọc được tốt hơn chữ vẽ kiểu logo. Chữ Nhật dạng hiragana và katakana đọc được tốt hơn chữ Hán cách điệu.
+
+Overlay chỉ nhận nút khi đang mở, nên không thể để phụ đề nổi trong lúc game tiếp tục chạy.
+
+Firmware cũ hơn 10.0.0 cần bật debug mode thì mới chụp được màn hình.
+
+Biên dịch file translate.ovl
+----------------------------
+
+Cài devkitPro, mở MSYS2 của devkitPro, rồi chạy trong thư mục này:
+
+    pacman -S switch-dev switch-curl
+    make
+
+File tạo ra là translate.ovl ngay trong thư mục dự án. Copy file đó vào sd:/switch/.overlays/.

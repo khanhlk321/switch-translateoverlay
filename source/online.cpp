@@ -114,9 +114,9 @@ bool consoleIsOnline() {
     return R_SUCCEEDED(rc) && status == NifmInternetConnectionStatus_Connected;
 }
 
-bool requestChunk(const std::string& english, TargetLanguage language, std::string& translated) {
-    const char* target = language == TargetLanguage::Japanese ? "ja" : "vi";
-    const std::string url = std::string("https://api.mymemory.translated.net/get?langpair=en|") + target + "&q=" + urlEncode(english);
+bool requestChunk(const std::string& text, SourceLanguage source, std::string& translated) {
+    const char* from = source == SourceLanguage::Japanese ? "ja" : "en";
+    const std::string url = std::string("https://api.mymemory.translated.net/get?langpair=") + from + "|vi&q=" + urlEncode(text);
 
     std::string body;
     CURL* curl = curl_easy_init();
@@ -126,7 +126,7 @@ bool requestChunk(const std::string& english, TargetLanguage language, std::stri
     curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, writeBody);
     curl_easy_setopt(curl, CURLOPT_WRITEDATA, &body);
-    curl_easy_setopt(curl, CURLOPT_USERAGENT, "translate-overlay/0.2");
+    curl_easy_setopt(curl, CURLOPT_USERAGENT, "translate-overlay/0.1");
     curl_easy_setopt(curl, CURLOPT_TIMEOUT, 8L);
     curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT, 5L);
     curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
@@ -169,7 +169,7 @@ void networkStop() {
     g_networkReady = false;
 }
 
-bool translateOnline(const std::string& english, TargetLanguage language, std::string& translated) {
+bool translateOnline(const std::string& english, SourceLanguage language, std::string& translated) {
     translated.clear();
     if (!g_networkReady || !consoleIsOnline())
         return false;
