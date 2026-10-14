@@ -10,7 +10,9 @@
 
 namespace {
 
-std::unordered_map<std::string, std::string> g_dict;
+std::unordered_map<std::string, std::string> g_vietnamese;
+std::unordered_map<std::string, std::string> g_japanese;
+std::unordered_map<std::string, std::string>* g_active = &g_vietnamese;
 
 std::string lowerAscii(std::string text) {
     for (char& c : text) {
@@ -21,8 +23,8 @@ std::string lowerAscii(std::string text) {
     return text;
 }
 
-void addPhrase(const char* english, const char* vietnamese) {
-    g_dict[english] = vietnamese;
+void addPhrase(const char* english, const char* translation) {
+    (*g_active)[english] = translation;
 }
 
 void applyGamePhrases() {
@@ -120,6 +122,101 @@ void applyGamePhrases() {
         addPhrase(pair[0], pair[1]);
 }
 
+void applyJapaneseGamePhrases() {
+    const char* pairs[][2] = {
+        {"new game", "ニューゲーム"},
+        {"load game", "ロード"},
+        {"save game", "セーブ"},
+        {"continue game", "つづきから"},
+        {"game over", "ゲームオーバー"},
+        {"you died", "しんでしまった"},
+        {"are you sure", "本当にいいですか"},
+        {"return to title", "タイトルにもどる"},
+        {"press any button", "ボタンを押してください"},
+        {"press start", "スタートを押してください"},
+        {"please wait", "お待ちください"},
+        {"options menu", "オプション"},
+        {"start", "スタート"},
+        {"press", "押す"},
+        {"continue", "つづける"},
+        {"new", "新規"},
+        {"game", "ゲーム"},
+        {"load", "ロード"},
+        {"save", "セーブ"},
+        {"options", "オプション"},
+        {"settings", "設定"},
+        {"yes", "はい"},
+        {"no", "いいえ"},
+        {"ok", "決定"},
+        {"cancel", "キャンセル"},
+        {"back", "戻る"},
+        {"exit", "終了"},
+        {"quit", "終了"},
+        {"menu", "メニュー"},
+        {"pause", "一時停止"},
+        {"resume", "再開"},
+        {"inventory", "もちもの"},
+        {"item", "アイテム"},
+        {"items", "アイテム"},
+        {"equipment", "そうび"},
+        {"equip", "そうび"},
+        {"weapon", "武器"},
+        {"armor", "よろい"},
+        {"potion", "ポーション"},
+        {"health", "たいりょく"},
+        {"magic", "まほう"},
+        {"skill", "スキル"},
+        {"skills", "スキル"},
+        {"quest", "クエスト"},
+        {"mission", "ミッション"},
+        {"objective", "目標"},
+        {"map", "マップ"},
+        {"shop", "ショップ"},
+        {"buy", "買う"},
+        {"sell", "売る"},
+        {"gold", "ゴールド"},
+        {"level", "レベル"},
+        {"attack", "攻撃"},
+        {"defend", "防御"},
+        {"defense", "防御"},
+        {"enemy", "敵"},
+        {"victory", "勝利"},
+        {"defeat", "敗北"},
+        {"retry", "リトライ"},
+        {"confirm", "確認"},
+        {"delete", "削除"},
+        {"select", "選択"},
+        {"selected", "選択中"},
+        {"next", "次へ"},
+        {"skip", "スキップ"},
+        {"auto", "オート"},
+        {"on", "オン"},
+        {"off", "オフ"},
+        {"volume", "音量"},
+        {"language", "言語"},
+        {"controller", "コントローラー"},
+        {"tutorial", "チュートリアル"},
+        {"loading", "読み込み中"},
+        {"warning", "警告"},
+        {"complete", "完了"},
+        {"failed", "失敗"},
+        {"success", "成功"},
+        {"player", "プレイヤー"},
+        {"boss", "ボス"},
+        {"key", "鍵"},
+        {"door", "ドア"},
+        {"locked", "ロック中"},
+        {"open", "開く"},
+        {"close", "閉じる"},
+        {"talk", "話す"},
+        {"status", "ステータス"},
+        {"party", "パーティ"},
+        {"i", "私"},
+    };
+    for (const auto& pair : pairs)
+        addPhrase(pair[0], pair[1]);
+}
+
 bool isWordChar(unsigned char c) {
     return (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || (c >= '0' && c <= '9') || c == '\'' || c == '-';
 }
@@ -153,14 +250,14 @@ std::vector<Token> tokenize(const std::string& line) {
     return tokens;
 }
 
-std::string lookup(const std::string& phrase) {
-    const auto it = g_dict.find(phrase);
-    if (it == g_dict.end())
+std::string lookup(const std::unordered_map<std::string, std::string>& dict, const std::string& phrase) {
+    const auto it = dict.find(phrase);
+    if (it == dict.end())
         return {};
     return it->second;
 }
 
-std::string translateLine(const std::string& line) {
+std::string translateLine(const std::unordered_map<std::string, std::string>& dict, const std::string& line) {
     const std::vector<Token> tokens = tokenize(line);
     std::string out;
     for (size_t i = 0; i < tokens.size();) {
@@ -188,7 +285,7 @@ std::string translateLine(const std::string& line) {
             }
             if (!words)
                 continue;
-            const std::string hit = lookup(phrase);
+            const std::string hit = lookup(dict, phrase);
             if (!hit.empty()) {
                 chosen = hit;
                 consumed = n;
@@ -204,43 +301,55 @@ std::string translateLine(const std::string& line) {
     return out;
 }
 
+void loadWordList(const char* path, std::unordered_map<std::string, std::string>& dict) {
+    FILE* file = std::fopen(path, "rb");
+    if (file == nullptr)
+        return;
+
+    std::string data;
+    std::fseek(file, 0, SEEK_END);
+    const long length = std::ftell(file);
+    if (length > 0 && length < 8 * 1024 * 1024) {
+        data.resize(static_cast<size_t>(length));
+        std::fseek(file, 0, SEEK_SET);
+        const size_t got = std::fread(data.data(), 1, data.size(), file);
+        data.resize(got);
+    }
+    std::fclose(file);
+
+    std::string line;
+    std::istringstream input(data);
+    while (std::getline(input, line)) {
+        if (!line.empty() && line.back() == '\r')
+            line.pop_back();
+        if (line.empty() || line[0] == '#')
+            continue;
+        const size_t tab = line.find('\t');
+        if (tab == std::string::npos || tab == 0)
+            continue;
+        dict[lowerAscii(line.substr(0, tab))] = line.substr(tab + 1);
+    }
+}
+
 }
 
 void loadDictionary() {
-    g_dict.clear();
+    g_vietnamese.clear();
+    g_japanese.clear();
     if (R_SUCCEEDED(fsdevMountSdmc())) {
-        FILE* file = std::fopen("sdmc:/switch/translate/en-vi.tsv", "rb");
-        if (file != nullptr) {
-            std::string data;
-            std::fseek(file, 0, SEEK_END);
-            const long length = std::ftell(file);
-            if (length > 0 && length < 8 * 1024 * 1024) {
-                data.resize(static_cast<size_t>(length));
-                std::fseek(file, 0, SEEK_SET);
-                const size_t got = std::fread(data.data(), 1, data.size(), file);
-                data.resize(got);
-            }
-            std::fclose(file);
-
-            std::string line;
-            std::istringstream input(data);
-            while (std::getline(input, line)) {
-                if (!line.empty() && line.back() == '\r')
-                    line.pop_back();
-                if (line.empty() || line[0] == '#')
-                    continue;
-                const size_t tab = line.find('\t');
-                if (tab == std::string::npos || tab == 0)
-                    continue;
-                g_dict[lowerAscii(line.substr(0, tab))] = line.substr(tab + 1);
-            }
-        }
+        loadWordList("sdmc:/switch/translate/en-vi.tsv", g_vietnamese);
+        loadWordList("sdmc:/switch/translate/en-ja.tsv", g_japanese);
         fsdevUnmountDevice("sdmc");
     }
+    g_active = &g_vietnamese;
     applyGamePhrases();
+    g_active = &g_japanese;
+    applyJapaneseGamePhrases();
 }
 
-std::string translateText(const std::string& english) {
+std::string translateText(const std::string& english, TargetLanguage language) {
+    const std::unordered_map<std::string, std::string>& dict =
+        language == TargetLanguage::Japanese ? g_japanese : g_vietnamese;
     std::string out;
     std::string line;
     std::istringstream input(english);
@@ -249,7 +358,7 @@ std::string translateText(const std::string& english) {
         if (!first)
             out.push_back('\n');
         first = false;
-        out += translateLine(line);
+        out += translateLine(dict, line);
     }
     return out;
 }

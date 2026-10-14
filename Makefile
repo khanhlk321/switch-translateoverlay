@@ -1,5 +1,5 @@
 # Tesla overlay. Build from the devkitPro msys shell:
-#   pacman -S switch-dev
+#   pacman -S switch-dev switch-curl
 #   make
 
 ifeq ($(strip $(DEVKITPRO)),)
@@ -31,7 +31,7 @@ CXXFLAGS	:= $(CFLAGS) -fno-rtti -fno-exceptions -std=gnu++20
 ASFLAGS	:=	-g $(ARCH)
 LDFLAGS	=	-specs=$(DEVKITPRO)/libnx/switch.specs -g $(ARCH) -Wl,-Map,$(notdir $*.map)
 
-LIBS	:= -lnx
+LIBS	:= -lcurl -lmbedtls -lmbedx509 -lmbedcrypto -lz -lnx
 
 LIBDIRS	:= $(PORTLIBS) $(LIBNX)
 
