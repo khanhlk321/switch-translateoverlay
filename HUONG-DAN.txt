@@ -9,7 +9,7 @@ Cài vào thẻ nhớ
 
 Máy cần đã có Tesla Menu (thư mục sd:/switch/.overlays/ hoạt động được).
 
-1. Biên dịch ra file translate.ovl theo phần cuối hướng dẫn này.
+1. Lấy file translate.ovl trong thư mục này, hoặc biên dịch lại theo phần cuối hướng dẫn.
 2. Copy translate.ovl vào:
 
    sd:/switch/.overlays/translate.ovl
@@ -19,7 +19,7 @@ Máy cần đã có Tesla Menu (thư mục sd:/switch/.overlays/ hoạt động 
    sd/switch/translate/en-vi.tsv  ->  sd:/switch/translate/en-vi.tsv
    sd/switch/translate/ja-vi.tsv  ->  sd:/switch/translate/ja-vi.tsv
 
-en-vi.tsv dùng khi chữ trên màn hình là tiếng Anh. ja-vi.tsv dùng khi chữ trên màn hình là tiếng Nhật. Cả hai đều dịch ra tiếng Việt. File .ovl chưa có trong gói này vì máy đóng gói không cài devkitPro.
+en-vi.tsv dùng khi chữ trên màn hình là tiếng Anh. ja-vi.tsv dùng khi chữ trên màn hình là tiếng Nhật. Cả hai đều dịch ra tiếng Việt. File translate.ovl của bản 0.1 nằm ở thư mục gốc và trong sd/switch/.overlays/.
 
 Cách dịch một khung hình
 ------------------------

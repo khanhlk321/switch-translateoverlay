@@ -108,7 +108,7 @@ bool consoleIsOnline() {
         return false;
     NifmInternetConnectionType type = static_cast<NifmInternetConnectionType>(0);
     u32 strength = 0;
-    NifmInternetConnectionStatus status = NifmInternetConnectionStatus_Disconnected;
+    NifmInternetConnectionStatus status = NifmInternetConnectionStatus_ConnectingUnknown1;
     const Result rc = nifmGetInternetConnectionStatus(&type, &strength, &status);
     nifmExit();
     return R_SUCCEEDED(rc) && status == NifmInternetConnectionStatus_Connected;
